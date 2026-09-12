@@ -1,0 +1,9 @@
+weapon.v2i.yolov11/data.zip
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+weapon.v2i.yolov11/train/
+weapon.v2i.yolov11/valid/
+weapon.v2i.yolov11/test/

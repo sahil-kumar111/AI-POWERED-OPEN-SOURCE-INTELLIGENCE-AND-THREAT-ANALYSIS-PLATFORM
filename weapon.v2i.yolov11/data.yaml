@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 23
+names: ['axe', 'bomb', 'bow', 'cleaver', 'cutlass', 'katana', 'knife', 'mace', 'machine gun', 'morningstar', 'pistol', 'rifle', 'rocket launcher', 'scabbard', 'scope', 'shield', 'shotgun', 'sickle', 'smg', 'sniper rifle', 'spear', 'sword', 'war hammer']
+
+roboflow:
+  workspace: weapon-detection-xanyv
+  project: weapon-hyiat-adh0r
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weapon-detection-xanyv/weapon-hyiat-adh0r/dataset/2
