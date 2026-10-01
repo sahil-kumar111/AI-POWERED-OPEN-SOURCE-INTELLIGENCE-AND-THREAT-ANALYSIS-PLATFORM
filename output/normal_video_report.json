@@ -1,0 +1,105 @@
+{
+  "input_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/input/normal_video.mp4",
+  "output_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/normal_video_analyzed.mp4",
+  "fps": 30.0,
+  "resolution": [
+    320,
+    240
+  ],
+  "frames_processed": 120,
+  "inference_frames": 120,
+  "frame_skip": 1,
+  "detection_counts": {
+    "weapon": 0,
+    "fire": 0,
+    "smoke": 0,
+    "person": 120
+  },
+  "detection_frames": {
+    "weapon": 0,
+    "fire": 0,
+    "smoke": 0,
+    "person": 120
+  },
+  "detection_ratios": {
+    "weapon": 0.0,
+    "fire": 0.0,
+    "smoke": 0.0,
+    "person": 1.0
+  },
+  "average_confidence": {
+    "weapon": 0.0,
+    "fire": 0.0,
+    "smoke": 0.0,
+    "person": 0.8228
+  },
+  "max_confidence": {
+    "weapon": 0.0,
+    "fire": 0.0,
+    "smoke": 0.0,
+    "person": 0.8997
+  },
+  "detections": [
+    {
+      "category": "weapon",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no weapon detected"
+    },
+    {
+      "category": "fire",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no fire detected"
+    },
+    {
+      "category": "smoke",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no smoke detected"
+    },
+    {
+      "category": "person",
+      "detected": true,
+      "detection_frames": 120,
+      "detection_ratio": 1.0,
+      "average_confidence": 0.8228,
+      "max_confidence": 0.8997,
+      "message": "person detected"
+    }
+  ],
+  "person_statistics": {
+    "unique_person_count": 1,
+    "unique_track_ids": [
+      1
+    ]
+  },
+  "threat_events": [],
+  "num_threat_events": 0,
+  "model_settings": {
+    "weapon": {
+      "imgsz": 320,
+      "conf": 0.3,
+      "iou": 0.5
+    },
+    "fire_smoke": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    },
+    "person": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    }
+  }
+}

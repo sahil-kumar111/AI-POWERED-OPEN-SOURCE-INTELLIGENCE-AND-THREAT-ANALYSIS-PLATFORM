@@ -34,14 +34,14 @@ logger = logging.getLogger("video_intelligence.SmokeDetector")
 # ---------------------------------------------------------------------------
 DEFAULT_MODEL_PATH = Path(__file__).parents[3] / "ml_models" / "fire_smoke" / "best-fire.pt"
 APPROVED_MODEL_SHA256 = (
-    "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f"
+    "3cbeb9569d8c4057734a81437b90c3e95e55ebdd40a5c5ea7dd7873a247cef13"
 )
 EXPECTED_CLASS_MAP = {
-    0: "smoke",
-    1: "fire",
+    0: "Fire",
+    1: "Smoke",
 }
 
-SMOKE_CLASS_ID = 0
+SMOKE_CLASS_ID = 1
 SMOKE_CLASS_NAME = "smoke"
 
 DEFAULT_IMGSZ = 640

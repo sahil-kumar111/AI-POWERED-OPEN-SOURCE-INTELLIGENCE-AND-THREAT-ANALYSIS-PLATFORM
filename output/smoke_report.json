@@ -1,0 +1,7874 @@
+{
+  "input_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/input/smoke.mp4",
+  "output_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/smoke_analyzed.mp4",
+  "fps": 24.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames_processed": 370,
+  "inference_frames": 370,
+  "frame_skip": 1,
+  "detection_counts": {
+    "weapon": 0,
+    "fire": 0,
+    "smoke": 370,
+    "person": 0
+  },
+  "detection_frames": {
+    "weapon": 0,
+    "fire": 0,
+    "smoke": 370,
+    "person": 0
+  },
+  "detection_ratios": {
+    "weapon": 0.0,
+    "fire": 0.0,
+    "smoke": 1.0,
+    "person": 0.0
+  },
+  "average_confidence": {
+    "weapon": 0.0,
+    "fire": 0.0,
+    "smoke": 0.7293,
+    "person": 0.0
+  },
+  "max_confidence": {
+    "weapon": 0.0,
+    "fire": 0.0,
+    "smoke": 0.7994,
+    "person": 0.0
+  },
+  "detections": [
+    {
+      "category": "weapon",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no weapon detected"
+    },
+    {
+      "category": "fire",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no fire detected"
+    },
+    {
+      "category": "smoke",
+      "detected": true,
+      "detection_frames": 370,
+      "detection_ratio": 1.0,
+      "average_confidence": 0.7293,
+      "max_confidence": 0.7994,
+      "message": "smoke detected"
+    },
+    {
+      "category": "person",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no person detected"
+    }
+  ],
+  "person_statistics": {
+    "unique_person_count": 0,
+    "unique_track_ids": []
+  },
+  "threat_events": [
+    {
+      "frame": 0,
+      "timestamp_sec": 0.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6311020851135254,
+          "bbox": [
+            259.197509765625,
+            61.14288330078125,
+            1274.9354248046875,
+            697.47802734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "timestamp_sec": 0.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6533750295639038,
+          "bbox": [
+            260.1477355957031,
+            56.1865234375,
+            1276.4306640625,
+            704.3482666015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "timestamp_sec": 0.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6226489543914795,
+          "bbox": [
+            260.1170349121094,
+            56.80517578125,
+            1272.9222412109375,
+            689.6947021484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "timestamp_sec": 0.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6069149971008301,
+          "bbox": [
+            267.607177734375,
+            53.806396484375,
+            1273.908935546875,
+            687.5047607421875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "timestamp_sec": 0.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6094368696212769,
+          "bbox": [
+            278.8663024902344,
+            51.89715576171875,
+            1275.0633544921875,
+            687.568603515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "timestamp_sec": 0.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6111257672309875,
+          "bbox": [
+            265.628173828125,
+            52.18023681640625,
+            1272.6644287109375,
+            668.64599609375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "timestamp_sec": 0.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6011540293693542,
+          "bbox": [
+            274.3009948730469,
+            49.7796630859375,
+            1275.22265625,
+            682.6080322265625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "timestamp_sec": 0.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.62228924036026,
+          "bbox": [
+            270.6907958984375,
+            52.31536865234375,
+            1278.831298828125,
+            658.968017578125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "timestamp_sec": 0.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.597292423248291,
+          "bbox": [
+            276.1203918457031,
+            48.666748046875,
+            1273.315673828125,
+            677.7073974609375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "timestamp_sec": 0.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6305152177810669,
+          "bbox": [
+            271.7099609375,
+            47.048583984375,
+            1273.835693359375,
+            683.712158203125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "timestamp_sec": 0.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.651565670967102,
+          "bbox": [
+            264.220458984375,
+            51.980224609375,
+            1273.2679443359375,
+            636.1322021484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "timestamp_sec": 0.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7129694819450378,
+          "bbox": [
+            263.84619140625,
+            52.826416015625,
+            1280.0,
+            660.1077880859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "timestamp_sec": 0.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7174518704414368,
+          "bbox": [
+            263.97802734375,
+            52.958251953125,
+            1280.0,
+            656.8072509765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "timestamp_sec": 0.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7098070979118347,
+          "bbox": [
+            263.30908203125,
+            51.91204833984375,
+            1276.29931640625,
+            635.4071044921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "timestamp_sec": 0.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7233949303627014,
+          "bbox": [
+            264.4387512207031,
+            51.760009765625,
+            1276.23779296875,
+            634.454833984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "timestamp_sec": 0.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7204480767250061,
+          "bbox": [
+            263.8990173339844,
+            50.04132080078125,
+            1274.5472412109375,
+            631.6961059570312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "timestamp_sec": 0.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7262610197067261,
+          "bbox": [
+            261.17333984375,
+            48.12542724609375,
+            1274.77294921875,
+            648.7332153320312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "timestamp_sec": 0.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7247783541679382,
+          "bbox": [
+            260.457763671875,
+            47.12615966796875,
+            1276.846923828125,
+            648.7985229492188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "timestamp_sec": 0.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7348049879074097,
+          "bbox": [
+            261.0844421386719,
+            46.27679443359375,
+            1280.0,
+            682.8818969726562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "timestamp_sec": 0.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7239683270454407,
+          "bbox": [
+            261.380859375,
+            49.2650146484375,
+            1277.16650390625,
+            644.765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "timestamp_sec": 0.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7204160094261169,
+          "bbox": [
+            263.258056640625,
+            48.29937744140625,
+            1279.4267578125,
+            647.1143188476562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "timestamp_sec": 0.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7280309796333313,
+          "bbox": [
+            264.3779296875,
+            47.4112548828125,
+            1279.7490234375,
+            641.0579833984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "timestamp_sec": 0.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7301934957504272,
+          "bbox": [
+            263.124755859375,
+            47.86175537109375,
+            1279.9505615234375,
+            628.9779052734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "timestamp_sec": 0.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7363144755363464,
+          "bbox": [
+            262.2642517089844,
+            42.86541748046875,
+            1280.0,
+            664.9766845703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "timestamp_sec": 1.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7444577217102051,
+          "bbox": [
+            263.7664794921875,
+            41.5772705078125,
+            1280.0,
+            657.3135375976562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "timestamp_sec": 1.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7568191885948181,
+          "bbox": [
+            271.1978454589844,
+            36.13348388671875,
+            1280.0,
+            687.3228149414062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "timestamp_sec": 1.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7378441691398621,
+          "bbox": [
+            271.7379150390625,
+            39.5455322265625,
+            1280.0,
+            662.6834716796875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "timestamp_sec": 1.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.760225236415863,
+          "bbox": [
+            269.868408203125,
+            33.9342041015625,
+            1280.0,
+            695.844970703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "timestamp_sec": 1.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7498298287391663,
+          "bbox": [
+            270.8256530761719,
+            34.9736328125,
+            1280.0,
+            695.1998291015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "timestamp_sec": 1.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7610278129577637,
+          "bbox": [
+            273.20654296875,
+            35.47906494140625,
+            1280.0,
+            685.7722778320312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "timestamp_sec": 1.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7526252865791321,
+          "bbox": [
+            273.6665344238281,
+            35.3731689453125,
+            1280.0,
+            691.169921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "timestamp_sec": 1.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7596040368080139,
+          "bbox": [
+            274.1699523925781,
+            38.27313232421875,
+            1280.0,
+            634.5784912109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "timestamp_sec": 1.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7563657164573669,
+          "bbox": [
+            274.76953125,
+            38.31201171875,
+            1279.7291259765625,
+            624.4820556640625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "timestamp_sec": 1.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7559288144111633,
+          "bbox": [
+            276.4864501953125,
+            36.078125,
+            1279.15625,
+            616.861328125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "timestamp_sec": 1.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7532483339309692,
+          "bbox": [
+            280.99072265625,
+            36.5784912109375,
+            1279.3486328125,
+            621.1807861328125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 35,
+      "timestamp_sec": 1.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7555661797523499,
+          "bbox": [
+            281.3545227050781,
+            39.418212890625,
+            1280.0,
+            610.076416015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "timestamp_sec": 1.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7620715498924255,
+          "bbox": [
+            274.9230651855469,
+            36.535888671875,
+            1280.0,
+            659.522705078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "timestamp_sec": 1.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7601272463798523,
+          "bbox": [
+            274.5658264160156,
+            37.78424072265625,
+            1280.0,
+            646.3342895507812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "timestamp_sec": 1.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.753598153591156,
+          "bbox": [
+            275.209228515625,
+            34.05828857421875,
+            1280.0,
+            653.5830688476562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "timestamp_sec": 1.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7569143772125244,
+          "bbox": [
+            278.4735107421875,
+            33.2476806640625,
+            1280.0,
+            649.8062744140625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "timestamp_sec": 1.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7573771476745605,
+          "bbox": [
+            278.4664306640625,
+            31.0361328125,
+            1280.0,
+            655.3204345703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 41,
+      "timestamp_sec": 1.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7625623345375061,
+          "bbox": [
+            280.7590637207031,
+            31.523681640625,
+            1280.0,
+            643.985595703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "timestamp_sec": 1.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7647997140884399,
+          "bbox": [
+            281.7139587402344,
+            28.69482421875,
+            1280.0,
+            646.75927734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 43,
+      "timestamp_sec": 1.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7615393400192261,
+          "bbox": [
+            282.3156433105469,
+            26.49151611328125,
+            1280.0,
+            656.4768676757812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 44,
+      "timestamp_sec": 1.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7598289847373962,
+          "bbox": [
+            285.9522705078125,
+            26.97845458984375,
+            1280.0,
+            659.4214477539062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "timestamp_sec": 1.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7598492503166199,
+          "bbox": [
+            287.9017028808594,
+            27.079833984375,
+            1280.0,
+            649.9853515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "timestamp_sec": 1.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7624576687812805,
+          "bbox": [
+            287.9151611328125,
+            25.13055419921875,
+            1280.0,
+            650.7659912109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 47,
+      "timestamp_sec": 1.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7538413405418396,
+          "bbox": [
+            289.02587890625,
+            24.02191162109375,
+            1280.0,
+            651.5942993164062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 48,
+      "timestamp_sec": 2.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7496097683906555,
+          "bbox": [
+            333.1882019042969,
+            17.92242431640625,
+            1279.39208984375,
+            675.1895751953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 49,
+      "timestamp_sec": 2.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7467947602272034,
+          "bbox": [
+            336.4114685058594,
+            20.13836669921875,
+            1279.0360107421875,
+            647.5062255859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 50,
+      "timestamp_sec": 2.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7403140664100647,
+          "bbox": [
+            350.877685546875,
+            23.67333984375,
+            1278.7724609375,
+            648.325439453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 51,
+      "timestamp_sec": 2.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7509229779243469,
+          "bbox": [
+            361.7828369140625,
+            25.266845703125,
+            1280.0,
+            674.82861328125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 52,
+      "timestamp_sec": 2.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.75382399559021,
+          "bbox": [
+            373.2148742675781,
+            26.09051513671875,
+            1280.0,
+            679.8663940429688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 53,
+      "timestamp_sec": 2.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.745987057685852,
+          "bbox": [
+            361.8863525390625,
+            26.328857421875,
+            1280.0,
+            677.854248046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 54,
+      "timestamp_sec": 2.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7539891600608826,
+          "bbox": [
+            355.172119140625,
+            27.67755126953125,
+            1280.0,
+            665.3643798828125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 55,
+      "timestamp_sec": 2.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7477518320083618,
+          "bbox": [
+            341.1453552246094,
+            26.974853515625,
+            1280.0,
+            663.9779663085938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 56,
+      "timestamp_sec": 2.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7751064300537109,
+          "bbox": [
+            340.3683776855469,
+            24.84051513671875,
+            1280.0,
+            656.1235961914062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 57,
+      "timestamp_sec": 2.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7609621286392212,
+          "bbox": [
+            333.1654052734375,
+            23.9815673828125,
+            1280.0,
+            650.3818359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 58,
+      "timestamp_sec": 2.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7590184807777405,
+          "bbox": [
+            331.8769836425781,
+            20.496337890625,
+            1280.0,
+            655.9832763671875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 59,
+      "timestamp_sec": 2.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7425671815872192,
+          "bbox": [
+            328.5369873046875,
+            19.89483642578125,
+            1278.4365234375,
+            643.0737915039062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "timestamp_sec": 2.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.743354082107544,
+          "bbox": [
+            325.212646484375,
+            20.1103515625,
+            1278.4639892578125,
+            639.4202270507812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "timestamp_sec": 2.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.735036313533783,
+          "bbox": [
+            322.0562438964844,
+            19.51580810546875,
+            1278.5609130859375,
+            639.4773559570312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 62,
+      "timestamp_sec": 2.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7600730061531067,
+          "bbox": [
+            324.2110595703125,
+            18.71307373046875,
+            1280.0,
+            651.8792114257812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 63,
+      "timestamp_sec": 2.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7573839426040649,
+          "bbox": [
+            321.1994934082031,
+            18.3367919921875,
+            1280.0,
+            639.248291015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 64,
+      "timestamp_sec": 2.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.748176634311676,
+          "bbox": [
+            324.2139892578125,
+            18.45941162109375,
+            1280.0,
+            647.7311401367188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 65,
+      "timestamp_sec": 2.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7511715888977051,
+          "bbox": [
+            329.856201171875,
+            18.5013427734375,
+            1280.0,
+            651.0714111328125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 66,
+      "timestamp_sec": 2.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7540737986564636,
+          "bbox": [
+            336.6996765136719,
+            17.7830810546875,
+            1280.0,
+            643.8077392578125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 67,
+      "timestamp_sec": 2.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.749901294708252,
+          "bbox": [
+            332.0644226074219,
+            17.85467529296875,
+            1280.0,
+            635.143310546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 68,
+      "timestamp_sec": 2.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7527449727058411,
+          "bbox": [
+            331.714599609375,
+            18.4205322265625,
+            1280.0,
+            623.3714599609375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 69,
+      "timestamp_sec": 2.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7433785796165466,
+          "bbox": [
+            332.5013732910156,
+            19.2772216796875,
+            1280.0,
+            628.2952880859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 70,
+      "timestamp_sec": 2.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7412665486335754,
+          "bbox": [
+            330.6582336425781,
+            20.1239013671875,
+            1280.0,
+            622.8515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 71,
+      "timestamp_sec": 2.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7365497946739197,
+          "bbox": [
+            325.7907409667969,
+            21.24969482421875,
+            1280.0,
+            622.19287109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 72,
+      "timestamp_sec": 3.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7224145531654358,
+          "bbox": [
+            323.0025329589844,
+            21.47119140625,
+            1280.0,
+            622.2518310546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 73,
+      "timestamp_sec": 3.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.712205708026886,
+          "bbox": [
+            327.24560546875,
+            23.00408935546875,
+            1279.829345703125,
+            622.2683715820312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 74,
+      "timestamp_sec": 3.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6912242770195007,
+          "bbox": [
+            328.9779357910156,
+            24.10845947265625,
+            1280.0,
+            620.1050415039062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 75,
+      "timestamp_sec": 3.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6969196200370789,
+          "bbox": [
+            326.33740234375,
+            23.10504150390625,
+            1280.0,
+            619.1494140625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 76,
+      "timestamp_sec": 3.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.693574070930481,
+          "bbox": [
+            323.1673583984375,
+            23.19158935546875,
+            1280.0,
+            618.7578125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 77,
+      "timestamp_sec": 3.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6731647849082947,
+          "bbox": [
+            323.1298522949219,
+            25.0792236328125,
+            1279.5078125,
+            617.0130615234375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 78,
+      "timestamp_sec": 3.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6741061806678772,
+          "bbox": [
+            321.941650390625,
+            24.4736328125,
+            1279.8487548828125,
+            618.972900390625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 79,
+      "timestamp_sec": 3.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.664365828037262,
+          "bbox": [
+            316.3341064453125,
+            22.63519287109375,
+            1280.0,
+            618.1900634765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 80,
+      "timestamp_sec": 3.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6646186709403992,
+          "bbox": [
+            315.4627380371094,
+            23.17822265625,
+            1280.0,
+            619.25537109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 81,
+      "timestamp_sec": 3.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6690096259117126,
+          "bbox": [
+            314.82568359375,
+            23.5006103515625,
+            1280.0,
+            622.70703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 82,
+      "timestamp_sec": 3.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.645249605178833,
+          "bbox": [
+            314.67724609375,
+            22.03814697265625,
+            1280.0,
+            625.6275024414062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 83,
+      "timestamp_sec": 3.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6543012857437134,
+          "bbox": [
+            322.7342224121094,
+            22.34130859375,
+            1280.0,
+            627.3614501953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 84,
+      "timestamp_sec": 3.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6470251083374023,
+          "bbox": [
+            379.5089111328125,
+            19.303466796875,
+            1279.998046875,
+            635.7606201171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 85,
+      "timestamp_sec": 3.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6790403723716736,
+          "bbox": [
+            384.9178466796875,
+            19.4556884765625,
+            1279.884765625,
+            636.9012451171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 86,
+      "timestamp_sec": 3.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.692363977432251,
+          "bbox": [
+            398.71484375,
+            19.96795654296875,
+            1279.56103515625,
+            639.1370849609375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 87,
+      "timestamp_sec": 3.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6843692660331726,
+          "bbox": [
+            448.214111328125,
+            12.45904541015625,
+            1279.6390380859375,
+            642.4515380859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 88,
+      "timestamp_sec": 3.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7073532938957214,
+          "bbox": [
+            464.5189208984375,
+            12.16204833984375,
+            1279.57763671875,
+            647.1145629882812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 89,
+      "timestamp_sec": 3.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6939767599105835,
+          "bbox": [
+            465.945068359375,
+            13.2720947265625,
+            1279.5469970703125,
+            644.901123046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 90,
+      "timestamp_sec": 3.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7024532556533813,
+          "bbox": [
+            456.6758117675781,
+            18.7183837890625,
+            1279.487060546875,
+            638.4659423828125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "timestamp_sec": 3.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.67779141664505,
+          "bbox": [
+            427.6171569824219,
+            17.9896240234375,
+            1279.62255859375,
+            646.34814453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 92,
+      "timestamp_sec": 3.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6456009745597839,
+          "bbox": [
+            325.6497802734375,
+            22.22882080078125,
+            1279.8775634765625,
+            630.1936645507812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 93,
+      "timestamp_sec": 3.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6367123126983643,
+          "bbox": [
+            320.2125549316406,
+            29.07232666015625,
+            1280.0,
+            630.62060546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 94,
+      "timestamp_sec": 3.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6574180126190186,
+          "bbox": [
+            394.269287109375,
+            14.4130859375,
+            1280.0,
+            639.6954345703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 95,
+      "timestamp_sec": 3.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6327499747276306,
+          "bbox": [
+            381.8952941894531,
+            15.2535400390625,
+            1280.0,
+            638.98779296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 96,
+      "timestamp_sec": 4.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6632390022277832,
+          "bbox": [
+            385.7726135253906,
+            16.295166015625,
+            1280.0,
+            637.5960693359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 97,
+      "timestamp_sec": 4.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6579596400260925,
+          "bbox": [
+            460.8844909667969,
+            12.43804931640625,
+            1279.712890625,
+            645.2603149414062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 98,
+      "timestamp_sec": 4.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6739818453788757,
+          "bbox": [
+            474.495361328125,
+            12.2386474609375,
+            1279.78125,
+            646.1210327148438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 99,
+      "timestamp_sec": 4.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6455340385437012,
+          "bbox": [
+            467.6285705566406,
+            13.6097412109375,
+            1279.6842041015625,
+            642.931396484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 100,
+      "timestamp_sec": 4.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6433371901512146,
+          "bbox": [
+            474.3003845214844,
+            14.48284912109375,
+            1279.7874755859375,
+            642.1665649414062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 101,
+      "timestamp_sec": 4.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6561786532402039,
+          "bbox": [
+            475.1563720703125,
+            16.12603759765625,
+            1279.76025390625,
+            640.3570556640625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 102,
+      "timestamp_sec": 4.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6134933829307556,
+          "bbox": [
+            467.9411926269531,
+            14.9769287109375,
+            1279.5859375,
+            636.7314453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 103,
+      "timestamp_sec": 4.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.568032443523407,
+          "bbox": [
+            460.16064453125,
+            13.514404296875,
+            1279.349609375,
+            634.185546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 104,
+      "timestamp_sec": 4.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5482066869735718,
+          "bbox": [
+            461.9893798828125,
+            14.30419921875,
+            1279.325927734375,
+            633.4439086914062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 105,
+      "timestamp_sec": 4.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5438309907913208,
+          "bbox": [
+            460.4690246582031,
+            14.40228271484375,
+            1279.3759765625,
+            632.9205932617188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 106,
+      "timestamp_sec": 4.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5504928827285767,
+          "bbox": [
+            454.5823974609375,
+            16.400634765625,
+            1279.3236083984375,
+            634.399169921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 107,
+      "timestamp_sec": 4.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5348540544509888,
+          "bbox": [
+            329.580810546875,
+            130.1732635498047,
+            1278.986572265625,
+            627.0269165039062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 108,
+      "timestamp_sec": 4.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5356613397598267,
+          "bbox": [
+            330.0051574707031,
+            148.5981903076172,
+            1279.1240234375,
+            627.4440307617188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 109,
+      "timestamp_sec": 4.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5219142436981201,
+          "bbox": [
+            328.8538513183594,
+            150.8639678955078,
+            1278.2615966796875,
+            627.1205444335938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 110,
+      "timestamp_sec": 4.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5484643578529358,
+          "bbox": [
+            328.6910400390625,
+            160.98358154296875,
+            1278.3671875,
+            627.3428344726562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 111,
+      "timestamp_sec": 4.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5618394017219543,
+          "bbox": [
+            326.37353515625,
+            145.97071838378906,
+            1278.71728515625,
+            628.7001953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 112,
+      "timestamp_sec": 4.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5571961998939514,
+          "bbox": [
+            325.8892822265625,
+            143.404052734375,
+            1278.6817626953125,
+            629.3156127929688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 113,
+      "timestamp_sec": 4.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5600621104240417,
+          "bbox": [
+            411.6281433105469,
+            33.044677734375,
+            1280.0,
+            636.3104248046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 114,
+      "timestamp_sec": 4.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.4945787787437439,
+          "bbox": [
+            328.3146667480469,
+            171.32981872558594,
+            1278.17333984375,
+            631.68359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 115,
+      "timestamp_sec": 4.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.50941401720047,
+          "bbox": [
+            323.8421630859375,
+            183.2042999267578,
+            1278.3095703125,
+            631.8295288085938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 116,
+      "timestamp_sec": 4.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5281380414962769,
+          "bbox": [
+            327.177734375,
+            184.5647735595703,
+            1278.1009521484375,
+            633.3491821289062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 117,
+      "timestamp_sec": 4.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5456076264381409,
+          "bbox": [
+            326.350830078125,
+            190.43463134765625,
+            1277.6619873046875,
+            634.3796997070312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 118,
+      "timestamp_sec": 4.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.5033290982246399,
+          "bbox": [
+            326.4037780761719,
+            193.0343017578125,
+            1277.4072265625,
+            635.8527221679688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 119,
+      "timestamp_sec": 4.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6266437768936157,
+          "bbox": [
+            332.8104248046875,
+            218.9767303466797,
+            1220.249755859375,
+            628.8883666992188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "timestamp_sec": 5.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6432090401649475,
+          "bbox": [
+            333.150146484375,
+            221.00404357910156,
+            1209.072021484375,
+            631.577392578125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 121,
+      "timestamp_sec": 5.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6960309147834778,
+          "bbox": [
+            334.181884765625,
+            222.54736328125,
+            1228.527099609375,
+            634.1674194335938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 122,
+      "timestamp_sec": 5.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6904564499855042,
+          "bbox": [
+            334.923828125,
+            223.06976318359375,
+            1214.8271484375,
+            635.20263671875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 123,
+      "timestamp_sec": 5.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6826671361923218,
+          "bbox": [
+            336.0037841796875,
+            222.85992431640625,
+            1204.31640625,
+            636.084228515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 124,
+      "timestamp_sec": 5.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6754346489906311,
+          "bbox": [
+            336.563720703125,
+            222.03187561035156,
+            1209.78173828125,
+            638.4967041015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 125,
+      "timestamp_sec": 5.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6699631810188293,
+          "bbox": [
+            337.6158447265625,
+            224.22857666015625,
+            1218.285888671875,
+            640.432373046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 126,
+      "timestamp_sec": 5.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6691682934761047,
+          "bbox": [
+            337.83984375,
+            222.75286865234375,
+            1263.1083984375,
+            638.2442016601562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 127,
+      "timestamp_sec": 5.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6833848357200623,
+          "bbox": [
+            338.8877868652344,
+            222.02325439453125,
+            1262.6090087890625,
+            639.5425415039062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 128,
+      "timestamp_sec": 5.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6849357485771179,
+          "bbox": [
+            341.504150390625,
+            221.39605712890625,
+            1259.4083251953125,
+            639.8953247070312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 129,
+      "timestamp_sec": 5.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6808570027351379,
+          "bbox": [
+            343.0753173828125,
+            223.57684326171875,
+            1262.685791015625,
+            641.115234375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 130,
+      "timestamp_sec": 5.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6994996070861816,
+          "bbox": [
+            345.6983642578125,
+            218.4574737548828,
+            1271.2579345703125,
+            646.1937866210938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 131,
+      "timestamp_sec": 5.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7056673169136047,
+          "bbox": [
+            345.6455078125,
+            218.4918212890625,
+            1273.748779296875,
+            647.1163330078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 132,
+      "timestamp_sec": 5.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6978887915611267,
+          "bbox": [
+            346.7525634765625,
+            218.71435546875,
+            1274.8365478515625,
+            648.0950927734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 133,
+      "timestamp_sec": 5.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6947372555732727,
+          "bbox": [
+            346.697998046875,
+            217.29345703125,
+            1275.082275390625,
+            648.4798583984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 134,
+      "timestamp_sec": 5.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6998263001441956,
+          "bbox": [
+            346.9862060546875,
+            218.55352783203125,
+            1274.751953125,
+            648.532470703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 135,
+      "timestamp_sec": 5.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7109963297843933,
+          "bbox": [
+            345.9500732421875,
+            217.8558349609375,
+            1276.40966796875,
+            650.7864990234375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 136,
+      "timestamp_sec": 5.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.716934084892273,
+          "bbox": [
+            345.5738830566406,
+            217.32444763183594,
+            1276.0582275390625,
+            653.0908203125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 137,
+      "timestamp_sec": 5.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7232228517532349,
+          "bbox": [
+            346.1116943359375,
+            220.50311279296875,
+            1277.2852783203125,
+            654.434814453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 138,
+      "timestamp_sec": 5.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7201168537139893,
+          "bbox": [
+            346.0770263671875,
+            219.30816650390625,
+            1274.8046875,
+            654.573974609375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 139,
+      "timestamp_sec": 5.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7234727144241333,
+          "bbox": [
+            346.3913269042969,
+            219.30235290527344,
+            1271.5986328125,
+            654.329833984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 140,
+      "timestamp_sec": 5.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7191852331161499,
+          "bbox": [
+            347.3721923828125,
+            219.24774169921875,
+            1271.075439453125,
+            653.9654541015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 141,
+      "timestamp_sec": 5.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7232295274734497,
+          "bbox": [
+            350.1763000488281,
+            220.66973876953125,
+            1269.154052734375,
+            654.726318359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 142,
+      "timestamp_sec": 5.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.715654194355011,
+          "bbox": [
+            345.8065185546875,
+            211.58673095703125,
+            1275.496337890625,
+            657.2484130859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 143,
+      "timestamp_sec": 5.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7132412195205688,
+          "bbox": [
+            346.3681945800781,
+            211.22003173828125,
+            1275.670654296875,
+            658.4212646484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 144,
+      "timestamp_sec": 6.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7208143472671509,
+          "bbox": [
+            348.2281188964844,
+            212.86781311035156,
+            1275.7772216796875,
+            657.1126708984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 145,
+      "timestamp_sec": 6.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7298458814620972,
+          "bbox": [
+            348.3510437011719,
+            209.44952392578125,
+            1277.815185546875,
+            660.7493896484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 146,
+      "timestamp_sec": 6.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7361066341400146,
+          "bbox": [
+            346.98388671875,
+            210.0704345703125,
+            1278.328125,
+            662.085693359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 147,
+      "timestamp_sec": 6.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7363736629486084,
+          "bbox": [
+            346.425537109375,
+            208.0026397705078,
+            1278.3690185546875,
+            663.2687377929688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 148,
+      "timestamp_sec": 6.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7448794841766357,
+          "bbox": [
+            347.0155334472656,
+            208.47314453125,
+            1278.2376708984375,
+            664.990478515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 149,
+      "timestamp_sec": 6.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7464572787284851,
+          "bbox": [
+            356.57763671875,
+            216.00685119628906,
+            1277.77783203125,
+            662.9788818359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 150,
+      "timestamp_sec": 6.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.744516134262085,
+          "bbox": [
+            358.374267578125,
+            216.8594512939453,
+            1277.051513671875,
+            665.6189575195312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 151,
+      "timestamp_sec": 6.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7451165914535522,
+          "bbox": [
+            359.657470703125,
+            216.8467254638672,
+            1277.784912109375,
+            667.9590454101562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 152,
+      "timestamp_sec": 6.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7561171650886536,
+          "bbox": [
+            359.850341796875,
+            216.80067443847656,
+            1277.9267578125,
+            667.4501953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 153,
+      "timestamp_sec": 6.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7631250619888306,
+          "bbox": [
+            349.1057434082031,
+            212.45806884765625,
+            1279.421630859375,
+            668.2669677734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 154,
+      "timestamp_sec": 6.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7672069668769836,
+          "bbox": [
+            349.3684387207031,
+            214.79356384277344,
+            1279.75,
+            667.5960693359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 155,
+      "timestamp_sec": 6.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7651301026344299,
+          "bbox": [
+            347.8177490234375,
+            216.4198455810547,
+            1279.771484375,
+            668.3938598632812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 156,
+      "timestamp_sec": 6.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7723575234413147,
+          "bbox": [
+            348.6115417480469,
+            218.39039611816406,
+            1279.64404296875,
+            668.893798828125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 157,
+      "timestamp_sec": 6.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7661924362182617,
+          "bbox": [
+            348.7947998046875,
+            212.197509765625,
+            1277.986328125,
+            674.8280029296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 158,
+      "timestamp_sec": 6.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7641578316688538,
+          "bbox": [
+            359.979248046875,
+            223.13587951660156,
+            1278.80615234375,
+            669.197021484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 159,
+      "timestamp_sec": 6.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7712023258209229,
+          "bbox": [
+            346.3200988769531,
+            217.51300048828125,
+            1279.7587890625,
+            672.15478515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 160,
+      "timestamp_sec": 6.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7732539176940918,
+          "bbox": [
+            361.5858154296875,
+            223.363037109375,
+            1279.7470703125,
+            670.2741088867188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 161,
+      "timestamp_sec": 6.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7724695801734924,
+          "bbox": [
+            365.4085693359375,
+            223.5900115966797,
+            1280.0,
+            671.2332153320312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 162,
+      "timestamp_sec": 6.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7662234902381897,
+          "bbox": [
+            365.8428649902344,
+            224.99562072753906,
+            1280.0,
+            671.029296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 163,
+      "timestamp_sec": 6.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7614428997039795,
+          "bbox": [
+            367.89697265625,
+            224.75315856933594,
+            1280.0,
+            671.8094482421875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 164,
+      "timestamp_sec": 6.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7617332339286804,
+          "bbox": [
+            369.3115234375,
+            224.04017639160156,
+            1280.0,
+            672.5787353515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 165,
+      "timestamp_sec": 6.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7719929814338684,
+          "bbox": [
+            352.825927734375,
+            217.40074157714844,
+            1278.8856201171875,
+            675.8790283203125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 166,
+      "timestamp_sec": 6.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7749258279800415,
+          "bbox": [
+            350.3032531738281,
+            217.34434509277344,
+            1278.93359375,
+            677.56591796875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 167,
+      "timestamp_sec": 6.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7787679433822632,
+          "bbox": [
+            350.2485046386719,
+            216.8897705078125,
+            1279.06982421875,
+            679.2220458984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 168,
+      "timestamp_sec": 7.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7778292298316956,
+          "bbox": [
+            350.3128356933594,
+            216.450439453125,
+            1279.0064697265625,
+            680.6306762695312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 169,
+      "timestamp_sec": 7.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7797887325286865,
+          "bbox": [
+            353.7305908203125,
+            214.96759033203125,
+            1278.4990234375,
+            682.7154541015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 170,
+      "timestamp_sec": 7.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7790364027023315,
+          "bbox": [
+            354.6444091796875,
+            215.0722198486328,
+            1278.6868896484375,
+            684.3099975585938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 171,
+      "timestamp_sec": 7.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7775266170501709,
+          "bbox": [
+            357.5888671875,
+            213.92999267578125,
+            1278.840087890625,
+            685.8206176757812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 172,
+      "timestamp_sec": 7.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7820539474487305,
+          "bbox": [
+            357.477783203125,
+            214.1750946044922,
+            1278.75341796875,
+            687.1444702148438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 173,
+      "timestamp_sec": 7.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.779748797416687,
+          "bbox": [
+            358.59814453125,
+            213.98020935058594,
+            1278.7972412109375,
+            687.1246337890625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 174,
+      "timestamp_sec": 7.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7728725075721741,
+          "bbox": [
+            357.873779296875,
+            212.9759521484375,
+            1279.03857421875,
+            685.7933959960938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 175,
+      "timestamp_sec": 7.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7727983593940735,
+          "bbox": [
+            358.86279296875,
+            213.730712890625,
+            1278.624267578125,
+            685.8048095703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 176,
+      "timestamp_sec": 7.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7696747183799744,
+          "bbox": [
+            360.7108154296875,
+            213.94374084472656,
+            1278.513427734375,
+            686.2669677734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 177,
+      "timestamp_sec": 7.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.767750084400177,
+          "bbox": [
+            362.922119140625,
+            215.18714904785156,
+            1278.5782470703125,
+            685.8516845703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 178,
+      "timestamp_sec": 7.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.759914219379425,
+          "bbox": [
+            366.88671875,
+            215.007568359375,
+            1278.79833984375,
+            687.3567504882812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 179,
+      "timestamp_sec": 7.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7337378859519958,
+          "bbox": [
+            372.2938537597656,
+            213.9501495361328,
+            1278.8421630859375,
+            686.9296264648438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 180,
+      "timestamp_sec": 7.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7409896850585938,
+          "bbox": [
+            371.617431640625,
+            214.07330322265625,
+            1278.8759765625,
+            687.5150146484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 181,
+      "timestamp_sec": 7.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7518770694732666,
+          "bbox": [
+            374.1353454589844,
+            213.63909912109375,
+            1279.0689697265625,
+            687.8807983398438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 182,
+      "timestamp_sec": 7.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7451914548873901,
+          "bbox": [
+            375.8558044433594,
+            214.8699951171875,
+            1278.9739990234375,
+            688.145751953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 183,
+      "timestamp_sec": 7.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7535620927810669,
+          "bbox": [
+            377.46826171875,
+            216.8107147216797,
+            1278.916015625,
+            688.8369750976562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 184,
+      "timestamp_sec": 7.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7528899908065796,
+          "bbox": [
+            378.2764892578125,
+            217.0498046875,
+            1278.9549560546875,
+            691.2631225585938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 185,
+      "timestamp_sec": 7.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7677890062332153,
+          "bbox": [
+            378.986083984375,
+            217.42332458496094,
+            1279.12255859375,
+            692.738037109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 186,
+      "timestamp_sec": 7.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7713517546653748,
+          "bbox": [
+            378.984130859375,
+            217.46368408203125,
+            1278.9044189453125,
+            694.0037841796875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 187,
+      "timestamp_sec": 7.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7780545949935913,
+          "bbox": [
+            379.520263671875,
+            217.4969482421875,
+            1278.8089599609375,
+            696.6820068359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 188,
+      "timestamp_sec": 7.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7791175842285156,
+          "bbox": [
+            380.6884765625,
+            217.88818359375,
+            1278.6597900390625,
+            699.009765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 189,
+      "timestamp_sec": 7.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7725605964660645,
+          "bbox": [
+            380.5947265625,
+            217.95994567871094,
+            1278.390869140625,
+            699.9005126953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 190,
+      "timestamp_sec": 7.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7625885009765625,
+          "bbox": [
+            380.8482666015625,
+            218.508544921875,
+            1277.359619140625,
+            701.999755859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 191,
+      "timestamp_sec": 7.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7645262479782104,
+          "bbox": [
+            378.485107421875,
+            217.62950134277344,
+            1277.812255859375,
+            704.533203125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 192,
+      "timestamp_sec": 8.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.769131064414978,
+          "bbox": [
+            376.8416748046875,
+            216.90936279296875,
+            1277.935791015625,
+            706.6644897460938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 193,
+      "timestamp_sec": 8.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7721977233886719,
+          "bbox": [
+            377.3233642578125,
+            216.3734130859375,
+            1278.20703125,
+            708.8705444335938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 194,
+      "timestamp_sec": 8.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7729579210281372,
+          "bbox": [
+            377.1602783203125,
+            216.17127990722656,
+            1277.510009765625,
+            709.1517333984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 195,
+      "timestamp_sec": 8.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7717326879501343,
+          "bbox": [
+            376.9465026855469,
+            215.76744079589844,
+            1277.815673828125,
+            708.677978515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 196,
+      "timestamp_sec": 8.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7705616354942322,
+          "bbox": [
+            377.3932800292969,
+            216.19334411621094,
+            1278.14599609375,
+            706.3148193359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 197,
+      "timestamp_sec": 8.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7714110612869263,
+          "bbox": [
+            378.4133605957031,
+            215.79786682128906,
+            1278.285888671875,
+            709.3818359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 198,
+      "timestamp_sec": 8.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7681111693382263,
+          "bbox": [
+            379.2026062011719,
+            216.347900390625,
+            1277.8359375,
+            710.1221313476562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 199,
+      "timestamp_sec": 8.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.766305685043335,
+          "bbox": [
+            380.9919738769531,
+            216.10304260253906,
+            1277.42138671875,
+            708.65869140625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 200,
+      "timestamp_sec": 8.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7600602507591248,
+          "bbox": [
+            379.7437744140625,
+            215.56959533691406,
+            1278.1103515625,
+            708.0340576171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 201,
+      "timestamp_sec": 8.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7462463974952698,
+          "bbox": [
+            378.1368408203125,
+            215.48997497558594,
+            1278.31103515625,
+            706.758056640625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 202,
+      "timestamp_sec": 8.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7439770698547363,
+          "bbox": [
+            377.615234375,
+            215.67298889160156,
+            1278.451416015625,
+            705.5648193359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 203,
+      "timestamp_sec": 8.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.742652952671051,
+          "bbox": [
+            379.1453857421875,
+            215.11236572265625,
+            1278.678466796875,
+            702.7596435546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 204,
+      "timestamp_sec": 8.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7332534193992615,
+          "bbox": [
+            380.4820861816406,
+            215.6211700439453,
+            1278.3812255859375,
+            701.2062377929688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 205,
+      "timestamp_sec": 8.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7382784485816956,
+          "bbox": [
+            382.0252685546875,
+            216.03407287597656,
+            1278.5960693359375,
+            699.66455078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 206,
+      "timestamp_sec": 8.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7553051114082336,
+          "bbox": [
+            382.8251953125,
+            217.76353454589844,
+            1278.9534912109375,
+            703.0826416015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 207,
+      "timestamp_sec": 8.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7620236277580261,
+          "bbox": [
+            385.1231689453125,
+            217.89654541015625,
+            1278.97216796875,
+            702.645751953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 208,
+      "timestamp_sec": 8.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7712156772613525,
+          "bbox": [
+            385.72412109375,
+            217.887939453125,
+            1279.0760498046875,
+            704.6481323242188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 209,
+      "timestamp_sec": 8.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7686205506324768,
+          "bbox": [
+            386.0817565917969,
+            218.533203125,
+            1279.0263671875,
+            706.4212036132812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 210,
+      "timestamp_sec": 8.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7789598107337952,
+          "bbox": [
+            386.2447509765625,
+            219.1680145263672,
+            1279.0625,
+            708.4490356445312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 211,
+      "timestamp_sec": 8.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7809081673622131,
+          "bbox": [
+            387.5814208984375,
+            220.0574493408203,
+            1279.12255859375,
+            707.6577758789062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 212,
+      "timestamp_sec": 8.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7889531850814819,
+          "bbox": [
+            387.2187194824219,
+            220.3822021484375,
+            1278.8681640625,
+            708.35498046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 213,
+      "timestamp_sec": 8.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7865273952484131,
+          "bbox": [
+            386.967041015625,
+            220.6119384765625,
+            1278.7666015625,
+            706.822021484375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 214,
+      "timestamp_sec": 8.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7800089716911316,
+          "bbox": [
+            387.1856689453125,
+            220.18255615234375,
+            1278.8543701171875,
+            706.2192993164062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 215,
+      "timestamp_sec": 8.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7740861177444458,
+          "bbox": [
+            387.9360046386719,
+            220.78855895996094,
+            1278.869384765625,
+            704.0792236328125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 216,
+      "timestamp_sec": 9.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7677218914031982,
+          "bbox": [
+            388.6180419921875,
+            221.1353759765625,
+            1278.814697265625,
+            705.5497436523438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 217,
+      "timestamp_sec": 9.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7604079246520996,
+          "bbox": [
+            389.1234130859375,
+            218.913818359375,
+            1278.9019775390625,
+            704.977294921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 218,
+      "timestamp_sec": 9.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7687410712242126,
+          "bbox": [
+            387.6020202636719,
+            229.10081481933594,
+            1279.157470703125,
+            697.0220947265625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 219,
+      "timestamp_sec": 9.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7744156122207642,
+          "bbox": [
+            388.239013671875,
+            218.31494140625,
+            1278.9061279296875,
+            706.1405029296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 220,
+      "timestamp_sec": 9.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7719703316688538,
+          "bbox": [
+            388.8259582519531,
+            217.9246826171875,
+            1278.9697265625,
+            706.4010620117188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 221,
+      "timestamp_sec": 9.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7685183882713318,
+          "bbox": [
+            388.1160888671875,
+            228.3344268798828,
+            1279.1680908203125,
+            695.1373901367188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 222,
+      "timestamp_sec": 9.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7779918313026428,
+          "bbox": [
+            390.41748046875,
+            217.4467315673828,
+            1278.892578125,
+            707.8109741210938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 223,
+      "timestamp_sec": 9.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7848379611968994,
+          "bbox": [
+            391.3121337890625,
+            218.33262634277344,
+            1278.836669921875,
+            710.0003662109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 224,
+      "timestamp_sec": 9.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7863025069236755,
+          "bbox": [
+            390.9475402832031,
+            219.41705322265625,
+            1278.75830078125,
+            706.8076171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 225,
+      "timestamp_sec": 9.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7868508100509644,
+          "bbox": [
+            399.9088134765625,
+            214.3804168701172,
+            1280.0,
+            711.4827270507812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 226,
+      "timestamp_sec": 9.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7934384942054749,
+          "bbox": [
+            390.9365234375,
+            220.0223846435547,
+            1279.304443359375,
+            707.8428344726562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 227,
+      "timestamp_sec": 9.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7900761365890503,
+          "bbox": [
+            392.0206604003906,
+            220.1066131591797,
+            1279.3104248046875,
+            708.9323120117188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 228,
+      "timestamp_sec": 9.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7843853831291199,
+          "bbox": [
+            392.858642578125,
+            219.4934539794922,
+            1279.525634765625,
+            708.9071655273438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 229,
+      "timestamp_sec": 9.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7813320755958557,
+          "bbox": [
+            405.3768310546875,
+            214.6979522705078,
+            1280.0,
+            714.3860473632812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 230,
+      "timestamp_sec": 9.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7838734984397888,
+          "bbox": [
+            394.8980712890625,
+            220.4775848388672,
+            1279.90625,
+            709.8090209960938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 231,
+      "timestamp_sec": 9.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7817040681838989,
+          "bbox": [
+            395.577880859375,
+            218.44549560546875,
+            1280.0,
+            709.6217651367188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 232,
+      "timestamp_sec": 9.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7746655344963074,
+          "bbox": [
+            397.3251953125,
+            217.96435546875,
+            1280.0,
+            707.8535766601562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 233,
+      "timestamp_sec": 9.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7753992676734924,
+          "bbox": [
+            398.374755859375,
+            219.24945068359375,
+            1280.0,
+            707.6011962890625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 234,
+      "timestamp_sec": 9.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7817501425743103,
+          "bbox": [
+            397.5179443359375,
+            219.6964569091797,
+            1279.2552490234375,
+            709.0929565429688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 235,
+      "timestamp_sec": 9.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7755711078643799,
+          "bbox": [
+            405.7613525390625,
+            213.4803924560547,
+            1280.0,
+            712.9558715820312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 236,
+      "timestamp_sec": 9.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7839570045471191,
+          "bbox": [
+            406.4760437011719,
+            214.73309326171875,
+            1280.0,
+            713.893310546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 237,
+      "timestamp_sec": 9.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7822027802467346,
+          "bbox": [
+            397.11279296875,
+            220.01588439941406,
+            1279.050048828125,
+            711.2923583984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 238,
+      "timestamp_sec": 9.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7898944616317749,
+          "bbox": [
+            396.84765625,
+            219.9210662841797,
+            1278.793701171875,
+            713.5103149414062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 239,
+      "timestamp_sec": 9.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.793952465057373,
+          "bbox": [
+            395.036376953125,
+            218.88067626953125,
+            1279.15234375,
+            712.8602905273438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 240,
+      "timestamp_sec": 10.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.795230507850647,
+          "bbox": [
+            393.7431640625,
+            219.99853515625,
+            1279.26171875,
+            711.1286010742188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 241,
+      "timestamp_sec": 10.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7994496822357178,
+          "bbox": [
+            394.6081848144531,
+            220.17828369140625,
+            1279.460693359375,
+            712.4447631835938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 242,
+      "timestamp_sec": 10.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.796884298324585,
+          "bbox": [
+            393.5096435546875,
+            219.05821228027344,
+            1279.78857421875,
+            710.2642822265625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 243,
+      "timestamp_sec": 10.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7876502275466919,
+          "bbox": [
+            393.2736511230469,
+            218.883544921875,
+            1280.0,
+            705.7821655273438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 244,
+      "timestamp_sec": 10.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7777125239372253,
+          "bbox": [
+            393.1917724609375,
+            219.186279296875,
+            1280.0,
+            702.6708984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 245,
+      "timestamp_sec": 10.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7733425498008728,
+          "bbox": [
+            404.5577392578125,
+            210.55218505859375,
+            1280.0,
+            709.015380859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 246,
+      "timestamp_sec": 10.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7779716849327087,
+          "bbox": [
+            403.9670104980469,
+            210.7713623046875,
+            1280.0,
+            708.7764892578125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 247,
+      "timestamp_sec": 10.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7739884853363037,
+          "bbox": [
+            405.740966796875,
+            212.3643341064453,
+            1280.0,
+            708.4461059570312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 248,
+      "timestamp_sec": 10.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7771956324577332,
+          "bbox": [
+            408.39453125,
+            213.2197265625,
+            1280.0,
+            710.3656005859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 249,
+      "timestamp_sec": 10.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7772855758666992,
+          "bbox": [
+            394.191162109375,
+            223.8499298095703,
+            1280.0,
+            707.0917358398438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 250,
+      "timestamp_sec": 10.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7746484875679016,
+          "bbox": [
+            478.598876953125,
+            207.8862762451172,
+            1279.9063720703125,
+            714.5907592773438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 251,
+      "timestamp_sec": 10.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7800512313842773,
+          "bbox": [
+            486.4669189453125,
+            208.1597442626953,
+            1279.87060546875,
+            715.0807495117188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 252,
+      "timestamp_sec": 10.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7846043109893799,
+          "bbox": [
+            490.4287109375,
+            209.01220703125,
+            1279.9844970703125,
+            715.35888671875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 253,
+      "timestamp_sec": 10.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7893546223640442,
+          "bbox": [
+            501.575439453125,
+            208.5853729248047,
+            1280.0,
+            716.5126342773438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 254,
+      "timestamp_sec": 10.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7838331460952759,
+          "bbox": [
+            495.351318359375,
+            207.93870544433594,
+            1280.0,
+            716.80419921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 255,
+      "timestamp_sec": 10.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7827193140983582,
+          "bbox": [
+            495.9469299316406,
+            206.8074951171875,
+            1279.9569091796875,
+            716.216064453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 256,
+      "timestamp_sec": 10.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7906631827354431,
+          "bbox": [
+            488.923583984375,
+            205.88572692871094,
+            1280.0,
+            715.3558349609375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 257,
+      "timestamp_sec": 10.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7849329710006714,
+          "bbox": [
+            490.4375,
+            206.56585693359375,
+            1280.0,
+            713.7439575195312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 258,
+      "timestamp_sec": 10.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7831647992134094,
+          "bbox": [
+            481.639892578125,
+            204.09588623046875,
+            1279.9580078125,
+            713.6988525390625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 259,
+      "timestamp_sec": 10.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7745144367218018,
+          "bbox": [
+            477.6024169921875,
+            202.77435302734375,
+            1279.90673828125,
+            713.742919921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 260,
+      "timestamp_sec": 10.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7768133878707886,
+          "bbox": [
+            492.964599609375,
+            203.24256896972656,
+            1279.971923828125,
+            713.4560546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 261,
+      "timestamp_sec": 10.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7681148648262024,
+          "bbox": [
+            489.772216796875,
+            202.63771057128906,
+            1279.9832763671875,
+            712.8135986328125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 262,
+      "timestamp_sec": 10.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7630898952484131,
+          "bbox": [
+            397.2867126464844,
+            221.88771057128906,
+            1280.0,
+            702.029296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 263,
+      "timestamp_sec": 10.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7650672793388367,
+          "bbox": [
+            398.216552734375,
+            221.13299560546875,
+            1280.0,
+            702.4655151367188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 264,
+      "timestamp_sec": 11.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7731223702430725,
+          "bbox": [
+            398.5257873535156,
+            222.0836181640625,
+            1279.9722900390625,
+            703.9451904296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 265,
+      "timestamp_sec": 11.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7783971428871155,
+          "bbox": [
+            397.8681640625,
+            224.0237274169922,
+            1280.0,
+            699.6137084960938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 266,
+      "timestamp_sec": 11.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7836326360702515,
+          "bbox": [
+            399.0633544921875,
+            223.47119140625,
+            1279.55859375,
+            702.8554077148438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 267,
+      "timestamp_sec": 11.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7817382216453552,
+          "bbox": [
+            398.719482421875,
+            221.462158203125,
+            1279.186279296875,
+            702.590576171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 268,
+      "timestamp_sec": 11.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7807275056838989,
+          "bbox": [
+            397.82861328125,
+            222.33006286621094,
+            1279.4163818359375,
+            700.8931884765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 269,
+      "timestamp_sec": 11.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.779294490814209,
+          "bbox": [
+            398.3846435546875,
+            223.22802734375,
+            1279.659912109375,
+            696.5638427734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 270,
+      "timestamp_sec": 11.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7827532291412354,
+          "bbox": [
+            396.7576904296875,
+            222.32713317871094,
+            1279.79248046875,
+            696.7349853515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 271,
+      "timestamp_sec": 11.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7812342047691345,
+          "bbox": [
+            397.8336181640625,
+            205.33204650878906,
+            1279.8076171875,
+            705.561279296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 272,
+      "timestamp_sec": 11.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7826167941093445,
+          "bbox": [
+            397.8883972167969,
+            204.4050750732422,
+            1279.8037109375,
+            705.5095825195312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 273,
+      "timestamp_sec": 11.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7840378880500793,
+          "bbox": [
+            397.1754150390625,
+            221.4995880126953,
+            1279.3983154296875,
+            695.4851684570312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 274,
+      "timestamp_sec": 11.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7845815420150757,
+          "bbox": [
+            399.37255859375,
+            203.9912872314453,
+            1279.37841796875,
+            705.6948852539062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 275,
+      "timestamp_sec": 11.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7840774655342102,
+          "bbox": [
+            402.2043151855469,
+            203.0939483642578,
+            1279.490966796875,
+            708.2357788085938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 276,
+      "timestamp_sec": 11.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7779853940010071,
+          "bbox": [
+            400.1850280761719,
+            221.67393493652344,
+            1279.212158203125,
+            696.871337890625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 277,
+      "timestamp_sec": 11.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7800485491752625,
+          "bbox": [
+            405.2388916015625,
+            203.932861328125,
+            1279.6534423828125,
+            709.7845458984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 278,
+      "timestamp_sec": 11.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7797301411628723,
+          "bbox": [
+            484.3975830078125,
+            195.01025390625,
+            1279.93212890625,
+            714.281982421875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 279,
+      "timestamp_sec": 11.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7807324528694153,
+          "bbox": [
+            407.4188232421875,
+            201.75355529785156,
+            1280.0,
+            709.8857421875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 280,
+      "timestamp_sec": 11.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7849911451339722,
+          "bbox": [
+            408.2692565917969,
+            202.6614990234375,
+            1280.0,
+            710.894287109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 281,
+      "timestamp_sec": 11.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7844989895820618,
+          "bbox": [
+            410.493896484375,
+            202.9446563720703,
+            1280.0,
+            711.0780639648438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 282,
+      "timestamp_sec": 11.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7857698798179626,
+          "bbox": [
+            416.1839599609375,
+            202.1748809814453,
+            1280.0,
+            711.9641723632812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 283,
+      "timestamp_sec": 11.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7844699025154114,
+          "bbox": [
+            413.5452880859375,
+            201.71331787109375,
+            1280.0,
+            713.0908813476562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 284,
+      "timestamp_sec": 11.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7824923396110535,
+          "bbox": [
+            407.1985168457031,
+            200.41839599609375,
+            1280.0,
+            714.4277954101562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 285,
+      "timestamp_sec": 11.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7795819640159607,
+          "bbox": [
+            403.4093017578125,
+            201.77252197265625,
+            1280.0,
+            715.5167846679688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 286,
+      "timestamp_sec": 11.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7804908752441406,
+          "bbox": [
+            400.1267395019531,
+            200.7823486328125,
+            1280.0,
+            715.30908203125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 287,
+      "timestamp_sec": 11.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7800571918487549,
+          "bbox": [
+            401.8969421386719,
+            200.22906494140625,
+            1280.0,
+            714.6624145507812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 288,
+      "timestamp_sec": 12.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7792378664016724,
+          "bbox": [
+            401.79736328125,
+            197.9542236328125,
+            1280.0,
+            712.9970703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 289,
+      "timestamp_sec": 12.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7745392918586731,
+          "bbox": [
+            401.39013671875,
+            196.99285888671875,
+            1280.0,
+            711.1691284179688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 290,
+      "timestamp_sec": 12.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7741649150848389,
+          "bbox": [
+            402.4006042480469,
+            197.4608154296875,
+            1280.0,
+            708.6875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 291,
+      "timestamp_sec": 12.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7767831087112427,
+          "bbox": [
+            406.5101318359375,
+            198.66436767578125,
+            1280.0,
+            706.7989501953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 292,
+      "timestamp_sec": 12.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.773690402507782,
+          "bbox": [
+            404.6513671875,
+            200.27549743652344,
+            1280.0,
+            707.478759765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 293,
+      "timestamp_sec": 12.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7716062664985657,
+          "bbox": [
+            401.0797119140625,
+            227.12542724609375,
+            1279.423828125,
+            701.6451416015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 294,
+      "timestamp_sec": 12.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7698936462402344,
+          "bbox": [
+            399.863525390625,
+            228.1775665283203,
+            1279.376953125,
+            702.9096069335938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 295,
+      "timestamp_sec": 12.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7725089192390442,
+          "bbox": [
+            399.389404296875,
+            226.3572540283203,
+            1279.284912109375,
+            705.8358764648438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 296,
+      "timestamp_sec": 12.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7711145281791687,
+          "bbox": [
+            399.002685546875,
+            228.1834259033203,
+            1279.4552001953125,
+            708.9234008789062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 297,
+      "timestamp_sec": 12.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7707405686378479,
+          "bbox": [
+            398.2347412109375,
+            199.70703125,
+            1280.0,
+            714.2532348632812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 298,
+      "timestamp_sec": 12.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7761440277099609,
+          "bbox": [
+            397.76708984375,
+            228.73974609375,
+            1279.3531494140625,
+            713.3858642578125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 299,
+      "timestamp_sec": 12.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7707254886627197,
+          "bbox": [
+            398.34228515625,
+            229.71873474121094,
+            1279.356201171875,
+            714.0814208984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 300,
+      "timestamp_sec": 12.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7660173177719116,
+          "bbox": [
+            399.0916748046875,
+            229.1348419189453,
+            1279.22900390625,
+            714.2322387695312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 301,
+      "timestamp_sec": 12.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7633703947067261,
+          "bbox": [
+            400.8157958984375,
+            229.55137634277344,
+            1279.21435546875,
+            712.5350341796875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 302,
+      "timestamp_sec": 12.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7629096508026123,
+          "bbox": [
+            400.915283203125,
+            230.71337890625,
+            1279.235107421875,
+            711.6197509765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 303,
+      "timestamp_sec": 12.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7551035284996033,
+          "bbox": [
+            401.0116882324219,
+            231.32647705078125,
+            1279.488525390625,
+            711.627685546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 304,
+      "timestamp_sec": 12.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7555100321769714,
+          "bbox": [
+            401.4715576171875,
+            232.7266845703125,
+            1279.284423828125,
+            710.63037109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 305,
+      "timestamp_sec": 12.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.74897301197052,
+          "bbox": [
+            401.6925048828125,
+            233.1993408203125,
+            1279.31201171875,
+            708.81005859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 306,
+      "timestamp_sec": 12.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7542585730552673,
+          "bbox": [
+            403.034423828125,
+            232.48638916015625,
+            1278.863037109375,
+            709.2714233398438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 307,
+      "timestamp_sec": 12.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7501752376556396,
+          "bbox": [
+            404.1827392578125,
+            232.6015625,
+            1278.6778564453125,
+            709.9049682617188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 308,
+      "timestamp_sec": 12.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7527115941047668,
+          "bbox": [
+            404.04931640625,
+            233.71722412109375,
+            1278.582763671875,
+            711.5325317382812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 309,
+      "timestamp_sec": 12.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7485122680664062,
+          "bbox": [
+            404.0656433105469,
+            235.3717041015625,
+            1278.816650390625,
+            712.2263793945312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 310,
+      "timestamp_sec": 12.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7403951287269592,
+          "bbox": [
+            403.9850158691406,
+            235.759521484375,
+            1279.0001220703125,
+            710.3966674804688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 311,
+      "timestamp_sec": 12.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.737951397895813,
+          "bbox": [
+            405.30908203125,
+            235.89599609375,
+            1279.0859375,
+            709.83544921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 312,
+      "timestamp_sec": 13.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7260110974311829,
+          "bbox": [
+            406.08447265625,
+            238.8544921875,
+            1279.3895263671875,
+            709.1854248046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 313,
+      "timestamp_sec": 13.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7261986136436462,
+          "bbox": [
+            405.26416015625,
+            237.6495361328125,
+            1279.517333984375,
+            709.6612548828125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 314,
+      "timestamp_sec": 13.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7373218536376953,
+          "bbox": [
+            403.4046630859375,
+            238.703369140625,
+            1279.385986328125,
+            707.5177001953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 315,
+      "timestamp_sec": 13.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7196268439292908,
+          "bbox": [
+            402.6010437011719,
+            238.220947265625,
+            1279.552978515625,
+            707.0657958984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 316,
+      "timestamp_sec": 13.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7379776239395142,
+          "bbox": [
+            402.7645263671875,
+            238.409423828125,
+            1279.0653076171875,
+            706.28955078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 317,
+      "timestamp_sec": 13.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7429421544075012,
+          "bbox": [
+            402.2215576171875,
+            237.57501220703125,
+            1279.230224609375,
+            704.9692993164062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 318,
+      "timestamp_sec": 13.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.748100221157074,
+          "bbox": [
+            401.0006103515625,
+            237.0965576171875,
+            1279.012451171875,
+            704.3510131835938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 319,
+      "timestamp_sec": 13.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7338133454322815,
+          "bbox": [
+            401.431640625,
+            237.5404052734375,
+            1279.072021484375,
+            701.4552001953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 320,
+      "timestamp_sec": 13.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7239071130752563,
+          "bbox": [
+            403.2991943359375,
+            237.16632080078125,
+            1279.3599853515625,
+            700.8184204101562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 321,
+      "timestamp_sec": 13.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7033401727676392,
+          "bbox": [
+            405.326171875,
+            236.72967529296875,
+            1279.6873779296875,
+            702.52880859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 322,
+      "timestamp_sec": 13.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6934353709220886,
+          "bbox": [
+            405.7049865722656,
+            237.25885009765625,
+            1279.9525146484375,
+            703.4576416015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 323,
+      "timestamp_sec": 13.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7026780247688293,
+          "bbox": [
+            406.536376953125,
+            238.3873291015625,
+            1279.8668212890625,
+            703.631591796875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 324,
+      "timestamp_sec": 13.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7172046899795532,
+          "bbox": [
+            404.642578125,
+            239.1138916015625,
+            1279.8587646484375,
+            704.1054077148438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 325,
+      "timestamp_sec": 13.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7065814137458801,
+          "bbox": [
+            404.4295654296875,
+            240.425537109375,
+            1279.722412109375,
+            702.9864501953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 326,
+      "timestamp_sec": 13.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6726269125938416,
+          "bbox": [
+            405.293701171875,
+            240.2921142578125,
+            1279.7808837890625,
+            701.6331787109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 327,
+      "timestamp_sec": 13.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6252182126045227,
+          "bbox": [
+            407.1739501953125,
+            243.71954345703125,
+            1279.263427734375,
+            700.40185546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 328,
+      "timestamp_sec": 13.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6448121666908264,
+          "bbox": [
+            407.3141784667969,
+            242.93658447265625,
+            1279.755126953125,
+            698.721923828125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 329,
+      "timestamp_sec": 13.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6687260866165161,
+          "bbox": [
+            407.4239196777344,
+            241.66015625,
+            1280.0,
+            700.7803344726562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 330,
+      "timestamp_sec": 13.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6782631278038025,
+          "bbox": [
+            407.9241943359375,
+            240.2852783203125,
+            1279.774169921875,
+            699.129638671875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 331,
+      "timestamp_sec": 13.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6366640329360962,
+          "bbox": [
+            407.6595458984375,
+            238.0303955078125,
+            1280.0,
+            701.818603515625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 332,
+      "timestamp_sec": 13.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6358875632286072,
+          "bbox": [
+            407.9603271484375,
+            236.19097900390625,
+            1280.0,
+            701.1159057617188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 333,
+      "timestamp_sec": 13.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6722579598426819,
+          "bbox": [
+            410.046875,
+            237.45166015625,
+            1278.8916015625,
+            700.4732666015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 334,
+      "timestamp_sec": 13.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7026185989379883,
+          "bbox": [
+            411.8388671875,
+            238.702880859375,
+            1278.9415283203125,
+            699.8237915039062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 335,
+      "timestamp_sec": 13.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7054079174995422,
+          "bbox": [
+            414.2511901855469,
+            237.29339599609375,
+            1278.84326171875,
+            698.9262084960938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 336,
+      "timestamp_sec": 14.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7065016627311707,
+          "bbox": [
+            412.5078430175781,
+            237.80157470703125,
+            1279.0625,
+            702.9727783203125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 337,
+      "timestamp_sec": 14.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7121956944465637,
+          "bbox": [
+            410.864990234375,
+            236.63623046875,
+            1279.02001953125,
+            702.083740234375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 338,
+      "timestamp_sec": 14.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7127165794372559,
+          "bbox": [
+            409.989501953125,
+            236.1390380859375,
+            1278.8397216796875,
+            702.111572265625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 339,
+      "timestamp_sec": 14.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.713834285736084,
+          "bbox": [
+            410.156494140625,
+            233.63458251953125,
+            1278.70947265625,
+            703.3927612304688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 340,
+      "timestamp_sec": 14.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7167780995368958,
+          "bbox": [
+            407.440185546875,
+            234.17681884765625,
+            1278.63427734375,
+            701.1512451171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 341,
+      "timestamp_sec": 14.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7164259552955627,
+          "bbox": [
+            406.9476318359375,
+            235.49951171875,
+            1278.6898193359375,
+            701.1190185546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 342,
+      "timestamp_sec": 14.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7152844667434692,
+          "bbox": [
+            409.5745849609375,
+            236.37115478515625,
+            1279.094970703125,
+            701.8944702148438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 343,
+      "timestamp_sec": 14.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6885334253311157,
+          "bbox": [
+            412.95654296875,
+            235.278076171875,
+            1279.29736328125,
+            701.5938720703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 344,
+      "timestamp_sec": 14.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.6954071521759033,
+          "bbox": [
+            413.4664611816406,
+            234.76751708984375,
+            1278.9259033203125,
+            703.7091674804688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 345,
+      "timestamp_sec": 14.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7056847810745239,
+          "bbox": [
+            413.5301818847656,
+            237.48345947265625,
+            1278.8956298828125,
+            705.633056640625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 346,
+      "timestamp_sec": 14.42,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7039660811424255,
+          "bbox": [
+            414.296630859375,
+            238.2513427734375,
+            1278.5303955078125,
+            706.97705078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 347,
+      "timestamp_sec": 14.46,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.698305070400238,
+          "bbox": [
+            421.4046630859375,
+            196.353271484375,
+            1279.7496337890625,
+            711.888916015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 348,
+      "timestamp_sec": 14.5,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7041409015655518,
+          "bbox": [
+            415.8515625,
+            240.819091796875,
+            1278.436767578125,
+            710.0380859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 349,
+      "timestamp_sec": 14.54,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7100415229797363,
+          "bbox": [
+            413.594482421875,
+            240.0545654296875,
+            1278.2745361328125,
+            710.1435546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 350,
+      "timestamp_sec": 14.58,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7074786424636841,
+          "bbox": [
+            412.1873779296875,
+            241.614990234375,
+            1278.162109375,
+            710.7367553710938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 351,
+      "timestamp_sec": 14.62,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7181538939476013,
+          "bbox": [
+            410.1978759765625,
+            240.1160888671875,
+            1278.097900390625,
+            710.9737548828125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 352,
+      "timestamp_sec": 14.67,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7179688811302185,
+          "bbox": [
+            410.023681640625,
+            239.5272216796875,
+            1278.0205078125,
+            712.403076171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 353,
+      "timestamp_sec": 14.71,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7076816558837891,
+          "bbox": [
+            411.0008239746094,
+            239.88299560546875,
+            1278.0408935546875,
+            712.46044921875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 354,
+      "timestamp_sec": 14.75,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7153339982032776,
+          "bbox": [
+            409.6051025390625,
+            240.55377197265625,
+            1278.1531982421875,
+            712.3432006835938
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 355,
+      "timestamp_sec": 14.79,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.72365403175354,
+          "bbox": [
+            410.2305908203125,
+            239.9976806640625,
+            1278.295166015625,
+            712.7012939453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 356,
+      "timestamp_sec": 14.83,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7198376655578613,
+          "bbox": [
+            409.2325439453125,
+            240.34454345703125,
+            1278.1239013671875,
+            712.9163208007812
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 357,
+      "timestamp_sec": 14.88,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7115386128425598,
+          "bbox": [
+            410.5249938964844,
+            242.1346435546875,
+            1278.2030029296875,
+            712.6204833984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 358,
+      "timestamp_sec": 14.92,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7191009521484375,
+          "bbox": [
+            410.13720703125,
+            243.00885009765625,
+            1278.0849609375,
+            714.2261352539062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 359,
+      "timestamp_sec": 14.96,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7204343676567078,
+          "bbox": [
+            411.1987609863281,
+            242.93804931640625,
+            1277.9228515625,
+            715.0663452148438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 360,
+      "timestamp_sec": 15.0,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7215726375579834,
+          "bbox": [
+            410.98974609375,
+            242.107177734375,
+            1278.158447265625,
+            714.5982666015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 361,
+      "timestamp_sec": 15.04,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.723820149898529,
+          "bbox": [
+            413.0462646484375,
+            245.093505859375,
+            1278.0035400390625,
+            714.95654296875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 362,
+      "timestamp_sec": 15.08,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7327420115470886,
+          "bbox": [
+            416.4202880859375,
+            247.0167236328125,
+            1277.84814453125,
+            715.6630249023438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 363,
+      "timestamp_sec": 15.12,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.728062629699707,
+          "bbox": [
+            419.2578430175781,
+            247.69677734375,
+            1277.634521484375,
+            715.596435546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 364,
+      "timestamp_sec": 15.17,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7356217503547668,
+          "bbox": [
+            419.2945556640625,
+            248.5247802734375,
+            1277.70703125,
+            715.939208984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 365,
+      "timestamp_sec": 15.21,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7390600442886353,
+          "bbox": [
+            419.3792724609375,
+            248.3731689453125,
+            1277.5892333984375,
+            716.5897216796875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 366,
+      "timestamp_sec": 15.25,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7413005828857422,
+          "bbox": [
+            420.7280578613281,
+            248.73443603515625,
+            1277.576171875,
+            716.2382202148438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 367,
+      "timestamp_sec": 15.29,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7434598803520203,
+          "bbox": [
+            420.58740234375,
+            249.0748291015625,
+            1277.6005859375,
+            716.4925537109375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 368,
+      "timestamp_sec": 15.33,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7457652688026428,
+          "bbox": [
+            419.145751953125,
+            249.97027587890625,
+            1277.6624755859375,
+            716.91455078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 369,
+      "timestamp_sec": 15.38,
+      "threats": [
+        "smoke"
+      ],
+      "detections": [
+        {
+          "category": "smoke",
+          "class_name": "smoke",
+          "confidence": 0.7478802800178528,
+          "bbox": [
+            419.717529296875,
+            251.09765625,
+            1277.6697998046875,
+            717.1795654296875
+          ],
+          "track_id": null
+        }
+      ]
+    }
+  ],
+  "num_threat_events": 370,
+  "model_settings": {
+    "weapon": {
+      "imgsz": 320,
+      "conf": 0.3,
+      "iou": 0.5
+    },
+    "fire_smoke": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    },
+    "person": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    }
+  }
+}

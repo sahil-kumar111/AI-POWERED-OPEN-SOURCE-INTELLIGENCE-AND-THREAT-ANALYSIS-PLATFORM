@@ -7,8 +7,8 @@ input_video = "input/normal_video.mp4"
 output_video = "output/weapon_test.mp4"
 
 detector = WeaponDetector(
-    imgsz=128,
-    conf=0.2,
+    imgsz=320,
+    conf=0.3,
     iou=0.50,
 )
 

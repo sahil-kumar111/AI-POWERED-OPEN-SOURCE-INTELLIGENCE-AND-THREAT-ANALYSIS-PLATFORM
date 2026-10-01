@@ -1,0 +1,2432 @@
+{
+  "input_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/input/YOUTUBE_YouTubeCCTV196_gun_2.mp4",
+  "output_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/YOUTUBE_YouTubeCCTV196_gun_2_analyzed.mp4",
+  "fps": 30.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames_processed": 90,
+  "inference_frames": 90,
+  "frame_skip": 1,
+  "detection_counts": {
+    "weapon": 115,
+    "fire": 15,
+    "smoke": 0,
+    "person": 195
+  },
+  "detection_frames": {
+    "weapon": 83,
+    "fire": 15,
+    "smoke": 0,
+    "person": 90
+  },
+  "detection_ratios": {
+    "weapon": 0.9222,
+    "fire": 0.1667,
+    "smoke": 0.0,
+    "person": 1.0
+  },
+  "average_confidence": {
+    "weapon": 0.469,
+    "fire": 0.5203,
+    "smoke": 0.0,
+    "person": 0.7538
+  },
+  "max_confidence": {
+    "weapon": 0.7069,
+    "fire": 0.5725,
+    "smoke": 0.0,
+    "person": 0.8975
+  },
+  "detections": [
+    {
+      "category": "weapon",
+      "detected": true,
+      "detection_frames": 83,
+      "detection_ratio": 0.9222,
+      "average_confidence": 0.469,
+      "max_confidence": 0.7069,
+      "message": "weapon detected"
+    },
+    {
+      "category": "fire",
+      "detected": true,
+      "detection_frames": 15,
+      "detection_ratio": 0.1667,
+      "average_confidence": 0.5203,
+      "max_confidence": 0.5725,
+      "message": "fire detected"
+    },
+    {
+      "category": "smoke",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no smoke detected"
+    },
+    {
+      "category": "person",
+      "detected": true,
+      "detection_frames": 90,
+      "detection_ratio": 1.0,
+      "average_confidence": 0.7538,
+      "max_confidence": 0.8975,
+      "message": "person detected"
+    }
+  ],
+  "person_statistics": {
+    "unique_person_count": 5,
+    "unique_track_ids": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "threat_events": [
+    {
+      "frame": 0,
+      "timestamp_sec": 0.0,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5790404677391052,
+          "bbox": [
+            16.2646484375,
+            99.5189208984375,
+            1274.38037109375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5371606349945068,
+          "bbox": [
+            1155.946044921875,
+            418.433349609375,
+            1237.123779296875,
+            484.6546630859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "timestamp_sec": 0.03,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5670394897460938,
+          "bbox": [
+            16.2021484375,
+            98.93719482421875,
+            1273.308349609375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5440321564674377,
+          "bbox": [
+            1156.45703125,
+            418.5946044921875,
+            1237.59716796875,
+            484.8140869140625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "timestamp_sec": 0.07,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5820290446281433,
+          "bbox": [
+            9.02197265625,
+            104.55474853515625,
+            1277.720458984375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.49892473220825195,
+          "bbox": [
+            1156.5482177734375,
+            418.6461181640625,
+            1238.1458740234375,
+            484.737060546875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "timestamp_sec": 0.1,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5179829597473145,
+          "bbox": [
+            6.68359375,
+            102.36297607421875,
+            1279.4150390625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.49012884497642517,
+          "bbox": [
+            1157.388916015625,
+            418.4468994140625,
+            1239.86474609375,
+            485.19873046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "timestamp_sec": 0.13,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5835861563682556,
+          "bbox": [
+            5.3843994140625,
+            95.576904296875,
+            1270.5169677734375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5293567776679993,
+          "bbox": [
+            1158.6097412109375,
+            418.5149230957031,
+            1241.5291748046875,
+            484.5134582519531
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "timestamp_sec": 0.17,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.558285117149353,
+          "bbox": [
+            5.1058349609375,
+            97.78314208984375,
+            1267.3846435546875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.531453549861908,
+          "bbox": [
+            1159.4814453125,
+            418.11090087890625,
+            1243.40478515625,
+            484.45263671875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "timestamp_sec": 0.2,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5446715354919434,
+          "bbox": [
+            5.218017578125,
+            97.14068603515625,
+            1265.4071044921875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5628214478492737,
+          "bbox": [
+            1160.540283203125,
+            417.3069152832031,
+            1244.204345703125,
+            484.9311218261719
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "timestamp_sec": 0.23,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4883384704589844,
+          "bbox": [
+            5.32080078125,
+            95.0345458984375,
+            1268.6707763671875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5694959163665771,
+          "bbox": [
+            1160.846923828125,
+            416.8699035644531,
+            1244.993408203125,
+            484.6216735839844
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "timestamp_sec": 0.27,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4919078052043915,
+          "bbox": [
+            5.334228515625,
+            96.19873046875,
+            1271.92333984375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.561922013759613,
+          "bbox": [
+            1161.3358154296875,
+            416.50439453125,
+            1245.6260986328125,
+            484.3262939453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "timestamp_sec": 0.3,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5212686061859131,
+          "bbox": [
+            5.298828125,
+            98.92822265625,
+            1272.658447265625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5725057125091553,
+          "bbox": [
+            1162.367431640625,
+            415.24029541015625,
+            1246.125732421875,
+            482.06207275390625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "timestamp_sec": 0.33,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5382623076438904,
+          "bbox": [
+            5.5260009765625,
+            99.3419189453125,
+            1273.3681640625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5546954274177551,
+          "bbox": [
+            1164.47900390625,
+            415.37432861328125,
+            1246.17529296875,
+            480.07623291015625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "timestamp_sec": 0.37,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5787068605422974,
+          "bbox": [
+            5.4222412109375,
+            102.6209716796875,
+            1274.2105712890625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.521870493888855,
+          "bbox": [
+            1167.7119140625,
+            415.0567626953125,
+            1246.62744140625,
+            478.78704833984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "timestamp_sec": 0.4,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.554401695728302,
+          "bbox": [
+            5.212646484375,
+            88.62457275390625,
+            1275.647216796875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.48924633860588074,
+          "bbox": [
+            1172.03662109375,
+            414.79095458984375,
+            1247.3935546875,
+            478.25225830078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "timestamp_sec": 0.43,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5532633066177368,
+          "bbox": [
+            5.0201416015625,
+            84.68255615234375,
+            1276.1795654296875,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "timestamp_sec": 0.47,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.49277597665786743,
+          "bbox": [
+            5.1578369140625,
+            86.75628662109375,
+            1276.300048828125,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "timestamp_sec": 0.5,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.43843892216682434,
+          "bbox": [
+            5.311279296875,
+            87.2906494140625,
+            1276.043212890625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.40621036291122437,
+          "bbox": [
+            1179.3349609375,
+            413.773193359375,
+            1256.75537109375,
+            479.18341064453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "timestamp_sec": 0.53,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.45270439982414246,
+          "bbox": [
+            5.140625,
+            82.6876220703125,
+            1276.1873779296875,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "timestamp_sec": 0.57,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4178299903869629,
+          "bbox": [
+            5.056640625,
+            75.2027587890625,
+            1275.68994140625,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "timestamp_sec": 0.6,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.39420267939567566,
+          "bbox": [
+            0.0,
+            104.291259765625,
+            1277.186279296875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.43414172530174255,
+          "bbox": [
+            1185.73974609375,
+            413.96929931640625,
+            1264.86474609375,
+            478.78411865234375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "timestamp_sec": 0.63,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3858204185962677,
+          "bbox": [
+            1.8707275390625,
+            92.8968505859375,
+            1274.29052734375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "timestamp_sec": 0.67,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.44894975423812866,
+          "bbox": [
+            4.212158203125,
+            94.19610595703125,
+            1274.298583984375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "timestamp_sec": 0.7,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3414246439933777,
+          "bbox": [
+            4.06884765625,
+            101.8048095703125,
+            1274.47412109375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "timestamp_sec": 0.73,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.49917471408843994,
+          "bbox": [
+            4.3690185546875,
+            96.2891845703125,
+            1277.941162109375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "timestamp_sec": 0.77,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5155898332595825,
+          "bbox": [
+            5.2867431640625,
+            90.77703857421875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "timestamp_sec": 0.8,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5007661581039429,
+          "bbox": [
+            5.1046142578125,
+            99.5748291015625,
+            1278.938720703125,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "timestamp_sec": 0.83,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.33553770184516907,
+          "bbox": [
+            5.543701171875,
+            100.3544921875,
+            1278.5321044921875,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "timestamp_sec": 0.9,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3059885799884796,
+          "bbox": [
+            5.720458984375,
+            90.3255615234375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "timestamp_sec": 1.07,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.30376720428466797,
+          "bbox": [
+            6.185546875,
+            101.0888671875,
+            1277.90185546875,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "timestamp_sec": 1.1,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3222939968109131,
+          "bbox": [
+            6.0782470703125,
+            99.018798828125,
+            1279.5799560546875,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "timestamp_sec": 1.2,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.34014999866485596,
+          "bbox": [
+            5.4215087890625,
+            96.93658447265625,
+            1278.4857177734375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "timestamp_sec": 1.23,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.34679296612739563,
+          "bbox": [
+            5.7431640625,
+            100.64495849609375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "timestamp_sec": 1.27,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.40199506282806396,
+          "bbox": [
+            5.83447265625,
+            102.8765869140625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "timestamp_sec": 1.3,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.49530112743377686,
+          "bbox": [
+            5.7003173828125,
+            103.31500244140625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "timestamp_sec": 1.33,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5752353668212891,
+          "bbox": [
+            6.0225830078125,
+            110.4906005859375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 41,
+      "timestamp_sec": 1.37,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5155388116836548,
+          "bbox": [
+            6.049072265625,
+            110.3023681640625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "timestamp_sec": 1.4,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4735400080680847,
+          "bbox": [
+            6.1015625,
+            112.9730224609375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 43,
+      "timestamp_sec": 1.43,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.56800377368927,
+          "bbox": [
+            5.958251953125,
+            113.212890625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 44,
+      "timestamp_sec": 1.47,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6392874121665955,
+          "bbox": [
+            5.7540283203125,
+            111.10467529296875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "timestamp_sec": 1.5,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6040222644805908,
+          "bbox": [
+            5.5032958984375,
+            114.0999755859375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "timestamp_sec": 1.53,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5767477750778198,
+          "bbox": [
+            5.8468017578125,
+            109.83544921875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 47,
+      "timestamp_sec": 1.57,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.477745920419693,
+          "bbox": [
+            6.096923828125,
+            110.76629638671875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 48,
+      "timestamp_sec": 1.6,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4565980136394501,
+          "bbox": [
+            6.367431640625,
+            110.54840087890625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 49,
+      "timestamp_sec": 1.63,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4456687867641449,
+          "bbox": [
+            6.65625,
+            114.41717529296875,
+            1279.8203125,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 50,
+      "timestamp_sec": 1.67,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4624742567539215,
+          "bbox": [
+            6.73046875,
+            120.44671630859375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 51,
+      "timestamp_sec": 1.7,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4882473945617676,
+          "bbox": [
+            6.53955078125,
+            122.34320068359375,
+            1277.212646484375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 52,
+      "timestamp_sec": 1.73,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5033687949180603,
+          "bbox": [
+            6.604248046875,
+            121.42572021484375,
+            1272.735107421875,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 53,
+      "timestamp_sec": 1.77,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5968173742294312,
+          "bbox": [
+            5.796875,
+            121.617919921875,
+            1277.886474609375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.30092790722846985,
+          "bbox": [
+            1.2578125,
+            0.0,
+            1280.0,
+            192.9358673095703
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 54,
+      "timestamp_sec": 1.8,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5694037675857544,
+          "bbox": [
+            5.91943359375,
+            115.79290771484375,
+            1279.109375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 55,
+      "timestamp_sec": 1.83,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5517875552177429,
+          "bbox": [
+            6.150634765625,
+            116.9345703125,
+            1276.267333984375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.31170350313186646,
+          "bbox": [
+            1.5565185546875,
+            0.0,
+            1280.0,
+            191.5465545654297
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 56,
+      "timestamp_sec": 1.87,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.49716833233833313,
+          "bbox": [
+            5.398681640625,
+            125.6588134765625,
+            1276.845458984375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3140920400619507,
+          "bbox": [
+            1.1123046875,
+            0.0,
+            1280.0,
+            190.05343627929688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 57,
+      "timestamp_sec": 1.9,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5180982947349548,
+          "bbox": [
+            5.325927734375,
+            122.10498046875,
+            1273.5302734375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3245425224304199,
+          "bbox": [
+            0.9964599609375,
+            0.0,
+            1280.0,
+            190.78302001953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 58,
+      "timestamp_sec": 1.93,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5904863476753235,
+          "bbox": [
+            5.224609375,
+            117.0234375,
+            1268.997314453125,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.323696106672287,
+          "bbox": [
+            0.747314453125,
+            0.0,
+            1280.0,
+            191.47772216796875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 59,
+      "timestamp_sec": 1.97,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5435632467269897,
+          "bbox": [
+            5.1923828125,
+            130.7640380859375,
+            1273.8375244140625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3163416385650635,
+          "bbox": [
+            0.5953369140625,
+            0.0,
+            1280.0,
+            191.01751708984375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "timestamp_sec": 2.0,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4670078456401825,
+          "bbox": [
+            5.609619140625,
+            127.4615478515625,
+            1270.0736083984375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "timestamp_sec": 2.03,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.544948160648346,
+          "bbox": [
+            6.3897705078125,
+            134.96478271484375,
+            1270.055908203125,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3090720772743225,
+          "bbox": [
+            0.6533203125,
+            0.0,
+            1280.0,
+            191.97462463378906
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 62,
+      "timestamp_sec": 2.07,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5565611720085144,
+          "bbox": [
+            5.9700927734375,
+            153.5743408203125,
+            1274.370849609375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.32573917508125305,
+          "bbox": [
+            1.0283203125,
+            0.0,
+            1280.0,
+            192.12380981445312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 63,
+      "timestamp_sec": 2.1,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5200207233428955,
+          "bbox": [
+            6.8818359375,
+            135.71014404296875,
+            1276.52490234375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3031282126903534,
+          "bbox": [
+            1.20947265625,
+            0.0,
+            1280.0,
+            193.2051544189453
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 64,
+      "timestamp_sec": 2.13,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5307562351226807,
+          "bbox": [
+            6.044921875,
+            182.48724365234375,
+            1275.480712890625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3093685805797577,
+          "bbox": [
+            1.1270751953125,
+            0.0,
+            1280.0,
+            192.51783752441406
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 65,
+      "timestamp_sec": 2.17,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4400576055049896,
+          "bbox": [
+            5.546875,
+            210.54266357421875,
+            1274.239990234375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 66,
+      "timestamp_sec": 2.2,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.47762542963027954,
+          "bbox": [
+            5.2371826171875,
+            229.3946075439453,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.30345264077186584,
+          "bbox": [
+            1.1295166015625,
+            0.0,
+            1280.0,
+            193.76234436035156
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 67,
+      "timestamp_sec": 2.23,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.43462300300598145,
+          "bbox": [
+            5.2972412109375,
+            195.16650390625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 68,
+      "timestamp_sec": 2.27,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5284862518310547,
+          "bbox": [
+            5.1705322265625,
+            248.9776611328125,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.30216237902641296,
+          "bbox": [
+            1.1219482421875,
+            0.0,
+            1280.0,
+            194.60992431640625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 69,
+      "timestamp_sec": 2.3,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5934810042381287,
+          "bbox": [
+            5.0888671875,
+            234.50677490234375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3063510060310364,
+          "bbox": [
+            4.019775390625,
+            0.0,
+            1280.0,
+            210.45193481445312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 70,
+      "timestamp_sec": 2.33,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6161552667617798,
+          "bbox": [
+            4.935302734375,
+            265.3028259277344,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.34788599610328674,
+          "bbox": [
+            4.1129150390625,
+            0.0,
+            1280.0,
+            211.41403198242188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 71,
+      "timestamp_sec": 2.37,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6462554931640625,
+          "bbox": [
+            4.717041015625,
+            271.501708984375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3646999001502991,
+          "bbox": [
+            4.1397705078125,
+            0.0,
+            1280.0,
+            211.716552734375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 72,
+      "timestamp_sec": 2.4,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5908422470092773,
+          "bbox": [
+            4.2138671875,
+            259.10284423828125,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3624352812767029,
+          "bbox": [
+            4.06201171875,
+            0.0,
+            1280.0,
+            213.3619384765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 73,
+      "timestamp_sec": 2.43,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6597869396209717,
+          "bbox": [
+            3.46337890625,
+            274.64703369140625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3844629228115082,
+          "bbox": [
+            4.029296875,
+            0.0,
+            1280.0,
+            211.40576171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 74,
+      "timestamp_sec": 2.47,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6693416237831116,
+          "bbox": [
+            4.4534912109375,
+            218.31109619140625,
+            1279.5125732421875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3445209562778473,
+          "bbox": [
+            4.1649169921875,
+            0.0,
+            1280.0,
+            210.87863159179688
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 75,
+      "timestamp_sec": 2.5,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6177941560745239,
+          "bbox": [
+            4.009033203125,
+            287.68255615234375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.36758214235305786,
+          "bbox": [
+            3.927734375,
+            0.0,
+            1280.0,
+            212.37411499023438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 76,
+      "timestamp_sec": 2.53,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6411460638046265,
+          "bbox": [
+            4.034912109375,
+            281.504638671875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3915872275829315,
+          "bbox": [
+            3.968017578125,
+            0.0,
+            1280.0,
+            212.63467407226562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 77,
+      "timestamp_sec": 2.57,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6938757300376892,
+          "bbox": [
+            4.10009765625,
+            274.71942138671875,
+            1278.809814453125,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.44767627120018005,
+          "bbox": [
+            3.900146484375,
+            0.0,
+            1280.0,
+            212.65054321289062
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 78,
+      "timestamp_sec": 2.6,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6630536913871765,
+          "bbox": [
+            3.7750244140625,
+            272.2180480957031,
+            1278.41552734375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.45222610235214233,
+          "bbox": [
+            3.8665771484375,
+            0.0,
+            1280.0,
+            213.6903076171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 79,
+      "timestamp_sec": 2.63,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.7069094777107239,
+          "bbox": [
+            3.298583984375,
+            263.4852294921875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.47514086961746216,
+          "bbox": [
+            3.8111572265625,
+            0.0,
+            1280.0,
+            212.10630798339844
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 80,
+      "timestamp_sec": 2.67,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6173186898231506,
+          "bbox": [
+            2.31884765625,
+            261.5779724121094,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.44843950867652893,
+          "bbox": [
+            3.6646728515625,
+            0.0,
+            1280.0,
+            212.19674682617188
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 81,
+      "timestamp_sec": 2.7,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.563660740852356,
+          "bbox": [
+            2.4189453125,
+            263.93133544921875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4245418906211853,
+          "bbox": [
+            3.685546875,
+            0.0,
+            1280.0,
+            213.14013671875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 82,
+      "timestamp_sec": 2.73,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5753018260002136,
+          "bbox": [
+            3.99267578125,
+            261.2140808105469,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.39756640791893005,
+          "bbox": [
+            3.759765625,
+            0.0,
+            1280.0,
+            213.36090087890625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 83,
+      "timestamp_sec": 2.77,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5360438227653503,
+          "bbox": [
+            4.1806640625,
+            260.7784729003906,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3649466335773468,
+          "bbox": [
+            3.6365966796875,
+            0.0,
+            1280.0,
+            213.4409942626953
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 84,
+      "timestamp_sec": 2.8,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4498668611049652,
+          "bbox": [
+            4.5704345703125,
+            256.3692321777344,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3335634469985962,
+          "bbox": [
+            2.51171875,
+            0.0,
+            1280.0,
+            217.53851318359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 85,
+      "timestamp_sec": 2.83,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4739120900630951,
+          "bbox": [
+            4.5556640625,
+            254.64016723632812,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.33531302213668823,
+          "bbox": [
+            2.465087890625,
+            0.0,
+            1280.0,
+            216.93252563476562
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 86,
+      "timestamp_sec": 2.87,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4749399721622467,
+          "bbox": [
+            4.7503662109375,
+            254.4547119140625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.33979594707489014,
+          "bbox": [
+            2.40380859375,
+            0.0,
+            1280.0,
+            215.95703125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 87,
+      "timestamp_sec": 2.9,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4485023319721222,
+          "bbox": [
+            3.220703125,
+            269.28546142578125,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3346453905105591,
+          "bbox": [
+            2.4224853515625,
+            0.0,
+            1280.0,
+            216.41004943847656
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 88,
+      "timestamp_sec": 2.93,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.45905789732933044,
+          "bbox": [
+            3.4368896484375,
+            272.1911315917969,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.32852059602737427,
+          "bbox": [
+            2.4652099609375,
+            0.0,
+            1280.0,
+            217.1463623046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 89,
+      "timestamp_sec": 2.97,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3900755047798157,
+          "bbox": [
+            3.4383544921875,
+            273.55792236328125,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    }
+  ],
+  "num_threat_events": 83,
+  "model_settings": {
+    "weapon": {
+      "imgsz": 320,
+      "conf": 0.3,
+      "iou": 0.5
+    },
+    "fire_smoke": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    },
+    "person": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    }
+  }
+}

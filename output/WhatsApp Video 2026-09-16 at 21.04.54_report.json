@@ -1,0 +1,181 @@
+{
+  "input_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/input/WhatsApp Video 2026-09-16 at 21.04.54.mp4",
+  "output_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/WhatsApp Video 2026-09-16 at 21.04.54_analyzed.mp4",
+  "fps": 24.465016096172686,
+  "resolution": [
+    848,
+    478
+  ],
+  "frames_processed": 839,
+  "inference_frames": 839,
+  "frame_skip": 1,
+  "detection_counts": {
+    "weapon": 3,
+    "fire": 1,
+    "smoke": 0,
+    "person": 3
+  },
+  "detection_frames": {
+    "weapon": 2,
+    "fire": 1,
+    "smoke": 0,
+    "person": 3
+  },
+  "detection_ratios": {
+    "weapon": 0.0024,
+    "fire": 0.0012,
+    "smoke": 0.0,
+    "person": 0.0036
+  },
+  "average_confidence": {
+    "weapon": 0.4109,
+    "fire": 0.4359,
+    "smoke": 0.0,
+    "person": 0.4531
+  },
+  "max_confidence": {
+    "weapon": 0.4473,
+    "fire": 0.4359,
+    "smoke": 0.0,
+    "person": 0.4709
+  },
+  "detections": [
+    {
+      "category": "weapon",
+      "detected": true,
+      "detection_frames": 2,
+      "detection_ratio": 0.0024,
+      "average_confidence": 0.4109,
+      "max_confidence": 0.4473,
+      "message": "weapon detected"
+    },
+    {
+      "category": "fire",
+      "detected": true,
+      "detection_frames": 1,
+      "detection_ratio": 0.0012,
+      "average_confidence": 0.4359,
+      "max_confidence": 0.4359,
+      "message": "fire detected"
+    },
+    {
+      "category": "smoke",
+      "detected": false,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no smoke detected"
+    },
+    {
+      "category": "person",
+      "detected": true,
+      "detection_frames": 3,
+      "detection_ratio": 0.0036,
+      "average_confidence": 0.4531,
+      "max_confidence": 0.4709,
+      "message": "person detected"
+    }
+  ],
+  "person_statistics": {
+    "unique_person_count": 1,
+    "unique_track_ids": [
+      1
+    ]
+  },
+  "threat_events": [
+    {
+      "frame": 50,
+      "timestamp_sec": 2.04,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "smg",
+          "confidence": 0.4472765028476715,
+          "bbox": [
+            32.4670295715332,
+            162.14695739746094,
+            846.90966796875,
+            478.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.38652291893959045,
+          "bbox": [
+            43.69636917114258,
+            159.72723388671875,
+            845.0719604492188,
+            478.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 51,
+      "timestamp_sec": 2.08,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3988575041294098,
+          "bbox": [
+            21.727201461791992,
+            163.41360473632812,
+            845.0850219726562,
+            478.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 400,
+      "timestamp_sec": 16.35,
+      "threats": [
+        "fire"
+      ],
+      "detections": [
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.4358710050582886,
+          "bbox": [
+            170.2184295654297,
+            209.43328857421875,
+            216.29209899902344,
+            286.33270263671875
+          ],
+          "track_id": null
+        }
+      ]
+    }
+  ],
+  "num_threat_events": 3,
+  "model_settings": {
+    "weapon": {
+      "imgsz": 320,
+      "conf": 0.3,
+      "iou": 0.5
+    },
+    "fire_smoke": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    },
+    "person": {
+      "imgsz": 640,
+      "conf": 0.4,
+      "iou": 0.5
+    }
+  }
+}
