@@ -1,0 +1,67 @@
+{
+  "input_video": "input/YOUTUBE_YouTubeCCTV196_gun_2.mp4",
+  "output_video": "output/YOUTUBE_YouTubeCCTV196_gun_2_analyzed.mp4",
+  "fps": 30.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames_processed": 90,
+  "inference_frames": 90,
+  "detection_counts": {
+    "weapon": 115,
+    "fire": 15,
+    "smoke": 0,
+    "person": 195
+  },
+  "detection_frames": {
+    "weapon": 83,
+    "fire": 15,
+    "smoke": 0,
+    "person": 90
+  },
+  "detection_ratios": {
+    "weapon": 0.9222,
+    "fire": 0.1667,
+    "smoke": 0.0,
+    "person": 1.0
+  },
+  "average_confidence": {
+    "weapon": 0.469,
+    "fire": 0.5203,
+    "smoke": 0.0,
+    "person": 0.7538
+  },
+  "threat_events": [
+    {
+      "frame": 0,
+      "timestamp_sec": 0.0,
+      "threats": [
+        "weapon"
+      ]
+    },
+    {
+      "frame": 1,
+      "timestamp_sec": 0.03,
+      "threats": [
+        "weapon"
+      ]
+    },
+    {
+      "frame": 2,
+      "timestamp_sec": 0.07,
+      "threats": [
+        "weapon",
+        "fire"
+      ]
+    },
+    {
+      "frame": 3,
+      "timestamp_sec": 0.1,
+      "threats": [
+        "weapon",
+        "fire"
+      ]
+    }
+  ]
+}
