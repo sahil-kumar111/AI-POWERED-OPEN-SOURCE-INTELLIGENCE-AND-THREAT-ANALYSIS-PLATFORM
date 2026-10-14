@@ -1,0 +1,27 @@
+# Phase 2 optional dependencies (visual encoders + evaluation harness).
+#
+# Versions are those actually exercised in Phase 2 on Python 3.12 / Linux x86_64 / CPU.
+# Unit tests with mocks need only numpy, pillow, pytest, jsonschema (opencv for video-input tests).
+# Real encoders additionally need torch + transformers. Weights are NEVER downloaded by this code.
+#
+# --- CPU-ONLY INSTALL (recommended on a CPU machine; avoids multi-GB CUDA packages) -------------
+#   Step 1:  pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+#   Step 2:  pip install -r representation_learning/requirements-phase2.txt
+#   Step 3:  python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
+#            expected: 2.14.1+cpu False   (a '+cpu' local tag still satisfies 'torch==2.14.1')
+#
+#   VERIFICATION STATUS: torch 2.14.1 resolves on PyPI and was the version run in Phase 2
+#   (build '2.14.1+cu130', executed on CPU). The CPU wheel index above was NOT reachable from the
+#   Phase 2 sandbox (HTTP 403), so the '+cpu' build of 2.14.1 is UNVERIFIED. If step 1 reports no
+#   matching distribution, pick the nearest 2.14.x CPU wheel listed at
+#   https://download.pytorch.org/whl/cpu/torch/ , update the pin below, and re-run the tests.
+# -----------------------------------------------------------------------------------------------
+numpy==2.4.4
+pillow==12.1.1
+opencv-python-headless==4.13.0.92   # only for --source video (the existing project already uses cv2)
+jsonschema==4.26.0                  # tests only
+pytest==9.1.1                       # tests only
+torch==2.14.1                       # install from the CPU index first (see above)
+transformers==5.18.0                # real encoders / tiny-random tests
+safetensors==0.8.0                  # weights must be .safetensors
+huggingface_hub==1.33.0             # ONLY for the manual `hf download` step; the code never imports it

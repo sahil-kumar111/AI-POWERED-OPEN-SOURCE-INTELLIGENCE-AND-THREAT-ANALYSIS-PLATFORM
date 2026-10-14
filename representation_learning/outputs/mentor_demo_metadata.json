@@ -1,0 +1,55 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "model_source": "local checkpoint",
+  "embedding_dimension": 384,
+  "pooling": "attention-mask mean pooling",
+  "normalization": "L2",
+  "similarity_metric": "cosine similarity",
+  "query": "A person carrying a weapon is seen near a building entrance.",
+  "evidence": [
+    {
+      "label": "weapon",
+      "description": "Security camera footage reports a person carrying a weapon near an entrance.",
+      "cosine_similarity": 0.937982439994812
+    },
+    {
+      "label": "fire",
+      "description": "A fire breaks out inside a building and smoke spreads through the area.",
+      "cosine_similarity": 0.8040114641189575
+    },
+    {
+      "label": "crowd",
+      "description": "A large crowd gathers at an entrance, causing congestion and unusual movement.",
+      "cosine_similarity": 0.8109164237976074
+    },
+    {
+      "label": "flood",
+      "description": "Heavy rainfall causes flooding on nearby roads and disrupts traffic.",
+      "cosine_similarity": 0.7343847751617432
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "label": "weapon",
+      "cosine_similarity": 0.937982439994812
+    },
+    {
+      "rank": 2,
+      "label": "crowd",
+      "cosine_similarity": 0.8109164237976074
+    },
+    {
+      "rank": 3,
+      "label": "fire",
+      "cosine_similarity": 0.8040114641189575
+    },
+    {
+      "rank": 4,
+      "label": "flood",
+      "cosine_similarity": 0.7343847751617432
+    }
+  ],
+  "data_type": "synthetic demonstration data",
+  "scores_are_probabilities": false
+}

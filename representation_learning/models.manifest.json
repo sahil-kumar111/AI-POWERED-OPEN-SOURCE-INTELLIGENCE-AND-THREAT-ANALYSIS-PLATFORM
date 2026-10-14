@@ -1,0 +1,40 @@
+{
+  "manifest_version": "0.1",
+  "note": "Weights are NOT in Git. Fill revision/license/hashes with: python -m representation_learning.encoders.manifest record <name> --revision <40-hex> --license \"<text>\". license_expected_per_model_card is from memory and UNVERIFIED; the authoritative value is the one you record in `license`.",
+  "models": {
+    "dinov2-small": {
+      "family": "DINOv2",
+      "variant": "small",
+      "hf_id": "facebook/dinov2-small",
+      "source_url": "https://huggingface.co/facebook/dinov2-small",
+      "revision": "TO_RECORD",
+      "license": "TO_RECORD",
+      "license_expected_per_model_card": "Apache-2.0 (unverified)",
+      "local_dir": "models/dinov2-small",
+      "expected_dim": 384,
+      "files": {
+        "model.safetensors": "TO_RECORD",
+        "config.json": "TO_RECORD",
+        "preprocessor_config.json": "TO_RECORD"
+      },
+      "recorded_on": null
+    },
+    "clip-vit-b-32": {
+      "family": "CLIP",
+      "variant": "vit-b-32",
+      "hf_id": "openai/clip-vit-base-patch32",
+      "source_url": "https://huggingface.co/openai/clip-vit-base-patch32",
+      "revision": "TO_RECORD",
+      "license": "TO_RECORD",
+      "license_expected_per_model_card": "MIT (unverified)",
+      "local_dir": "models/clip-vit-base-patch32",
+      "expected_dim": 512,
+      "files": {
+        "model.safetensors": "TO_RECORD",
+        "config.json": "TO_RECORD",
+        "preprocessor_config.json": "TO_RECORD"
+      },
+      "recorded_on": null
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "AEGIS_GATE3_CROSS_MODAL_ALIGNMENT_DECISION",
+  "schema_version": "1.0",
+  "recorded_at": "2026-10-13T22:59:00Z",
+  "decision": "OPTION_C_SEPARATE_SPACES_SYMBOLIC_FUSION",
+  "status": "APPROVED_DECISION",
+  "options_evaluated": {
+    "option_a_native_joint_space": {
+      "status": "REJECTED",
+      "reasoning": "DINOv2 (vision-only) and Multilingual-E5 / MiniLM (text-only) have no shared training or joint space. Equal dimensions (384) do not denote compatible vector manifolds."
+    },
+    "option_b_learned_alignment": {
+      "status": "DEFERRED_NOT_AUTHORIZED",
+      "reasoning": "No paired visual-text dataset exists in the repository. Per project policy (D7 and Rule 4), alignment training cannot be fabricated without verified paired data."
+    },
+    "option_c_separate_spaces_symbolic_fusion": {
+      "status": "SELECTED_AND_ENFORCED",
+      "reasoning": "Enforces strict vector isolation. Direct cross-modal vector comparison raises IncompatibleSpaceError. Cross-modal association relies on symbolic matching of video hash, timestamp, bounding box, class, and event provenance."
+    }
+  },
+  "vector_spaces": {
+    "text_space": "space_e8d2691a145d41eb",
+    "visual_space": "PENDING_VISUAL_WEIGHTS_PINNING",
+    "cross_modal_direct_vector_comparison": false,
+    "error_on_cross_modal_comparison": "IncompatibleSpaceError"
+  },
+  "prerequisites_for_revisiting_learned_alignment": [
+    "Independent paired visual-text dataset across multiple distinct video sources",
+    "Source-level train/validation/test split with zero leakage",
+    "Bidirectional retrieval Recall@5 exceeding random baseline",
+    "Project owner formal authorization"
+  ]
+}

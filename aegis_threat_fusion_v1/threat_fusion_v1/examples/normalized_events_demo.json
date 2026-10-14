@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "demo-video-weapon-001",
+    "timestamp": "2026-10-13T12:00:00Z",
+    "source": {"type": "camera", "id": "cam_04", "zone": "gate_2"},
+    "type": "weapon_detection",
+    "subtype": "gun",
+    "confidence": 0.93,
+    "location": {"lat": 13.0827, "lon": 80.2707},
+    "details": {"track_id": "trk_117"},
+    "modality": "video"
+  },
+  {
+    "event_id": "demo-crowd-001",
+    "timestamp": "2026-10-13T12:00:00Z",
+    "source": {"type": "camera", "id": "cam_04", "zone": "gate_2"},
+    "type": "crowd_alert",
+    "confidence": 1.0,
+    "location": {"lat": 13.0827, "lon": 80.2707},
+    "details": {"count": 340, "capacity": 300},
+    "modality": "video"
+  },
+  {
+    "event_id": "demo-video-fire-001",
+    "timestamp": "2026-10-13T12:00:00Z",
+    "source": {"type": "camera", "id": "cam_04", "zone": "gate_2"},
+    "type": "fire",
+    "confidence": 0.90,
+    "location": {"lat": 13.0827, "lon": 80.2707},
+    "details": {},
+    "modality": "video"
+  },
+  {
+    "event_id": "demo-osint-001",
+    "timestamp": "2026-10-13T12:00:00Z",
+    "source": {"type": "osint", "id": "demo-feed", "zone": "gate_2"},
+    "type": "osint_threat",
+    "subtype": "Weapons / Explosives",
+    "confidence": 1.0,
+    "location": {"lat": 13.0828, "lon": 80.2708},
+    "details": {"title": "DEMO ONLY: reported weapon and attack threat near site", "confidence_basis": "synthetic fixture"},
+    "modality": "text"
+  }
+]

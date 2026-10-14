@@ -1,0 +1,131 @@
+{
+  "person": {
+    "query": "A person is detected in surveillance video.",
+    "V1": [],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "weapon_report-detection-3",
+        "similarity": 0.8228904604911804,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 2. Peak concurrent people: 2. Average concurrent people: 1.62.",
+        "source_report": "Output\\weapon_report.json"
+      },
+      {
+        "rank": 2,
+        "evidence_id": "weapon1_report-detection-3",
+        "similarity": 0.8220973014831543,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 4. Peak concurrent people: 3. Average concurrent people: 1.33.",
+        "source_report": "Output\\weapon1_report.json"
+      },
+      {
+        "rank": 3,
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": 0.8163210153579712,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurrent people: 9.91.",
+        "source_report": "Output\\crowd_report.json"
+      }
+    ]
+  },
+  "crowd": {
+    "query": "A large crowd of people is present.",
+    "V1": [],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": 0.7914327383041382,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurrent people: 9.91.",
+        "source_report": "Output\\crowd_report.json"
+      }
+    ]
+  },
+  "weapon": {
+    "query": "A weapon such as a knife or rifle is detected.",
+    "V1": [],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "crowd_report-detection-0",
+        "similarity": 0.8897229433059692,
+        "category": "weapon",
+        "detected": true,
+        "description": "Weapon detected. Detected class: knife. Average detector confidence: 0.5107. Frames with detections: 2. First detected at 5.70 seconds. Last detected at 17.13 seconds.",
+        "source_report": "Output\\crowd_report.json"
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_and_smoke_report-detection-0",
+        "similarity": 0.8782516717910767,
+        "category": "weapon",
+        "detected": true,
+        "description": "Weapon detected. Detected class: rifle. Average detector confidence: 0.2257. Frames with detections: 9. First detected at 11.67 seconds. Last detected at 25.97 seconds.",
+        "source_report": "Output\\fire_and_smoke_report.json"
+      }
+    ]
+  },
+  "fire": {
+    "query": "Fire is detected in video footage.",
+    "V1": [],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "fire_smoke_report-detection-1",
+        "similarity": 0.857683002948761,
+        "category": "fire",
+        "detected": true,
+        "description": "Fire detected. Average detector confidence: 0.5877. Frames with detections: 660. First detected at 2.73 seconds. Last detected at 26.50 seconds.",
+        "source_report": "Output\\fire_smoke_report.json"
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_and_smoke_report-detection-1",
+        "similarity": 0.8561035990715027,
+        "category": "fire",
+        "detected": true,
+        "description": "Fire detected. Average detector confidence: 0.3160. Frames with detections: 288. First detected at 10.30 seconds. Last detected at 27.13 seconds.",
+        "source_report": "Output\\fire_and_smoke_report.json"
+      }
+    ]
+  },
+  "smoke": {
+    "query": "Smoke is detected in video footage.",
+    "V1": [],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "weapon1_report-detection-2",
+        "similarity": 0.854200005531311,
+        "category": "smoke",
+        "detected": true,
+        "description": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4.50 seconds. Last detected at 4.70 seconds.",
+        "source_report": "Output\\weapon1_report.json"
+      },
+      {
+        "rank": 2,
+        "evidence_id": "smoke_report-detection-2",
+        "similarity": 0.8518275022506714,
+        "category": "smoke",
+        "detected": true,
+        "description": "Smoke detected. Average detector confidence: 0.7678. Frames with detections: 370. First detected at 0.00 seconds. Last detected at 15.38 seconds.",
+        "source_report": "Output\\smoke_report.json"
+      },
+      {
+        "rank": 3,
+        "evidence_id": "crowd_report-detection-2",
+        "similarity": 0.8502109050750732,
+        "category": "smoke",
+        "detected": true,
+        "description": "Smoke detected. Average detector confidence: 0.5453. Frames with detections: 1. First detected at 5.13 seconds. Last detected at 5.13 seconds.",
+        "source_report": "Output\\crowd_report.json"
+      }
+    ]
+  }
+}

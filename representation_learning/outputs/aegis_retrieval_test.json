@@ -1,0 +1,252 @@
+{
+  "person": {
+    "query": "A person is detected in surveillance video.",
+    "top_results": [
+      {
+        "rank": 1,
+        "evidence_id": "synthetic-demo-weapon",
+        "source_type": "synthetic_demo",
+        "category": null,
+        "score": 0.8737269639968872,
+        "description": "Security camera footage reports a person carrying a weapon near an entrance.",
+        "source_report": null
+      },
+      {
+        "rank": 2,
+        "evidence_id": "weapon_report-detection-3",
+        "source_type": "person_detection",
+        "category": "person",
+        "score": 0.8392236828804016,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection category: person. Detected: True. Message: 2 persons detected in the whole video. Count: 2. Peak concurrent persons: 2. Average concurrent persons: 1.62.",
+        "source_report": "Output\\weapon_report.json"
+      },
+      {
+        "rank": 3,
+        "evidence_id": "normal_video_report-detection-3",
+        "source_type": "person_detection",
+        "category": "person",
+        "score": 0.8390577435493469,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\normal_video.mp4. Detection category: person. Detected: True. Message: 1 person detected in the whole video. Count: 1. Peak concurrent persons: 1. Average concurrent persons: 1.0.",
+        "source_report": "Output\\normal_video_report.json"
+      },
+      {
+        "rank": 4,
+        "evidence_id": "crowd_report-detection-3",
+        "source_type": "crowd_detection",
+        "category": "person",
+        "score": 0.8340604305267334,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection category: person. Detected: True. Message: 50 persons detected in the whole video. Count: 50. Peak concurrent persons: 15. Average concurrent persons: 9.91.",
+        "source_report": "Output\\crowd_report.json"
+      },
+      {
+        "rank": 5,
+        "evidence_id": "weapon1_report-detection-3",
+        "source_type": "person_detection",
+        "category": "person",
+        "score": 0.8336341977119446,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection category: person. Detected: True. Message: 4 persons detected in the whole video. Count: 4. Peak concurrent persons: 3. Average concurrent persons: 1.33.",
+        "source_report": "Output\\weapon1_report.json"
+      }
+    ]
+  },
+  "crowd": {
+    "query": "A large crowd of people gathers and causes congestion.",
+    "top_results": [
+      {
+        "rank": 1,
+        "evidence_id": "synthetic-demo-crowd",
+        "source_type": "synthetic_demo",
+        "category": null,
+        "score": 0.9428642392158508,
+        "description": "A large crowd gathers at an entrance, causing congestion and unusual movement.",
+        "source_report": null
+      },
+      {
+        "rank": 2,
+        "evidence_id": "synthetic-demo-flood",
+        "source_type": "synthetic_demo",
+        "category": null,
+        "score": 0.8212103843688965,
+        "description": "Heavy rainfall causes flooding on nearby roads and disrupts traffic.",
+        "source_report": null
+      },
+      {
+        "rank": 3,
+        "evidence_id": "crowd_report-detection-3",
+        "source_type": "crowd_detection",
+        "category": "person",
+        "score": 0.8009295463562012,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection category: person. Detected: True. Message: 50 persons detected in the whole video. Count: 50. Peak concurrent persons: 15. Average concurrent persons: 9.91.",
+        "source_report": "Output\\crowd_report.json"
+      },
+      {
+        "rank": 4,
+        "evidence_id": "weapon_report-detection-3",
+        "source_type": "person_detection",
+        "category": "person",
+        "score": 0.790628969669342,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection category: person. Detected: True. Message: 2 persons detected in the whole video. Count: 2. Peak concurrent persons: 2. Average concurrent persons: 1.62.",
+        "source_report": "Output\\weapon_report.json"
+      },
+      {
+        "rank": 5,
+        "evidence_id": "weapon1_report-detection-3",
+        "source_type": "person_detection",
+        "category": "person",
+        "score": 0.7898571491241455,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection category: person. Detected: True. Message: 4 persons detected in the whole video. Count: 4. Peak concurrent persons: 3. Average concurrent persons: 1.33.",
+        "source_report": "Output\\weapon1_report.json"
+      }
+    ]
+  },
+  "weapon": {
+    "query": "A weapon is detected in video footage.",
+    "top_results": [
+      {
+        "rank": 1,
+        "evidence_id": "synthetic-demo-weapon",
+        "source_type": "synthetic_demo",
+        "category": null,
+        "score": 0.9042413234710693,
+        "description": "Security camera footage reports a person carrying a weapon near an entrance.",
+        "source_report": null
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_and_smoke_report-detection-0",
+        "source_type": "video_detection",
+        "category": "weapon",
+        "score": 0.8459190130233765,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. Detection category: weapon. Class: rifle. Detected: True. Average confidence: 0.2257. Frames detected: 9. First seen seconds: 11.67. Last seen seconds: 25.97. Average bounding box: [0.42, 0.0, 1214.0, 496.0].",
+        "source_report": "Output\\fire_and_smoke_report.json"
+      },
+      {
+        "rank": 3,
+        "evidence_id": "normal_video_report-detection-0",
+        "source_type": "video_detection",
+        "category": "weapon",
+        "score": 0.8413918614387512,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\normal_video.mp4. Detection category: weapon. Detected: False. Message: no weapon detected.",
+        "source_report": "Output\\normal_video_report.json"
+      },
+      {
+        "rank": 4,
+        "evidence_id": "crowd_report-detection-0",
+        "source_type": "video_detection",
+        "category": "weapon",
+        "score": 0.8397719860076904,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection category: weapon. Class: knife. Detected: True. Average confidence: 0.5107. Frames detected: 2. First seen seconds: 5.7. Last seen seconds: 17.13. Average bounding box: [10.28, 603.76, 1740.37, 1252.87].",
+        "source_report": "Output\\crowd_report.json"
+      },
+      {
+        "rank": 5,
+        "evidence_id": "weapon_report-detection-0",
+        "source_type": "video_detection",
+        "category": "weapon",
+        "score": 0.8335729241371155,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection category: weapon. Detected: False. Message: no weapon detected.",
+        "source_report": "Output\\weapon_report.json"
+      }
+    ]
+  },
+  "fire": {
+    "query": "Fire is detected in a building.",
+    "top_results": [
+      {
+        "rank": 1,
+        "evidence_id": "synthetic-demo-fire",
+        "source_type": "synthetic_demo",
+        "category": null,
+        "score": 0.9057556390762329,
+        "description": "A fire breaks out inside a building and smoke spreads through the area.",
+        "source_report": null
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_and_smoke_report-detection-1",
+        "source_type": "video_detection",
+        "category": "fire",
+        "score": 0.8369531631469727,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. Detection category: fire. Class: fire. Detected: True. Average confidence: 0.316. Frames detected: 288. First seen seconds: 10.3. Last seen seconds: 27.13. Average bounding box: [513.12, 84.02, 679.49, 230.85].",
+        "source_report": "Output\\fire_and_smoke_report.json"
+      },
+      {
+        "rank": 3,
+        "evidence_id": "fire_smoke_report-detection-1",
+        "source_type": "video_detection",
+        "category": "fire",
+        "score": 0.8344991207122803,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detection category: fire. Class: fire. Detected: True. Average confidence: 0.5877. Frames detected: 660. First seen seconds: 2.73. Last seen seconds: 26.5. Average bounding box: [580.73, 100.65, 699.37, 208.03].",
+        "source_report": "Output\\fire_smoke_report.json"
+      },
+      {
+        "rank": 4,
+        "evidence_id": "smoke_report-detection-1",
+        "source_type": "video_detection",
+        "category": "fire",
+        "score": 0.829368531703949,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\smoke.mp4. Detection category: fire. Detected: False. Message: no fire detected.",
+        "source_report": "Output\\smoke_report.json"
+      },
+      {
+        "rank": 5,
+        "evidence_id": "fire_and_smoke_report-detection-0",
+        "source_type": "video_detection",
+        "category": "weapon",
+        "score": 0.8284042477607727,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. Detection category: weapon. Class: rifle. Detected: True. Average confidence: 0.2257. Frames detected: 9. First seen seconds: 11.67. Last seen seconds: 25.97. Average bounding box: [0.42, 0.0, 1214.0, 496.0].",
+        "source_report": "Output\\fire_and_smoke_report.json"
+      }
+    ]
+  },
+  "smoke": {
+    "query": "Smoke is detected in video footage.",
+    "top_results": [
+      {
+        "rank": 1,
+        "evidence_id": "fire_smoke_report-detection-2",
+        "source_type": "video_detection",
+        "category": "smoke",
+        "score": 0.85355144739151,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detection category: smoke. Class: smoke. Detected: True. Average confidence: 0.6304. Frames detected: 315. First seen seconds: 5.07. Last seen seconds: 30.4. Average bounding box: [79.64, 8.53, 1071.18, 480.43].",
+        "source_report": "Output\\fire_smoke_report.json"
+      },
+      {
+        "rank": 2,
+        "evidence_id": "smoke_report-detection-2",
+        "source_type": "video_detection",
+        "category": "smoke",
+        "score": 0.8502193093299866,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\smoke.mp4. Detection category: smoke. Class: smoke. Detected: True. Average confidence: 0.7678. Frames detected: 370. First seen seconds: 0.0. Last seen seconds: 15.38. Average bounding box: [343.74, 142.68, 1279.29, 686.18].",
+        "source_report": "Output\\smoke_report.json"
+      },
+      {
+        "rank": 3,
+        "evidence_id": "fire_and_smoke_report-detection-2",
+        "source_type": "video_detection",
+        "category": "smoke",
+        "score": 0.8471783399581909,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. Detection category: smoke. Detected: False. Message: no smoke detected.",
+        "source_report": "Output\\fire_and_smoke_report.json"
+      },
+      {
+        "rank": 4,
+        "evidence_id": "normal_video_report-detection-2",
+        "source_type": "video_detection",
+        "category": "smoke",
+        "score": 0.8471068739891052,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\normal_video.mp4. Detection category: smoke. Detected: False. Message: no smoke detected.",
+        "source_report": "Output\\normal_video_report.json"
+      },
+      {
+        "rank": 5,
+        "evidence_id": "fire_and_smoke_report-detection-1",
+        "source_type": "video_detection",
+        "category": "fire",
+        "score": 0.8464006185531616,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. Detection category: fire. Class: fire. Detected: True. Average confidence: 0.316. Frames detected: 288. First seen seconds: 10.3. Last seen seconds: 27.13. Average bounding box: [513.12, 84.02, 679.49, 230.85].",
+        "source_report": "Output\\fire_and_smoke_report.json"
+      }
+    ]
+  }
+}

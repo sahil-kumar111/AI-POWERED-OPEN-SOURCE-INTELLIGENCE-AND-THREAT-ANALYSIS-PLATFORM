@@ -7,3 +7,32 @@ venv/
 weapon.v2i.yolov11/train/
 weapon.v2i.yolov11/valid/
 weapon.v2i.yolov11/test/
+
+# AEGIS local development artifacts
+# AEGIS local development artifacts
+/Input/
+/Output/
+/representation_learning/models/
+**/.venv*/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/timestamp_patch_backup/
+**/desktop.ini
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.bin
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+*.zip
+*.log
+*.backup_*
+.env*
+*.pem
+*.key

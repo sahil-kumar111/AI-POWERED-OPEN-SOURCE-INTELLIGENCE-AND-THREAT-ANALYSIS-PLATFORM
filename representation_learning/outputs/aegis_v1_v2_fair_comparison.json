@@ -1,0 +1,250 @@
+{
+  "person": {
+    "query": "A person is detected in surveillance video.",
+    "eligible_count": 4,
+    "V1": [
+      {
+        "rank": 1,
+        "evidence_id": "weapon_report-detection-3",
+        "similarity": 0.8392236828804016,
+        "category": "person",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection category: person. Detected: True. Message: 2 persons detected in the whole video. Count: 2. Peak concurrent persons: 2. Average concurrent persons: 1.62."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "normal_video_report-detection-3",
+        "similarity": 0.8390578031539917,
+        "category": "person",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\normal_video.mp4. Detection category: person. Detected: True. Message: 1 person detected in the whole video. Count: 1. Peak concurrent persons: 1. Average concurrent persons: 1.0."
+      },
+      {
+        "rank": 3,
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": 0.8340604305267334,
+        "category": "person",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection category: person. Detected: True. Message: 50 persons detected in the whole video. Count: 50. Peak concurrent persons: 15. Average concurrent persons: 9.91."
+      },
+      {
+        "rank": 4,
+        "evidence_id": "weapon1_report-detection-3",
+        "similarity": 0.8336342573165894,
+        "category": "person",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection category: person. Detected: True. Message: 4 persons detected in the whole video. Count: 4. Peak concurrent persons: 3. Average concurrent persons: 1.33."
+      }
+    ],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "weapon_report-detection-3",
+        "similarity": 0.8228904604911804,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 2. Peak concurrent people: 2. Average concurrent people: 1.62."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "weapon1_report-detection-3",
+        "similarity": 0.8220973014831543,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 4. Peak concurrent people: 3. Average concurrent people: 1.33."
+      },
+      {
+        "rank": 3,
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": 0.8163210153579712,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurrent people: 9.91."
+      },
+      {
+        "rank": 4,
+        "evidence_id": "normal_video_report-detection-3",
+        "similarity": 0.8157545328140259,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 1. Peak concurrent people: 1. Average concurrent people: 1.00."
+      }
+    ]
+  },
+  "crowd": {
+    "query": "A large crowd of people is present.",
+    "eligible_count": 1,
+    "V1": [
+      {
+        "rank": 1,
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": 0.7777941226959229,
+        "category": "person",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection category: person. Detected: True. Message: 50 persons detected in the whole video. Count: 50. Peak concurrent persons: 15. Average concurrent persons: 9.91."
+      }
+    ],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": 0.7914327383041382,
+        "category": "person",
+        "detected": true,
+        "description": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurrent people: 9.91."
+      }
+    ]
+  },
+  "weapon": {
+    "query": "A weapon such as a knife or rifle is detected.",
+    "eligible_count": 2,
+    "V1": [
+      {
+        "rank": 1,
+        "evidence_id": "crowd_report-detection-0",
+        "similarity": 0.8540841341018677,
+        "category": "weapon",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection category: weapon. Class: knife. Detected: True. Average confidence: 0.5107. Frames detected: 2. First seen seconds: 5.7. Last seen seconds: 17.13. Average bounding box: [10.28, 603.76, 1740.37, 1252.87]."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_and_smoke_report-detection-0",
+        "similarity": 0.8536604642868042,
+        "category": "weapon",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. Detection category: weapon. Class: rifle. Detected: True. Average confidence: 0.2257. Frames detected: 9. First seen seconds: 11.67. Last seen seconds: 25.97. Average bounding box: [0.42, 0.0, 1214.0, 496.0]."
+      }
+    ],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "crowd_report-detection-0",
+        "similarity": 0.8897229433059692,
+        "category": "weapon",
+        "detected": true,
+        "description": "Weapon detected. Detected class: knife. Average detector confidence: 0.5107. Frames with detections: 2. First detected at 5.70 seconds. Last detected at 17.13 seconds."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_and_smoke_report-detection-0",
+        "similarity": 0.8782516717910767,
+        "category": "weapon",
+        "detected": true,
+        "description": "Weapon detected. Detected class: rifle. Average detector confidence: 0.2257. Frames with detections: 9. First detected at 11.67 seconds. Last detected at 25.97 seconds."
+      }
+    ]
+  },
+  "fire": {
+    "query": "Fire is detected in video footage.",
+    "eligible_count": 2,
+    "V1": [
+      {
+        "rank": 1,
+        "evidence_id": "fire_and_smoke_report-detection-1",
+        "similarity": 0.8479964137077332,
+        "category": "fire",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. Detection category: fire. Class: fire. Detected: True. Average confidence: 0.316. Frames detected: 288. First seen seconds: 10.3. Last seen seconds: 27.13. Average bounding box: [513.12, 84.02, 679.49, 230.85]."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_smoke_report-detection-1",
+        "similarity": 0.8432216644287109,
+        "category": "fire",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detection category: fire. Class: fire. Detected: True. Average confidence: 0.5877. Frames detected: 660. First seen seconds: 2.73. Last seen seconds: 26.5. Average bounding box: [580.73, 100.65, 699.37, 208.03]."
+      }
+    ],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "fire_smoke_report-detection-1",
+        "similarity": 0.857683002948761,
+        "category": "fire",
+        "detected": true,
+        "description": "Fire detected. Average detector confidence: 0.5877. Frames with detections: 660. First detected at 2.73 seconds. Last detected at 26.50 seconds."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "fire_and_smoke_report-detection-1",
+        "similarity": 0.8561035990715027,
+        "category": "fire",
+        "detected": true,
+        "description": "Fire detected. Average detector confidence: 0.3160. Frames with detections: 288. First detected at 10.30 seconds. Last detected at 27.13 seconds."
+      }
+    ]
+  },
+  "smoke": {
+    "query": "Smoke is detected in video footage.",
+    "eligible_count": 4,
+    "V1": [
+      {
+        "rank": 1,
+        "evidence_id": "fire_smoke_report-detection-2",
+        "similarity": 0.8535515069961548,
+        "category": "smoke",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detection category: smoke. Class: smoke. Detected: True. Average confidence: 0.6304. Frames detected: 315. First seen seconds: 5.07. Last seen seconds: 30.4. Average bounding box: [79.64, 8.53, 1071.18, 480.43]."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "smoke_report-detection-2",
+        "similarity": 0.8502193093299866,
+        "category": "smoke",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\smoke.mp4. Detection category: smoke. Class: smoke. Detected: True. Average confidence: 0.7678. Frames detected: 370. First seen seconds: 0.0. Last seen seconds: 15.38. Average bounding box: [343.74, 142.68, 1279.29, 686.18]."
+      },
+      {
+        "rank": 3,
+        "evidence_id": "crowd_report-detection-2",
+        "similarity": 0.8460491299629211,
+        "category": "smoke",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection category: smoke. Class: smoke. Detected: True. Average confidence: 0.5453. Frames detected: 1. First seen seconds: 5.13. Last seen seconds: 5.13. Average bounding box: [1491.46, 1054.42, 2029.26, 1692.97]."
+      },
+      {
+        "rank": 4,
+        "evidence_id": "weapon1_report-detection-2",
+        "similarity": 0.8430504202842712,
+        "category": "smoke",
+        "detected": true,
+        "description": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\문서\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection category: smoke. Class: smoke. Detected: True. Average confidence: 0.4991. Frames detected: 3. First seen seconds: 4.5. Last seen seconds: 4.7. Average bounding box: [19.68, 85.88, 1162.9, 693.51]."
+      }
+    ],
+    "V2": [
+      {
+        "rank": 1,
+        "evidence_id": "weapon1_report-detection-2",
+        "similarity": 0.854200005531311,
+        "category": "smoke",
+        "detected": true,
+        "description": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4.50 seconds. Last detected at 4.70 seconds."
+      },
+      {
+        "rank": 2,
+        "evidence_id": "smoke_report-detection-2",
+        "similarity": 0.8518275022506714,
+        "category": "smoke",
+        "detected": true,
+        "description": "Smoke detected. Average detector confidence: 0.7678. Frames with detections: 370. First detected at 0.00 seconds. Last detected at 15.38 seconds."
+      },
+      {
+        "rank": 3,
+        "evidence_id": "crowd_report-detection-2",
+        "similarity": 0.8502109050750732,
+        "category": "smoke",
+        "detected": true,
+        "description": "Smoke detected. Average detector confidence: 0.5453. Frames with detections: 1. First detected at 5.13 seconds. Last detected at 5.13 seconds."
+      },
+      {
+        "rank": 4,
+        "evidence_id": "fire_smoke_report-detection-2",
+        "similarity": 0.850206732749939,
+        "category": "smoke",
+        "detected": true,
+        "description": "Smoke detected. Average detector confidence: 0.6304. Frames with detections: 315. First detected at 5.07 seconds. Last detected at 30.40 seconds."
+      }
+    ]
+  }
+}

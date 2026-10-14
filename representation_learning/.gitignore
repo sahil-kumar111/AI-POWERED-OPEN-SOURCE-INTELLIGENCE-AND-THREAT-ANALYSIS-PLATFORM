@@ -1,0 +1,11 @@
+# Local model weights must never be committed (see docs/weights_and_models.md)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+# Evaluation run outputs
+evaluation/runs/
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,329 @@
+{
+  "report_type": "pipeline_smoke_test",
+  "representation_quality_evaluated": false,
+  "winner_declared": false,
+  "statement": "This report is a PIPELINE SMOKE TEST with label-free measurements. Representation quality (semantic usefulness, retrieval accuracy, robustness, generalisation) was NOT evaluated, no encoder ranking is produced, and DINOv2 and CLIP vectors are in different spaces and were never compared with each other. A suitable labelled evaluation set is required (docs/evaluation_data_requirements.md).",
+  "checkpoint_kind": "tiny_random_NOT_PRETRAINED",
+  "real_pretrained_inference_executed": false,
+  "model_selection_note": "DINOv2-small and CLIP ViT-B/32 are a resource-based CPU baseline, not a quality ranking.",
+  "created_at": "2026-10-03T13:12:05Z",
+  "hardware": {
+    "platform": "Linux-6.18.44-fc-v64-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "cpu_model": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+    "logical_cpus": 1,
+    "ram_total_mb": 3999,
+    "versions": {
+      "python": "3.12.3",
+      "numpy": "2.4.4",
+      "torch": "2.14.1+cu130",
+      "transformers": "5.18.0",
+      "PIL": "12.1.1"
+    },
+    "torch_num_threads": 1,
+    "cuda_available": false
+  },
+  "inputs": {
+    "source": "synthetic",
+    "label": "generated fixtures; pipeline correctness only",
+    "semantic_validity": false,
+    "n_inputs": 12,
+    "by_kind": {
+      "synthetic": 12
+    },
+    "n_diagnostic_frames": 0
+  },
+  "encoders": [
+    {
+      "encoder": "dinov2-small",
+      "family": "DINOv2",
+      "feature": "CLS token, final layer, after final LayerNorm (Dinov2Model.pooler_output)",
+      "expected_dim": 384,
+      "preprocessing": {
+        "id": "dinov2-imagenet-resize256-bicubic-centercrop224-v1",
+        "color_order": "RGB",
+        "alpha_policy": "composite_on_white",
+        "input_dtype": "uint8",
+        "resize": {
+          "mode": "shortest_edge",
+          "size": 256,
+          "interpolation": "bicubic"
+        },
+        "crop": {
+          "mode": "center",
+          "size": 224
+        },
+        "rescale": 0.00392156862745098,
+        "normalize": {
+          "mean": [
+            0.485,
+            0.456,
+            0.406
+          ],
+          "std": [
+            0.229,
+            0.224,
+            0.225
+          ]
+        },
+        "output_layout": "CHW",
+        "output_dtype": "float32"
+      },
+      "load": {
+        "ok": true,
+        "load_time_s": 0.017,
+        "device": "cpu",
+        "precision": "float32",
+        "weights_sha256": "22bb71ac344ec16ca4c81648c1fd7552b9b598e826036d77ca9a04a8a27467e1",
+        "warnings": [],
+        "framework_versions": {
+          "torch": "2.14.1+cu130",
+          "transformers": "5.18.0"
+        },
+        "rss_before_load_mb": 811.2,
+        "rss_after_load_mb": 813.8,
+        "mock": false
+      },
+      "space_id": "space_1628aaf61f859396",
+      "extraction": {
+        "n_inputs": 12,
+        "n_ok": 12,
+        "n_failed": 0,
+        "failures": []
+      },
+      "validity": {
+        "dim": 384,
+        "dtype": "float32",
+        "all_finite": true,
+        "norm_min": 0.9999999968596229,
+        "norm_max": 1.0000000001864178,
+        "max_abs_norm_deviation": 3.1403770694993227e-09,
+        "dim_matches_spec": true
+      },
+      "latency_single_item_end_to_end": {
+        "n": 36,
+        "mean_ms": 20.982,
+        "median_ms": 14.491,
+        "p95_ms": 51.557,
+        "min_ms": 12.706,
+        "max_ms": 52.478,
+        "repeats": 3,
+        "warmup": 1,
+        "batch_size": 1
+      },
+      "latency_split_first_items": {
+        "preprocess": {
+          "n": 8,
+          "mean_ms": 4.029,
+          "median_ms": 3.168,
+          "p95_ms": 10.373,
+          "min_ms": 1.564,
+          "max_ms": 10.373
+        },
+        "forward_plus_normalise": {
+          "n": 8,
+          "mean_ms": 8.365,
+          "median_ms": 8.325,
+          "p95_ms": 9.171,
+          "min_ms": 8.013,
+          "max_ms": 9.171
+        }
+      },
+      "latency_per_image_by_batch_size": {
+        "1": {
+          "n": 3,
+          "mean_ms": 13.804,
+          "median_ms": 14.145,
+          "p95_ms": 14.15,
+          "min_ms": 13.118,
+          "max_ms": 14.15,
+          "note": "end-to-end ms per image"
+        },
+        "4": {
+          "n": 3,
+          "mean_ms": 13.916,
+          "median_ms": 13.815,
+          "p95_ms": 14.345,
+          "min_ms": 13.589,
+          "max_ms": 14.345,
+          "note": "end-to-end ms per image"
+        }
+      },
+      "repeatability": {
+        "n_items": 3,
+        "n_repeats_each": 3,
+        "max_abs_diff": 0.0,
+        "min_cosine": 0.999999996804895,
+        "bitwise_identical": true,
+        "batch_vs_single_max_abs_diff": 0.0
+      },
+      "descriptive_spread_NOT_A_QUALITY_METRIC": {
+        "n": 12,
+        "mean_pairwise_cosine": 0.189,
+        "min_pairwise_cosine": -0.6021,
+        "max_pairwise_cosine": 0.9895,
+        "caveat": "Within-encoder only. Depends on input mix; says nothing about semantic quality and must not be compared across encoders."
+      },
+      "memory": {
+        "peak_rss_mb_process_so_far": 863.7,
+        "rss_now_mb": 863.7,
+        "note": "Process-wide peak (includes anything run earlier in the process); run one encoder per process for clean numbers.",
+        "peak_cuda_mb": null
+      }
+    },
+    {
+      "encoder": "clip-vit-b-32",
+      "family": "CLIP",
+      "feature": "projected image embedding (CLIPVisionModelWithProjection.image_embeds)",
+      "expected_dim": 512,
+      "preprocessing": {
+        "id": "clip-resize224-bicubic-centercrop224-v1",
+        "color_order": "RGB",
+        "alpha_policy": "composite_on_white",
+        "input_dtype": "uint8",
+        "resize": {
+          "mode": "shortest_edge",
+          "size": 224,
+          "interpolation": "bicubic"
+        },
+        "crop": {
+          "mode": "center",
+          "size": 224
+        },
+        "rescale": 0.00392156862745098,
+        "normalize": {
+          "mean": [
+            0.48145466,
+            0.4578275,
+            0.40821073
+          ],
+          "std": [
+            0.26862954,
+            0.26130258,
+            0.27577711
+          ]
+        },
+        "output_layout": "CHW",
+        "output_dtype": "float32"
+      },
+      "load": {
+        "ok": true,
+        "load_time_s": 0.019,
+        "device": "cpu",
+        "precision": "float32",
+        "weights_sha256": "22e7ad67a922a7482a38622e4833b1d79270764031f253b08086cb01a1aee958",
+        "warnings": [],
+        "framework_versions": {
+          "torch": "2.14.1+cu130",
+          "transformers": "5.18.0"
+        },
+        "rss_before_load_mb": 863.7,
+        "rss_after_load_mb": 864.8,
+        "mock": false
+      },
+      "space_id": "space_af01eb531b19f0f7",
+      "extraction": {
+        "n_inputs": 12,
+        "n_ok": 12,
+        "n_failed": 0,
+        "failures": []
+      },
+      "validity": {
+        "dim": 512,
+        "dtype": "float32",
+        "all_finite": true,
+        "norm_min": 0.9999999967720178,
+        "norm_max": 1.0000000028175566,
+        "max_abs_norm_deviation": 3.227982214859537e-09,
+        "dim_matches_spec": true
+      },
+      "latency_single_item_end_to_end": {
+        "n": 36,
+        "mean_ms": 14.206,
+        "median_ms": 7.226,
+        "p95_ms": 43.703,
+        "min_ms": 4.635,
+        "max_ms": 55.514,
+        "repeats": 3,
+        "warmup": 1,
+        "batch_size": 1
+      },
+      "latency_split_first_items": {
+        "preprocess": {
+          "n": 8,
+          "mean_ms": 3.688,
+          "median_ms": 2.501,
+          "p95_ms": 9.55,
+          "min_ms": 1.573,
+          "max_ms": 9.55
+        },
+        "forward_plus_normalise": {
+          "n": 8,
+          "mean_ms": 1.292,
+          "median_ms": 1.246,
+          "p95_ms": 1.499,
+          "min_ms": 1.198,
+          "max_ms": 1.499
+        }
+      },
+      "latency_per_image_by_batch_size": {
+        "1": {
+          "n": 3,
+          "mean_ms": 7.387,
+          "median_ms": 7.371,
+          "p95_ms": 7.509,
+          "min_ms": 7.282,
+          "max_ms": 7.509,
+          "note": "end-to-end ms per image"
+        },
+        "4": {
+          "n": 3,
+          "mean_ms": 7.315,
+          "median_ms": 7.168,
+          "p95_ms": 7.679,
+          "min_ms": 7.099,
+          "max_ms": 7.679,
+          "note": "end-to-end ms per image"
+        }
+      },
+      "repeatability": {
+        "n_items": 3,
+        "n_repeats_each": 3,
+        "max_abs_diff": 0.0,
+        "min_cosine": 0.9999999983621052,
+        "bitwise_identical": true,
+        "batch_vs_single_max_abs_diff": 4.470348358154297e-08
+      },
+      "descriptive_spread_NOT_A_QUALITY_METRIC": {
+        "n": 12,
+        "mean_pairwise_cosine": 0.8966,
+        "min_pairwise_cosine": 0.6953,
+        "max_pairwise_cosine": 0.9913,
+        "caveat": "Within-encoder only. Depends on input mix; says nothing about semantic quality and must not be compared across encoders."
+      },
+      "memory": {
+        "peak_rss_mb_process_so_far": 865.7,
+        "rss_now_mb": 865.9,
+        "note": "Process-wide peak (includes anything run earlier in the process); run one encoder per process for clean numbers.",
+        "peak_cuda_mb": null
+      }
+    }
+  ],
+  "side_by_side_non_semantic": [
+    {
+      "encoder": "dinov2-small",
+      "dim": 384,
+      "median_ms_single_end_to_end": 14.491,
+      "n_ok": 12,
+      "n_failed": 0
+    },
+    {
+      "encoder": "clip-vit-b-32",
+      "dim": 512,
+      "median_ms_single_end_to_end": 7.226,
+      "n_ok": 12,
+      "n_failed": 0
+    }
+  ],
+  "side_by_side_caveat": "Dimension and latency are properties of the model/hardware, not indicators of embedding quality."
+}

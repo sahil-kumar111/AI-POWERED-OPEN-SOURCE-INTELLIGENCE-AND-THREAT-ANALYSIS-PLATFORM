@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Police investigate reported attack threat near the station",
+    "description": "Authorities are investigating a reported weapon threat.",
+    "source": "Local News",
+    "publishedAt": "2026-10-13T12:00:20Z",
+    "incident_timestamp": "2026-10-13T12:00:10Z",
+    "url": "https://example.test/incidents/42",
+    "category": "Weapons / Security",
+    "severity": "High",
+    "incident_location": "Example Station",
+    "incident_latitude": 13.0828,
+    "incident_longitude": 80.2708,
+    "distance_km": 0.02,
+    "geographic_classification": "Nearby"
+  }
+]

@@ -1,0 +1,1974 @@
+{
+  "report_id": "AEGIS_GATE1_SEMANTIC_QUALITY_EVALUATION",
+  "generated_at": "2026-10-13 17:23:56 UTC",
+  "status": "PROVISIONAL_PENDING_APPROVAL",
+  "label_status_disclosure": "All relevance labels are PROVISIONAL and pending project-owner sign-off. Evaluations reflect reproducible measurements on actual normalized video evidence records.",
+  "candidate_pool_size": 28,
+  "query_count": 6,
+  "proposed_acceptance_thresholds": {
+    "mrr": 0.7,
+    "recall@3": 0.75,
+    "ndcg@3": 0.7,
+    "lexical_baseline_margin_ndcg@3": 0.1
+  },
+  "models_evaluated": {
+    "e5_small_v2_clean": {
+      "mrr": 0.8333333333333334,
+      "precision@1": 0.6666666666666666,
+      "precision@3": 0.7222222222222222,
+      "precision@5": 0.4666666666666666,
+      "recall@1": 0.2916666666666667,
+      "recall@3": 0.9583333333333334,
+      "recall@5": 1.0,
+      "ndcg@3": 0.8542013336430992,
+      "ndcg@5": 0.8547998463142861,
+      "mean_query_latency_ms": 37.58043334043274,
+      "load_time_ms": 29286.17660002783,
+      "corpus_encoding_time_ms": 1424.4351999950595
+    },
+    "e5_small_v1_raw": {
+      "mrr": 0.9166666666666666,
+      "precision@1": 0.8333333333333334,
+      "precision@3": 0.5,
+      "precision@5": 0.39999999999999997,
+      "recall@1": 0.4166666666666667,
+      "recall@3": 0.6666666666666666,
+      "recall@5": 0.875,
+      "ndcg@3": 0.7534926174262778,
+      "ndcg@5": 0.8278387936950874,
+      "mean_query_latency_ms": 34.65101666127642,
+      "load_time_ms": 29286.17660002783,
+      "corpus_encoding_time_ms": 2123.0863999808207
+    },
+    "minilm_l12_v2_clean": {
+      "mrr": 0.7777777777777778,
+      "precision@1": 0.6666666666666666,
+      "precision@3": 0.5555555555555555,
+      "precision@5": 0.39999999999999997,
+      "recall@1": 0.2916666666666667,
+      "recall@3": 0.7083333333333334,
+      "recall@5": 0.8333333333333334,
+      "ndcg@3": 0.6917384055370045,
+      "ndcg@5": 0.7407303284009258,
+      "mean_query_latency_ms": 35.05916667442458,
+      "load_time_ms": 6151.1341999867,
+      "corpus_encoding_time_ms": 1136.4650999894366
+    },
+    "lexical_bm25_baseline": {
+      "mrr": 0.4527777777777778,
+      "precision@1": 0.3333333333333333,
+      "precision@3": 0.1111111111111111,
+      "precision@5": 0.16666666666666666,
+      "recall@1": 0.16666666666666666,
+      "recall@3": 0.16666666666666666,
+      "recall@5": 0.3333333333333333,
+      "ndcg@3": 0.27541155237618664,
+      "ndcg@5": 0.3742243108179096,
+      "mean_query_latency_ms": 0.2573000092525035,
+      "load_time_ms": 0.0,
+      "corpus_encoding_time_ms": 0.0
+    }
+  },
+  "detailed_results": {
+    "e5_small_v2_clean": {
+      "configuration": {
+        "name": "multilingual-e5-small (V2 Clean Normalized)",
+        "space_id": "space_e8d2691a145d41eb",
+        "dim": 384,
+        "token_limit": 512,
+        "license": "MIT"
+      },
+      "summary_metrics": {
+        "mrr": 0.8333333333333334,
+        "precision@1": 0.6666666666666666,
+        "precision@3": 0.7222222222222222,
+        "precision@5": 0.4666666666666666,
+        "recall@1": 0.2916666666666667,
+        "recall@3": 0.9583333333333334,
+        "recall@5": 1.0,
+        "ndcg@3": 0.8542013336430992,
+        "ndcg@5": 0.8547998463142861,
+        "mean_query_latency_ms": 37.58043334043274,
+        "load_time_ms": 29286.17660002783,
+        "corpus_encoding_time_ms": 1424.4351999950595
+      },
+      "queries": [
+        {
+          "query_id": "Q1_FIRE",
+          "query_text": "Active fire or visible flames",
+          "category": "fire",
+          "latency_ms": 37.65990003012121,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 1.0,
+            "ndcg@5": 1.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-1",
+              "score": 0.8525664806365967,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.3160. Frames with detections: 288. First detected at 1..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-1",
+              "score": 0.8511597514152527,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.5877. Frames with detections: 660. First detected at 2..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon1_report-detection-2",
+              "score": 0.835092306137085,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "smoke_report-detection-2",
+              "score": 0.8321603536605835,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.7678. Frames with detections: 370. First detected at ..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "fire_smoke_report-detection-2",
+              "score": 0.8318471312522888,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.6304. Frames with detections: 315. First detected at ..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q2_SMOKE",
+          "query_text": "Heavy smoke or smoke plume",
+          "category": "smoke",
+          "latency_ms": 32.917600008659065,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 4,
+            "precision@1": 1.0,
+            "recall@1": 0.25,
+            "precision@3": 1.0,
+            "recall@3": 0.75,
+            "precision@5": 0.8,
+            "recall@5": 1.0,
+            "ndcg@3": 0.9514426589871553,
+            "ndcg@5": 0.9550337350142764
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_smoke_report-detection-2",
+              "score": 0.8237787485122681,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.6304. Frames with detections: 315. First detected at ..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "weapon1_report-detection-2",
+              "score": 0.8227535486221313,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4...."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "smoke_report-detection-2",
+              "score": 0.8210099935531616,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.7678. Frames with detections: 370. First detected at ..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "crowd_report-detection-2",
+              "score": 0.8186513781547546,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.5453. Frames with detections: 1. First detected at 5...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "fire_and_smoke_report-detection-1",
+              "score": 0.7980512380599976,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.3160. Frames with detections: 288. First detected at 1..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q3_WEAPON_FIREARM",
+          "query_text": "Firearm or rifle weapon threat",
+          "category": "weapon",
+          "latency_ms": 38.58049999689683,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 1.0,
+            "ndcg@5": 1.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 0.8573622107505798,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: rifle. Average detector confidence: 0.2257. Frames with detections:..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "crowd_report-detection-0",
+              "score": 0.8453900218009949,
+              "relevance_grade": 1,
+              "is_hard_negative": true,
+              "category": "weapon",
+              "class_name": "knife",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: knife. Average detector confidence: 0.5107. Frames with detections:..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "fire_and_smoke_report-detection-1",
+              "score": 0.8250195980072021,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.3160. Frames with detections: 288. First detected at 1..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "fire_smoke_report-detection-1",
+              "score": 0.8246781229972839,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.5877. Frames with detections: 660. First detected at 2..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-2",
+              "score": 0.8166163563728333,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q4_WEAPON_KNIFE",
+          "query_text": "Bladed weapon or knife hazard",
+          "category": "weapon",
+          "latency_ms": 39.7998999687843,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 1.0,
+            "ndcg@5": 1.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-0",
+              "score": 0.8396188020706177,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "knife",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: knife. Average detector confidence: 0.5107. Frames with detections:..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 0.8149857521057129,
+              "relevance_grade": 1,
+              "is_hard_negative": true,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: rifle. Average detector confidence: 0.2257. Frames with detections:..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "fire_smoke_report-detection-1",
+              "score": 0.7957208156585693,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.5877. Frames with detections: 660. First detected at 2..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "fire_and_smoke_report-detection-1",
+              "score": 0.7950605154037476,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.3160. Frames with detections: 288. First detected at 1..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-2",
+              "score": 0.790104866027832,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q5_CROWD_DENSE",
+          "query_text": "Dense crowd with multiple individuals gathered",
+          "category": "person",
+          "latency_ms": 37.70370001439005,
+          "metrics": {
+            "mrr": 0.5,
+            "relevant_total": 2,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 0.58688267143572,
+            "ndcg@5": 0.58688267143572
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "weapon_report-detection-3",
+              "score": 0.8142892122268677,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 2. Peak concurrent people: 2. Average concurrent ..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "weapon1_report-detection-3",
+              "score": 0.8119009733200073,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 4. Peak concurrent people: 3. Average concurrent ..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "crowd_report-detection-3",
+              "score": 0.8046361207962036,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurren..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "normal_video_report-detection-3",
+              "score": 0.7960315346717834,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 1. Peak concurrent people: 1. Average concurrent ..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "smoke_report-detection-2",
+              "score": 0.7528485059738159,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.7678. Frames with detections: 370. First detected at ..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q6_PERSON_LONE",
+          "query_text": "Single individual or lone person moving",
+          "category": "person",
+          "latency_ms": 38.821000023745,
+          "metrics": {
+            "mrr": 0.5,
+            "relevant_total": 2,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 0.58688267143572,
+            "ndcg@5": 0.58688267143572
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "weapon1_report-detection-3",
+              "score": 0.8264673948287964,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 4. Peak concurrent people: 3. Average concurrent ..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "weapon_report-detection-3",
+              "score": 0.8239890336990356,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 2. Peak concurrent people: 2. Average concurrent ..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "normal_video_report-detection-3",
+              "score": 0.8238024711608887,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 1. Peak concurrent people: 1. Average concurrent ..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "crowd_report-detection-3",
+              "score": 0.8177245855331421,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurren..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-2",
+              "score": 0.784400224685669,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4...."
+            }
+          ]
+        }
+      ]
+    },
+    "e5_small_v1_raw": {
+      "configuration": {
+        "name": "multilingual-e5-small (V1 Raw Report / Path Leaks)",
+        "space_id": "space_e8d2691a145d41eb",
+        "dim": 384,
+        "token_limit": 512,
+        "license": "MIT"
+      },
+      "summary_metrics": {
+        "mrr": 0.9166666666666666,
+        "precision@1": 0.8333333333333334,
+        "precision@3": 0.5,
+        "precision@5": 0.39999999999999997,
+        "recall@1": 0.4166666666666667,
+        "recall@3": 0.6666666666666666,
+        "recall@5": 0.875,
+        "ndcg@3": 0.7534926174262778,
+        "ndcg@5": 0.8278387936950874,
+        "mean_query_latency_ms": 34.65101666127642,
+        "load_time_ms": 29286.17660002783,
+        "corpus_encoding_time_ms": 2123.0863999808207
+      },
+      "queries": [
+        {
+          "query_id": "Q1_FIRE",
+          "query_text": "Active fire or visible flames",
+          "category": "fire",
+          "latency_ms": 34.02110002934933,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 1.0,
+            "ndcg@5": 1.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-1",
+              "score": 0.8423142433166504,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. De..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-1",
+              "score": 0.8364636301994324,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detect..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 0.8333734273910522,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. De..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "fire_smoke_report-detection-2",
+              "score": 0.8326793909072876,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detect..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "smoke_report-detection-1",
+              "score": 0.8283019065856934,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\smoke.mp4. Detection c..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q2_SMOKE",
+          "query_text": "Heavy smoke or smoke plume",
+          "category": "smoke",
+          "latency_ms": 35.06540000671521,
+          "metrics": {
+            "mrr": 0.5,
+            "relevant_total": 4,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 0.5,
+            "precision@5": 0.6,
+            "recall@5": 0.75,
+            "ndcg@3": 0.6291344046077069,
+            "ndcg@5": 0.6490365334943614
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-2",
+              "score": 0.8327139616012573,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. De..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-2",
+              "score": 0.8298158645629883,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detect..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "smoke_report-detection-2",
+              "score": 0.829129695892334,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\smoke.mp4. Detection c..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "weapon_report-detection-2",
+              "score": 0.8259655237197876,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection ..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-2",
+              "score": 0.8244056105613708,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q3_WEAPON_FIREARM",
+          "query_text": "Firearm or rifle weapon threat",
+          "category": "weapon",
+          "latency_ms": 37.93980000773445,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.3333333333333333,
+            "recall@3": 0.5,
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "ndcg@3": 0.8262346571285599,
+            "ndcg@5": 0.8262346571285599
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 0.8522732853889465,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. De..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-0",
+              "score": 0.8364923000335693,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_smoke.mp4. Detect..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon1_report-detection-0",
+              "score": 0.8290300369262695,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "weapon_report-detection-0",
+              "score": 0.8289244174957275,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection ..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "smoke_report-detection-0",
+              "score": 0.8284690380096436,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\smoke.mp4. Detection c..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q4_WEAPON_KNIFE",
+          "query_text": "Bladed weapon or knife hazard",
+          "category": "weapon",
+          "latency_ms": 30.77269997447729,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.3333333333333333,
+            "recall@3": 0.5,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 0.8262346571285599,
+            "ndcg@5": 0.9327783893101107
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-0",
+              "score": 0.8397709727287292,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "knife",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection c..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "normal_video_report-detection-0",
+              "score": 0.8279405832290649,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\normal_video.mp4. Dete..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon_report-detection-0",
+              "score": 0.8260719776153564,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection ..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "weapon1_report-detection-0",
+              "score": 0.8260501623153687,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 0.820378839969635,
+              "relevance_grade": 1,
+              "is_hard_negative": true,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. De..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q5_CROWD_DENSE",
+          "query_text": "Dense crowd with multiple individuals gathered",
+          "category": "person",
+          "latency_ms": 36.52169997803867,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 0.9639404333166532,
+            "ndcg@5": 0.9639404333166532
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-3",
+              "score": 0.7936514616012573,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\crowd.mp4. Detection c..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "weapon_report-detection-3",
+              "score": 0.7843950390815735,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection ..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon1_report-detection-3",
+              "score": 0.7832075357437134,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "fire_and_smoke_report-detection-3",
+              "score": 0.7764564752578735,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. De..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "normal_video_report-detection-3",
+              "score": 0.7761231064796448,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\normal_video.mp4. Dete..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q6_PERSON_LONE",
+          "query_text": "Single individual or lone person moving",
+          "category": "person",
+          "latency_ms": 33.58539997134358,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.3333333333333333,
+            "recall@3": 0.5,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 0.27541155237618664,
+            "ndcg@5": 0.5950427489208391
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "weapon_report-detection-3",
+              "score": 0.8214982748031616,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon.mp4. Detection ..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_and_smoke_report-detection-3",
+              "score": 0.8213187456130981,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\fire_and_smoke.mp4. De..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "smoke_report-detection-3",
+              "score": 0.8188421726226807,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\smoke.mp4. Detection c..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "weapon1_report-detection-3",
+              "score": 0.818419337272644,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\weapon1.mp4. Detection..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "normal_video_report-detection-3",
+              "score": 0.8184113502502441,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Video: C:\\Users\\Shenbaga Balaji\\OneDrive\\\ubb38\uc11c\\PLACEMENT\\AEGIS - PROJECT 1\\input\\normal_video.mp4. Dete..."
+            }
+          ]
+        }
+      ]
+    },
+    "minilm_l12_v2_clean": {
+      "configuration": {
+        "name": "paraphrase-multilingual-MiniLM-L12-v2 (V2 Clean Normalized)",
+        "space_id": "space_5fc4e281a9405b43",
+        "dim": 384,
+        "token_limit": 128,
+        "license": "Apache-2.0"
+      },
+      "summary_metrics": {
+        "mrr": 0.7777777777777778,
+        "precision@1": 0.6666666666666666,
+        "precision@3": 0.5555555555555555,
+        "precision@5": 0.39999999999999997,
+        "recall@1": 0.2916666666666667,
+        "recall@3": 0.7083333333333334,
+        "recall@5": 0.8333333333333334,
+        "ndcg@3": 0.6917384055370045,
+        "ndcg@5": 0.7407303284009258,
+        "mean_query_latency_ms": 35.05916667442458,
+        "load_time_ms": 6151.1341999867,
+        "corpus_encoding_time_ms": 1136.4650999894366
+      },
+      "queries": [
+        {
+          "query_id": "Q1_FIRE",
+          "query_text": "Active fire or visible flames",
+          "category": "fire",
+          "latency_ms": 35.4634000104852,
+          "metrics": {
+            "mrr": 0.16666666666666666,
+            "relevant_total": 2,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.0,
+            "recall@3": 0.0,
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "ndcg@3": 0.0,
+            "ndcg@5": 0.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "normal_video_report-detection-1",
+              "score": 0.4171169698238373,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "crowd_report-detection-1",
+              "score": 0.4171169698238373,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "smoke_report-detection-1",
+              "score": 0.4171169698238373,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "weapon_report-detection-1",
+              "score": 0.4171169698238373,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-1",
+              "score": 0.4171169698238373,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q2_SMOKE",
+          "query_text": "Heavy smoke or smoke plume",
+          "category": "smoke",
+          "latency_ms": 32.83660003216937,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 4,
+            "precision@1": 1.0,
+            "recall@1": 0.25,
+            "precision@3": 1.0,
+            "recall@3": 0.75,
+            "precision@5": 0.8,
+            "recall@5": 1.0,
+            "ndcg@3": 0.6291344046077069,
+            "ndcg@5": 0.8044726423602091
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-2",
+              "score": 0.33018308877944946,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.5453. Frames with detections: 1. First detected at 5...."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-2",
+              "score": 0.32554006576538086,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.6304. Frames with detections: 315. First detected at ..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon1_report-detection-2",
+              "score": 0.3160709738731384,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.4991. Frames with detections: 3. First detected at 4...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "smoke_report-detection-2",
+              "score": 0.3157508075237274,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.7678. Frames with detections: 370. First detected at ..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "fire_and_smoke_report-detection-2",
+              "score": 0.3060019612312317,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No smoke detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q3_WEAPON_FIREARM",
+          "query_text": "Firearm or rifle weapon threat",
+          "category": "weapon",
+          "latency_ms": 32.04750001896173,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 1.0,
+            "ndcg@5": 1.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 0.5008890628814697,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: rifle. Average detector confidence: 0.2257. Frames with detections:..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "crowd_report-detection-0",
+              "score": 0.3784322738647461,
+              "relevance_grade": 1,
+              "is_hard_negative": true,
+              "category": "weapon",
+              "class_name": "knife",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: knife. Average detector confidence: 0.5107. Frames with detections:..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon_report-detection-0",
+              "score": 0.3532525897026062,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "fire_smoke_report-detection-0",
+              "score": 0.3532525897026062,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-0",
+              "score": 0.3532525897026062,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q4_WEAPON_KNIFE",
+          "query_text": "Bladed weapon or knife hazard",
+          "category": "weapon",
+          "latency_ms": 32.541199994739145,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 1.0,
+            "ndcg@5": 1.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-0",
+              "score": 0.49636924266815186,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "knife",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: knife. Average detector confidence: 0.5107. Frames with detections:..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 0.38897332549095154,
+              "relevance_grade": 1,
+              "is_hard_negative": true,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: rifle. Average detector confidence: 0.2257. Frames with detections:..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon1_report-detection-0",
+              "score": 0.285176157951355,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "normal_video_report-detection-0",
+              "score": 0.285176157951355,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "fire_smoke_report-detection-0",
+              "score": 0.285176157951355,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q5_CROWD_DENSE",
+          "query_text": "Dense crowd with multiple individuals gathered",
+          "category": "person",
+          "latency_ms": 37.833500013221055,
+          "metrics": {
+            "mrr": 0.5,
+            "relevant_total": 2,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.3333333333333333,
+            "recall@3": 0.5,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 0.52129602861432,
+            "ndcg@5": 0.639909328045346
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "normal_video_report-detection-3",
+              "score": 0.3983999490737915,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 1. Peak concurrent people: 1. Average concurrent ..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "crowd_report-detection-3",
+              "score": 0.39752861857414246,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurren..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon_report-detection-3",
+              "score": 0.39633870124816895,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 2. Peak concurrent people: 2. Average concurrent ..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "weapon1_report-detection-3",
+              "score": 0.37558040022850037,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 4. Peak concurrent people: 3. Average concurrent ..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "fire_and_smoke_report-detection-3",
+              "score": 0.11665238440036774,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No person detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q6_PERSON_LONE",
+          "query_text": "Single individual or lone person moving",
+          "category": "person",
+          "latency_ms": 39.632799976971,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.6666666666666666,
+            "recall@3": 1.0,
+            "precision@5": 0.4,
+            "recall@5": 1.0,
+            "ndcg@3": 1.0,
+            "ndcg@5": 1.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "normal_video_report-detection-3",
+              "score": 0.33329665660858154,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 1. Peak concurrent people: 1. Average concurrent ..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "weapon_report-detection-3",
+              "score": 0.32756507396698,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 2. Peak concurrent people: 2. Average concurrent ..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon1_report-detection-3",
+              "score": 0.3235957622528076,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 4. Peak concurrent people: 3. Average concurrent ..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "crowd_report-detection-3",
+              "score": 0.3231879472732544,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurren..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "smoke_report-detection-3",
+              "score": 0.20304307341575623,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No person detected in the video...."
+            }
+          ]
+        }
+      ]
+    },
+    "lexical_bm25_baseline": {
+      "configuration": {
+        "name": "Lexical BM25 Baseline (V2 Clean Normalized)",
+        "space_id": "bm25_lexical_token_space",
+        "dim": null,
+        "token_limit": null,
+        "license": "N/A"
+      },
+      "summary_metrics": {
+        "mrr": 0.4527777777777778,
+        "precision@1": 0.3333333333333333,
+        "precision@3": 0.1111111111111111,
+        "precision@5": 0.16666666666666666,
+        "recall@1": 0.16666666666666666,
+        "recall@3": 0.16666666666666666,
+        "recall@5": 0.3333333333333333,
+        "ndcg@3": 0.27541155237618664,
+        "ndcg@5": 0.3742243108179096,
+        "mean_query_latency_ms": 0.2573000092525035,
+        "load_time_ms": 0.0,
+        "corpus_encoding_time_ms": 0.0
+      },
+      "queries": [
+        {
+          "query_id": "Q1_FIRE",
+          "query_text": "Active fire or visible flames",
+          "category": "fire",
+          "latency_ms": 0.535300001502037,
+          "metrics": {
+            "mrr": 0.16666666666666666,
+            "relevant_total": 2,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.0,
+            "recall@3": 0.0,
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "ndcg@3": 0.0,
+            "ndcg@5": 0.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-1",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "normal_video_report-detection-1",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "smoke_report-detection-1",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "weapon1_report-detection-1",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon_report-detection-1",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No fire detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q2_SMOKE",
+          "query_text": "Heavy smoke or smoke plume",
+          "category": "smoke",
+          "latency_ms": 0.21670002024620771,
+          "metrics": {
+            "mrr": 0.25,
+            "relevant_total": 4,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.0,
+            "recall@3": 0.0,
+            "precision@5": 0.4,
+            "recall@5": 0.5,
+            "ndcg@3": 0.0,
+            "ndcg@5": 0.2732453541056854
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-2",
+              "score": 3.531051721786447,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No smoke detected in the video...."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "normal_video_report-detection-2",
+              "score": 3.531051721786447,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "smoke",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No smoke detected in the video...."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "weapon_report-detection-2",
+              "score": 3.531051721786447,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No smoke detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "crowd_report-detection-2",
+              "score": 1.962834266247038,
+              "relevance_grade": 1,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.5453. Frames with detections: 1. First detected at 5...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "fire_smoke_report-detection-2",
+              "score": 1.962834266247038,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.6304. Frames with detections: 315. First detected at ..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q3_WEAPON_FIREARM",
+          "query_text": "Firearm or rifle weapon threat",
+          "category": "weapon",
+          "latency_ms": 0.1968000433407724,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.3333333333333333,
+            "recall@3": 0.5,
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "ndcg@3": 0.8262346571285599,
+            "ndcg@5": 0.8262346571285599
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-0",
+              "score": 2.903245983393351,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "rifle",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: rifle. Average detector confidence: 0.2257. Frames with detections:..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "normal_video_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "smoke_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q4_WEAPON_KNIFE",
+          "query_text": "Bladed weapon or knife hazard",
+          "category": "weapon",
+          "latency_ms": 0.19749999046325684,
+          "metrics": {
+            "mrr": 1.0,
+            "relevant_total": 2,
+            "precision@1": 1.0,
+            "recall@1": 0.5,
+            "precision@3": 0.3333333333333333,
+            "recall@3": 0.5,
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "ndcg@3": 0.8262346571285599,
+            "ndcg@5": 0.8262346571285599
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-0",
+              "score": 2.903245983393351,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": "knife",
+              "detected": true,
+              "evidence_snippet": "Weapon detected. Detected class: knife. Average detector confidence: 0.5107. Frames with detections:..."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "normal_video_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "smoke_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "weapon1_report-detection-0",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "weapon",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No weapon detected in the video...."
+            }
+          ]
+        },
+        {
+          "query_id": "Q5_CROWD_DENSE",
+          "query_text": "Dense crowd with multiple individuals gathered",
+          "category": "person",
+          "latency_ms": 0.20100001711398363,
+          "metrics": {
+            "mrr": 0.1,
+            "relevant_total": 2,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.0,
+            "recall@3": 0.0,
+            "precision@5": 0.0,
+            "recall@5": 0.0,
+            "ndcg@3": 0.0,
+            "ndcg@5": 0.0
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "crowd_report-detection-2",
+              "score": 0.890587566393471,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.5453. Frames with detections: 1. First detected at 5...."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_and_smoke_report-detection-1",
+              "score": 0.890587566393471,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.3160. Frames with detections: 288. First detected at 1..."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "fire_smoke_report-detection-1",
+              "score": 0.890587566393471,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "fire",
+              "class_name": "fire",
+              "detected": true,
+              "evidence_snippet": "Fire detected. Average detector confidence: 0.5877. Frames with detections: 660. First detected at 2..."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "fire_smoke_report-detection-2",
+              "score": 0.890587566393471,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.6304. Frames with detections: 315. First detected at ..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "smoke_report-detection-2",
+              "score": 0.890587566393471,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "smoke",
+              "class_name": "smoke",
+              "detected": true,
+              "evidence_snippet": "Smoke detected. Average detector confidence: 0.7678. Frames with detections: 370. First detected at ..."
+            }
+          ]
+        },
+        {
+          "query_id": "Q6_PERSON_LONE",
+          "query_text": "Single individual or lone person moving",
+          "category": "person",
+          "latency_ms": 0.19649998284876347,
+          "metrics": {
+            "mrr": 0.2,
+            "relevant_total": 2,
+            "precision@1": 0.0,
+            "recall@1": 0.0,
+            "precision@3": 0.0,
+            "recall@3": 0.0,
+            "precision@5": 0.2,
+            "recall@5": 0.5,
+            "ndcg@3": 0.0,
+            "ndcg@5": 0.3196311965446524
+          },
+          "top_5": [
+            {
+              "rank": 1,
+              "evidence_id": "fire_and_smoke_report-detection-3",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No person detected in the video...."
+            },
+            {
+              "rank": 2,
+              "evidence_id": "fire_smoke_report-detection-3",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No person detected in the video...."
+            },
+            {
+              "rank": 3,
+              "evidence_id": "smoke_report-detection-3",
+              "score": 1.7655258608932236,
+              "relevance_grade": 0,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": false,
+              "evidence_snippet": "No person detected in the video...."
+            },
+            {
+              "rank": 4,
+              "evidence_id": "crowd_report-detection-3",
+              "score": 1.2010593334318023,
+              "relevance_grade": 0,
+              "is_hard_negative": true,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 50. Peak concurrent people: 15. Average concurren..."
+            },
+            {
+              "rank": 5,
+              "evidence_id": "normal_video_report-detection-3",
+              "score": 1.2010593334318023,
+              "relevance_grade": 2,
+              "is_hard_negative": false,
+              "category": "person",
+              "class_name": null,
+              "detected": true,
+              "evidence_snippet": "Person detection confirmed. Total people detected: 1. Peak concurrent people: 1. Average concurrent ..."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

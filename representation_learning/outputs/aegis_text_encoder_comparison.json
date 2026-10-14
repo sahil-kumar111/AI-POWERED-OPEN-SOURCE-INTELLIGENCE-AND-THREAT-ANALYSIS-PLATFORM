@@ -1,0 +1,94 @@
+{
+  "report_id": "AEGIS_GATE2_TEXT_ENCODER_SELECTION",
+  "generated_at": "2026-10-13 17:23:56 UTC",
+  "decision": "RECOMMENDATION_PENDING_APPROVAL",
+  "final_encoder_set": false,
+  "manifest_state_unchanged": true,
+  "candidates": {
+    "multilingual-e5-small": {
+      "family": "E5",
+      "dim": 384,
+      "token_limit": 512,
+      "token_limit_handling": "512 max tokens; rejects over-limit; asymmetric query/passage role prefixes",
+      "input_template": {
+        "query": "query: <text>",
+        "passage": "passage: <text>"
+      },
+      "pooling": "mean pooling with attention mask, L2 normalisation",
+      "license": "MIT",
+      "supported_languages": "100+ languages (XLM-RoBERTa backbone)",
+      "local_availability": "Full weights and tokenizer verified on disk (models/multilingual-e5-small)",
+      "load_time_ms": 29286.17660002783,
+      "corpus_time_ms": 1424.4351999950595,
+      "mean_query_latency_ms": 37.58043334043274,
+      "metrics": {
+        "mrr": 0.8333333333333334,
+        "recall@3": 0.9583333333333334,
+        "precision@3": 0.7222222222222222,
+        "ndcg@3": 0.8542013336430992,
+        "ndcg@5": 0.8547998463142861
+      }
+    },
+    "paraphrase-multilingual-MiniLM-L12-v2": {
+      "family": "SBERT-MiniLM",
+      "dim": 384,
+      "token_limit": 128,
+      "token_limit_handling": "128 max tokens; rejects over-limit; symmetric input without prefix",
+      "input_template": "raw text (no prefix required)",
+      "pooling": "mean pooling with attention mask, L2 normalisation",
+      "license": "Apache-2.0",
+      "supported_languages": "50+ languages",
+      "local_availability": "Full weights and tokenizer verified on disk (models/paraphrase-multilingual-MiniLM-L12-v2)",
+      "load_time_ms": 6151.1341999867,
+      "corpus_time_ms": 1136.4650999894366,
+      "mean_query_latency_ms": 35.05916667442458,
+      "metrics": {
+        "mrr": 0.7777777777777778,
+        "recall@3": 0.7083333333333334,
+        "precision@3": 0.5555555555555555,
+        "ndcg@3": 0.6917384055370045,
+        "ndcg@5": 0.7407303284009258
+      }
+    }
+  },
+  "baseline_comparison": {
+    "lexical_bm25": {
+      "mrr": 0.4527777777777778,
+      "precision@1": 0.3333333333333333,
+      "precision@3": 0.1111111111111111,
+      "precision@5": 0.16666666666666666,
+      "recall@1": 0.16666666666666666,
+      "recall@3": 0.16666666666666666,
+      "recall@5": 0.3333333333333333,
+      "ndcg@3": 0.27541155237618664,
+      "ndcg@5": 0.3742243108179096,
+      "mean_query_latency_ms": 0.2573000092525035,
+      "load_time_ms": 0.0,
+      "corpus_encoding_time_ms": 0.0
+    },
+    "v1_raw_path_leaking_e5": {
+      "mrr": 0.9166666666666666,
+      "precision@1": 0.8333333333333334,
+      "precision@3": 0.5,
+      "precision@5": 0.39999999999999997,
+      "recall@1": 0.4166666666666667,
+      "recall@3": 0.6666666666666666,
+      "recall@5": 0.875,
+      "ndcg@3": 0.7534926174262778,
+      "ndcg@5": 0.8278387936950874,
+      "mean_query_latency_ms": 34.65101666127642,
+      "load_time_ms": 29286.17660002783,
+      "corpus_encoding_time_ms": 2123.0863999808207
+    }
+  },
+  "recommendation": {
+    "preferred_candidate": "intfloat/multilingual-e5-small",
+    "justification": [
+      "E5-small supports 512-token context length vs MiniLM's restrictive 128-token limit, crucial for dense OSINT articles and detailed multi-threat reports.",
+      "E5-small covers 100+ languages vs MiniLM's ~50 languages, fulfilling project multilingual intelligence requirements.",
+      "E5-small achieves superior semantic discriminability and nDCG metrics across operational queries.",
+      "MIT license is fully compatible with open commercial and defense deployments."
+    ],
+    "governance_rule": "Final selection and pinning requires human approval. final_encoder remains false."
+  }
+}

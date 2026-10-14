@@ -1,0 +1,5 @@
+# Optional; install into the project's existing environment only if unavailable.
+ultralytics
+opencv-python
+numpy
+# torch is required by ultralytics; avoid overwriting a working CUDA-specific torch installation.

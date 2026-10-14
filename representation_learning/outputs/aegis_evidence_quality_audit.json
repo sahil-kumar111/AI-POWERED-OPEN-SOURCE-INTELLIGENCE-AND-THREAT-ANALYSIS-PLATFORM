@@ -1,0 +1,565 @@
+{
+  "report_type": "AEGIS evidence-quality audit",
+  "records_total": 28,
+  "disclaimer": "Review flags are triage signals, not proof of false positives. Detector confidence is not a calibrated probability. Semantic similarity is not detection accuracy.",
+  "category_summary": {
+    "weapon": {
+      "total": 7,
+      "detected": 2,
+      "not_detected": 5,
+      "positive_confidence_available": 2,
+      "mean_positive_confidence": 0.3682
+    },
+    "fire": {
+      "total": 7,
+      "detected": 2,
+      "not_detected": 5,
+      "positive_confidence_available": 2,
+      "mean_positive_confidence": 0.4518
+    },
+    "smoke": {
+      "total": 7,
+      "detected": 4,
+      "not_detected": 3,
+      "positive_confidence_available": 4,
+      "mean_positive_confidence": 0.6107
+    },
+    "person": {
+      "total": 7,
+      "detected": 4,
+      "not_detected": 3,
+      "positive_confidence_available": 0,
+      "mean_positive_confidence": null
+    }
+  },
+  "retrieval_summary": {
+    "person": [
+      {
+        "evidence_id": "weapon_report-detection-3",
+        "similarity": null,
+        "source_category": "person",
+        "detected": true,
+        "confidence": null,
+        "review_flags": [
+          "CONFIDENCE_UNAVAILABLE"
+        ]
+      },
+      {
+        "evidence_id": "normal_video_report-detection-3",
+        "similarity": null,
+        "source_category": "person",
+        "detected": true,
+        "confidence": null,
+        "review_flags": [
+          "CONFIDENCE_UNAVAILABLE"
+        ]
+      },
+      {
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": null,
+        "source_category": "person",
+        "detected": true,
+        "confidence": null,
+        "review_flags": [
+          "CONFIDENCE_UNAVAILABLE"
+        ]
+      },
+      {
+        "evidence_id": "weapon1_report-detection-3",
+        "similarity": null,
+        "source_category": "person",
+        "detected": true,
+        "confidence": null,
+        "review_flags": [
+          "CONFIDENCE_UNAVAILABLE"
+        ]
+      }
+    ],
+    "crowd": [
+      {
+        "evidence_id": "crowd_report-detection-3",
+        "similarity": null,
+        "source_category": "person",
+        "detected": true,
+        "confidence": null,
+        "review_flags": [
+          "CONFIDENCE_UNAVAILABLE"
+        ]
+      }
+    ],
+    "weapon": [
+      {
+        "evidence_id": "crowd_report-detection-0",
+        "similarity": null,
+        "source_category": "weapon",
+        "detected": true,
+        "confidence": 0.5107,
+        "review_flags": [
+          "VERY_FEW_DETECTED_FRAMES"
+        ]
+      },
+      {
+        "evidence_id": "fire_and_smoke_report-detection-0",
+        "similarity": null,
+        "source_category": "weapon",
+        "detected": true,
+        "confidence": 0.2257,
+        "review_flags": [
+          "LOW_CONFIDENCE_REVIEW"
+        ]
+      }
+    ],
+    "fire": [
+      {
+        "evidence_id": "fire_and_smoke_report-detection-1",
+        "similarity": null,
+        "source_category": "fire",
+        "detected": true,
+        "confidence": 0.316,
+        "review_flags": [
+          "MODERATE_CONFIDENCE_REVIEW"
+        ]
+      },
+      {
+        "evidence_id": "fire_smoke_report-detection-1",
+        "similarity": null,
+        "source_category": "fire",
+        "detected": true,
+        "confidence": 0.5877,
+        "review_flags": []
+      }
+    ],
+    "smoke": [
+      {
+        "evidence_id": "fire_smoke_report-detection-2",
+        "similarity": null,
+        "source_category": "smoke",
+        "detected": true,
+        "confidence": 0.6304,
+        "review_flags": []
+      },
+      {
+        "evidence_id": "smoke_report-detection-2",
+        "similarity": null,
+        "source_category": "smoke",
+        "detected": true,
+        "confidence": 0.7678,
+        "review_flags": []
+      },
+      {
+        "evidence_id": "crowd_report-detection-2",
+        "similarity": null,
+        "source_category": "smoke",
+        "detected": true,
+        "confidence": 0.5453,
+        "review_flags": [
+          "VERY_FEW_DETECTED_FRAMES",
+          "SHORT_DETECTION_INTERVAL"
+        ]
+      },
+      {
+        "evidence_id": "weapon1_report-detection-2",
+        "similarity": null,
+        "source_category": "smoke",
+        "detected": true,
+        "confidence": 0.4991,
+        "review_flags": [
+          "MODERATE_CONFIDENCE_REVIEW",
+          "VERY_FEW_DETECTED_FRAMES",
+          "SHORT_DETECTION_INTERVAL"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "crowd_report-detection-0",
+      "source_report": "Output\\crowd_report.json",
+      "category": "weapon",
+      "detected": true,
+      "confidence": 0.5107,
+      "frames_detected": 2,
+      "duration_seconds": 11.43,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "VERY_FEW_DETECTED_FRAMES"
+      ]
+    },
+    {
+      "evidence_id": "crowd_report-detection-1",
+      "source_report": "Output\\crowd_report.json",
+      "category": "fire",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "crowd_report-detection-2",
+      "source_report": "Output\\crowd_report.json",
+      "category": "smoke",
+      "detected": true,
+      "confidence": 0.5453,
+      "frames_detected": 1,
+      "duration_seconds": 0.0,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "VERY_FEW_DETECTED_FRAMES",
+        "SHORT_DETECTION_INTERVAL"
+      ]
+    },
+    {
+      "evidence_id": "crowd_report-detection-3",
+      "source_report": "Output\\crowd_report.json",
+      "category": "person",
+      "detected": true,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": 15,
+      "avg_concurrent_persons": 9.91,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "fire_and_smoke_report-detection-0",
+      "source_report": "Output\\fire_and_smoke_report.json",
+      "category": "weapon",
+      "detected": true,
+      "confidence": 0.2257,
+      "frames_detected": 9,
+      "duration_seconds": 14.3,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "LOW_CONFIDENCE_REVIEW"
+      ]
+    },
+    {
+      "evidence_id": "fire_and_smoke_report-detection-1",
+      "source_report": "Output\\fire_and_smoke_report.json",
+      "category": "fire",
+      "detected": true,
+      "confidence": 0.316,
+      "frames_detected": 288,
+      "duration_seconds": 16.83,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "MODERATE_CONFIDENCE_REVIEW"
+      ]
+    },
+    {
+      "evidence_id": "fire_and_smoke_report-detection-2",
+      "source_report": "Output\\fire_and_smoke_report.json",
+      "category": "smoke",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "fire_and_smoke_report-detection-3",
+      "source_report": "Output\\fire_and_smoke_report.json",
+      "category": "person",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": 0,
+      "avg_concurrent_persons": 0.0,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "fire_smoke_report-detection-0",
+      "source_report": "Output\\fire_smoke_report.json",
+      "category": "weapon",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "fire_smoke_report-detection-1",
+      "source_report": "Output\\fire_smoke_report.json",
+      "category": "fire",
+      "detected": true,
+      "confidence": 0.5877,
+      "frames_detected": 660,
+      "duration_seconds": 23.77,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": []
+    },
+    {
+      "evidence_id": "fire_smoke_report-detection-2",
+      "source_report": "Output\\fire_smoke_report.json",
+      "category": "smoke",
+      "detected": true,
+      "confidence": 0.6304,
+      "frames_detected": 315,
+      "duration_seconds": 25.33,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": []
+    },
+    {
+      "evidence_id": "fire_smoke_report-detection-3",
+      "source_report": "Output\\fire_smoke_report.json",
+      "category": "person",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": 0,
+      "avg_concurrent_persons": 0.0,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "normal_video_report-detection-0",
+      "source_report": "Output\\normal_video_report.json",
+      "category": "weapon",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "normal_video_report-detection-1",
+      "source_report": "Output\\normal_video_report.json",
+      "category": "fire",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "normal_video_report-detection-2",
+      "source_report": "Output\\normal_video_report.json",
+      "category": "smoke",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "normal_video_report-detection-3",
+      "source_report": "Output\\normal_video_report.json",
+      "category": "person",
+      "detected": true,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": 1,
+      "avg_concurrent_persons": 1.0,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "smoke_report-detection-0",
+      "source_report": "Output\\smoke_report.json",
+      "category": "weapon",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "smoke_report-detection-1",
+      "source_report": "Output\\smoke_report.json",
+      "category": "fire",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "smoke_report-detection-2",
+      "source_report": "Output\\smoke_report.json",
+      "category": "smoke",
+      "detected": true,
+      "confidence": 0.7678,
+      "frames_detected": 370,
+      "duration_seconds": 15.38,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": []
+    },
+    {
+      "evidence_id": "smoke_report-detection-3",
+      "source_report": "Output\\smoke_report.json",
+      "category": "person",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": 0,
+      "avg_concurrent_persons": 0.0,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "weapon1_report-detection-0",
+      "source_report": "Output\\weapon1_report.json",
+      "category": "weapon",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "weapon1_report-detection-1",
+      "source_report": "Output\\weapon1_report.json",
+      "category": "fire",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "weapon1_report-detection-2",
+      "source_report": "Output\\weapon1_report.json",
+      "category": "smoke",
+      "detected": true,
+      "confidence": 0.4991,
+      "frames_detected": 3,
+      "duration_seconds": 0.2,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "MODERATE_CONFIDENCE_REVIEW",
+        "VERY_FEW_DETECTED_FRAMES",
+        "SHORT_DETECTION_INTERVAL"
+      ]
+    },
+    {
+      "evidence_id": "weapon1_report-detection-3",
+      "source_report": "Output\\weapon1_report.json",
+      "category": "person",
+      "detected": true,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": 3,
+      "avg_concurrent_persons": 1.33,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "weapon_report-detection-0",
+      "source_report": "Output\\weapon_report.json",
+      "category": "weapon",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "weapon_report-detection-1",
+      "source_report": "Output\\weapon_report.json",
+      "category": "fire",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "weapon_report-detection-2",
+      "source_report": "Output\\weapon_report.json",
+      "category": "smoke",
+      "detected": false,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": null,
+      "avg_concurrent_persons": null,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    },
+    {
+      "evidence_id": "weapon_report-detection-3",
+      "source_report": "Output\\weapon_report.json",
+      "category": "person",
+      "detected": true,
+      "confidence": null,
+      "frames_detected": null,
+      "duration_seconds": null,
+      "peak_concurrent_persons": 2,
+      "avg_concurrent_persons": 1.62,
+      "review_flags": [
+        "CONFIDENCE_UNAVAILABLE"
+      ]
+    }
+  ]
+}
