@@ -1,0 +1,123 @@
+{
+  "video_report_summary": [
+    {
+      "category": "weapon",
+      "detected": false,
+      "detection_count": 0,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no weapon detected"
+    },
+    {
+      "category": "fire",
+      "detected": false,
+      "detection_count": 0,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no fire detected"
+    },
+    {
+      "category": "smoke",
+      "detected": true,
+      "detection_count": 185,
+      "detection_frames": 185,
+      "detection_ratio": 1.0,
+      "average_confidence": 0.7291,
+      "max_confidence": 0.7969,
+      "message": "smoke detected"
+    },
+    {
+      "category": "person",
+      "detected": false,
+      "detection_count": 0,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no person detected"
+    }
+  ],
+  "gemini_understanding": {
+    "status": "unavailable",
+    "reason": "GEMINI_API_KEY not configured or client initialization failed. Analysis continues video-first.",
+    "description": null,
+    "text_evidence": {},
+    "threat_reconciliation": {}
+  },
+  "nlp_analysis": {
+    "generated_at": "2026-10-16T10:30:46.674072Z",
+    "entities": [],
+    "entity_counts_by_type": {},
+    "sentiment": {
+      "compound": 0.0,
+      "label": "neutral"
+    },
+    "threat_keywords": [],
+    "reconciliation": {
+      "weapon": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for weapon across modalities."
+      },
+      "fire": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for fire across modalities."
+      },
+      "smoke": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.7969,
+        "assessment": "Video detector detected smoke (max confidence 0.80); no text corroboration."
+      },
+      "person": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for person across modalities."
+      }
+    },
+    "total_articles_parsed": 0,
+    "gemini_text_included": false
+  },
+  "reconciliation": {
+    "weapon": {
+      "status": "NOT_DETECTED",
+      "video_detected": false,
+      "text_corroborated": false,
+      "confidence": 0.0,
+      "assessment": "No positive evidence detected for weapon across modalities."
+    },
+    "fire": {
+      "status": "NOT_DETECTED",
+      "video_detected": false,
+      "text_corroborated": false,
+      "confidence": 0.0,
+      "assessment": "No positive evidence detected for fire across modalities."
+    },
+    "smoke": {
+      "status": "DETECTOR_ONLY",
+      "video_detected": true,
+      "text_corroborated": false,
+      "confidence": 0.7969,
+      "assessment": "Video detector detected smoke (max confidence 0.80); no text corroboration."
+    },
+    "person": {
+      "status": "NOT_DETECTED",
+      "video_detected": false,
+      "text_corroborated": false,
+      "confidence": 0.0,
+      "assessment": "No positive evidence detected for person across modalities."
+    }
+  }
+}

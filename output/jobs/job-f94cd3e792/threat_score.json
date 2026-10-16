@@ -1,0 +1,37 @@
+{
+  "schema_version": "aegis.threat_fusion.v2",
+  "zone": "zone-alpha-1",
+  "reference_timestamp": "2026-10-16T10:42:55.907176Z",
+  "threat_score": 0.4697,
+  "aegis_threat_index_ati": 47.0,
+  "threat_level": "MEDIUM",
+  "threat_classification": "MULTI_MODAL_ARMED_ARSON_HAZARD",
+  "dominant_threat_category": "weapon",
+  "threat_detected": true,
+  "infrastructure_multiplier": 1.15,
+  "score_semantics": "Explainable linear weighted rule score scaled by critical infrastructure proximity multiplier (capped at 1.0 / ATI 100).",
+  "evidence_count": 2,
+  "contributions": [
+    {
+      "modality": "video",
+      "event_type": "weapon_detection",
+      "weight": 0.4,
+      "confidence": 0.6693,
+      "sub_score": 0.2677,
+      "reason": "Firearm/Weapon visually detected in CCTV (Weight: 0.40 \u00d7 Conf: 0.67)"
+    },
+    {
+      "modality": "video",
+      "event_type": "fire",
+      "weight": 0.25,
+      "confidence": 0.5628,
+      "sub_score": 0.1407,
+      "reason": "Active Fire signature detected in video (Weight: 0.25 \u00d7 Conf: 0.56)"
+    }
+  ],
+  "excluded_events": [],
+  "sub_scores": {
+    "weapon": 0.2677,
+    "fire": 0.1407
+  }
+}

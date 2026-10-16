@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-16T10:30:46.674072Z",
+  "entities": [],
+  "entity_counts_by_type": {},
+  "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+  },
+  "threat_keywords": [],
+  "reconciliation": {
+    "weapon": {
+      "status": "NOT_DETECTED",
+      "video_detected": false,
+      "text_corroborated": false,
+      "confidence": 0.0,
+      "assessment": "No positive evidence detected for weapon across modalities."
+    },
+    "fire": {
+      "status": "NOT_DETECTED",
+      "video_detected": false,
+      "text_corroborated": false,
+      "confidence": 0.0,
+      "assessment": "No positive evidence detected for fire across modalities."
+    },
+    "smoke": {
+      "status": "DETECTOR_ONLY",
+      "video_detected": true,
+      "text_corroborated": false,
+      "confidence": 0.7969,
+      "assessment": "Video detector detected smoke (max confidence 0.80); no text corroboration."
+    },
+    "person": {
+      "status": "NOT_DETECTED",
+      "video_detected": false,
+      "text_corroborated": false,
+      "confidence": 0.0,
+      "assessment": "No positive evidence detected for person across modalities."
+    }
+  },
+  "total_articles_parsed": 0,
+  "gemini_text_included": false
+}

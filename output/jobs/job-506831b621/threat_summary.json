@@ -1,0 +1,3365 @@
+{
+  "status": "success",
+  "job_id": "job-1792146647",
+  "execution_time_seconds": 76.16,
+  "timestamp": "2026-10-16T10:29:31.407261Z",
+  "event_overview": {
+    "video_name": "upload_1_smoke.mp4",
+    "location": "tamil nadu",
+    "coordinates": {
+      "latitude": 11.33237,
+      "longitude": 78.60986
+    },
+    "display_name": "Tamil Nadu, India",
+    "threat_level": "LOW",
+    "threat_detected": true,
+    "aegis_threat_index": 19.9,
+    "threat_classification": "ROUTINE_MONITORED_ACTIVITY",
+    "calculation_explanation": "AEGIS Threat Index (ATI: 19.9/100) calculated via weighted multimodal evidence: smoke (0.199) scaled by infrastructure proximity multiplier 1.0x.",
+    "analysis_status": "COMPLETED"
+  },
+  "person_and_crowd_analysis": {
+    "unique_people_count": 0,
+    "total_person_detections": 0,
+    "detections_vs_unique_explanation": "0 bounding-box detections were observed across 370 frames, corresponding to 0 unique tracked individuals identified through ByteTrack trajectory association.",
+    "peak_concurrent_persons": 0,
+    "avg_concurrent_persons": 0.0,
+    "venue_capacity": 1,
+    "crowd_over_capacity": false,
+    "occupancy_ratio": 0.0,
+    "unique_track_ids": []
+  },
+  "threat_detection": {
+    "dominant_threat_category": "smoke",
+    "ranked_threat_categories": [
+      {
+        "category": "smoke",
+        "label": "Smoke Plume",
+        "status": "DETECTED",
+        "confidence": 0.7969,
+        "detection_count": 185,
+        "frame_percentage": 100.0,
+        "severity": "MEDIUM",
+        "is_dominant": true,
+        "explanation": "Smoke Plume detected in 185 instances across video frames.",
+        "rank": 1
+      },
+      {
+        "category": "weapon",
+        "label": "Rifle / Handgun / Firearm",
+        "status": "NOT_DETECTED",
+        "confidence": 0.0,
+        "detection_count": 0,
+        "frame_percentage": 0.0,
+        "severity": "LOW",
+        "is_dominant": false,
+        "explanation": "No rifle / handgun / firearm detected in video footage.",
+        "rank": 2
+      },
+      {
+        "category": "fire",
+        "label": "Active Flame / Blaze",
+        "status": "NOT_DETECTED",
+        "confidence": 0.0,
+        "detection_count": 0,
+        "frame_percentage": 0.0,
+        "severity": "LOW",
+        "is_dominant": false,
+        "explanation": "No active flame / blaze detected in video footage.",
+        "rank": 3
+      },
+      {
+        "category": "suspicious_activity",
+        "label": "Anomalous Tactical Movement",
+        "status": "NOT_DETECTED",
+        "confidence": 0.0,
+        "detection_count": 0,
+        "frame_percentage": 0.0,
+        "severity": "LOW",
+        "is_dominant": false,
+        "explanation": "No anomalous tactical movement detected in video footage.",
+        "rank": 4
+      }
+    ]
+  },
+  "heatmaps_and_visualizations": {
+    "spatial_heatmap": {
+      "type": "eigencam_activation_overlay",
+      "available": true,
+      "artifact_name": "threat_highlight.jpg",
+      "frame_index": 242,
+      "timestamp_sec": 10.08,
+      "description": "EigenCAM class-agnostic feature activation overlay visualizing internal feature activations on the highest-confidence threat frame."
+    },
+    "annotated_video_artifact": "upload_1_smoke_analyzed.mp4",
+    "frame_timeline": [
+      {
+        "frame": 0,
+        "timestamp_sec": 0.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6311,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 2,
+        "timestamp_sec": 0.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6226,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 4,
+        "timestamp_sec": 0.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6094,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 6,
+        "timestamp_sec": 0.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6012,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 8,
+        "timestamp_sec": 0.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5973,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 10,
+        "timestamp_sec": 0.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6516,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 12,
+        "timestamp_sec": 0.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7175,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 14,
+        "timestamp_sec": 0.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7234,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 16,
+        "timestamp_sec": 0.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7263,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 18,
+        "timestamp_sec": 0.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7348,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 20,
+        "timestamp_sec": 0.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7204,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 22,
+        "timestamp_sec": 0.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7302,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 24,
+        "timestamp_sec": 1.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7445,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 26,
+        "timestamp_sec": 1.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7378,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 28,
+        "timestamp_sec": 1.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7498,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 30,
+        "timestamp_sec": 1.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7526,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 32,
+        "timestamp_sec": 1.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7564,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 34,
+        "timestamp_sec": 1.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7532,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 36,
+        "timestamp_sec": 1.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7621,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 38,
+        "timestamp_sec": 1.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7536,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 40,
+        "timestamp_sec": 1.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7574,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 42,
+        "timestamp_sec": 1.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7648,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 44,
+        "timestamp_sec": 1.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7598,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 46,
+        "timestamp_sec": 1.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7625,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 48,
+        "timestamp_sec": 2.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7496,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 50,
+        "timestamp_sec": 2.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7403,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 52,
+        "timestamp_sec": 2.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7538,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 54,
+        "timestamp_sec": 2.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.754,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 56,
+        "timestamp_sec": 2.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7751,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 58,
+        "timestamp_sec": 2.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.759,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 60,
+        "timestamp_sec": 2.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7434,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 62,
+        "timestamp_sec": 2.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7601,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 64,
+        "timestamp_sec": 2.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7482,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 66,
+        "timestamp_sec": 2.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7541,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 68,
+        "timestamp_sec": 2.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7527,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 70,
+        "timestamp_sec": 2.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7413,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 72,
+        "timestamp_sec": 3.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7224,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 74,
+        "timestamp_sec": 3.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6912,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 76,
+        "timestamp_sec": 3.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6936,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 78,
+        "timestamp_sec": 3.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6741,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 80,
+        "timestamp_sec": 3.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6646,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 82,
+        "timestamp_sec": 3.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6452,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 84,
+        "timestamp_sec": 3.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.647,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 86,
+        "timestamp_sec": 3.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6924,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 88,
+        "timestamp_sec": 3.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7074,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 90,
+        "timestamp_sec": 3.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7025,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 92,
+        "timestamp_sec": 3.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6456,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 94,
+        "timestamp_sec": 3.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6574,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 96,
+        "timestamp_sec": 4.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6632,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 98,
+        "timestamp_sec": 4.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.674,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 100,
+        "timestamp_sec": 4.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6433,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 102,
+        "timestamp_sec": 4.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6135,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 104,
+        "timestamp_sec": 4.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5482,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 106,
+        "timestamp_sec": 4.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5505,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 108,
+        "timestamp_sec": 4.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5357,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 110,
+        "timestamp_sec": 4.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5485,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 112,
+        "timestamp_sec": 4.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5572,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 114,
+        "timestamp_sec": 4.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.4946,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 116,
+        "timestamp_sec": 4.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5281,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 118,
+        "timestamp_sec": 4.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.5033,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 120,
+        "timestamp_sec": 5.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6432,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 122,
+        "timestamp_sec": 5.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6905,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 124,
+        "timestamp_sec": 5.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6754,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 126,
+        "timestamp_sec": 5.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6692,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 128,
+        "timestamp_sec": 5.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6849,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 130,
+        "timestamp_sec": 5.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6995,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 132,
+        "timestamp_sec": 5.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6979,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 134,
+        "timestamp_sec": 5.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6998,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 136,
+        "timestamp_sec": 5.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7169,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 138,
+        "timestamp_sec": 5.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7201,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 140,
+        "timestamp_sec": 5.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7192,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 142,
+        "timestamp_sec": 5.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7157,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 144,
+        "timestamp_sec": 6.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7208,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 146,
+        "timestamp_sec": 6.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7361,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 148,
+        "timestamp_sec": 6.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7449,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 150,
+        "timestamp_sec": 6.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7445,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 152,
+        "timestamp_sec": 6.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7561,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 154,
+        "timestamp_sec": 6.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7672,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 156,
+        "timestamp_sec": 6.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7724,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 158,
+        "timestamp_sec": 6.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7642,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 160,
+        "timestamp_sec": 6.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7733,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 162,
+        "timestamp_sec": 6.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7662,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 164,
+        "timestamp_sec": 6.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7617,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 166,
+        "timestamp_sec": 6.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7749,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 168,
+        "timestamp_sec": 7.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7778,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 170,
+        "timestamp_sec": 7.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.779,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 172,
+        "timestamp_sec": 7.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7821,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 174,
+        "timestamp_sec": 7.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7729,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 176,
+        "timestamp_sec": 7.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7697,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 178,
+        "timestamp_sec": 7.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7599,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 180,
+        "timestamp_sec": 7.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.741,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 182,
+        "timestamp_sec": 7.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7452,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 184,
+        "timestamp_sec": 7.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7529,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 186,
+        "timestamp_sec": 7.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7714,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 188,
+        "timestamp_sec": 7.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7791,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 190,
+        "timestamp_sec": 7.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7626,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 192,
+        "timestamp_sec": 8.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7691,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 194,
+        "timestamp_sec": 8.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.773,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 196,
+        "timestamp_sec": 8.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7706,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 198,
+        "timestamp_sec": 8.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7681,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 200,
+        "timestamp_sec": 8.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7601,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 202,
+        "timestamp_sec": 8.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.744,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 204,
+        "timestamp_sec": 8.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7333,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 206,
+        "timestamp_sec": 8.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7553,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 208,
+        "timestamp_sec": 8.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7712,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 210,
+        "timestamp_sec": 8.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.779,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 212,
+        "timestamp_sec": 8.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.789,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 214,
+        "timestamp_sec": 8.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.78,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 216,
+        "timestamp_sec": 9.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7677,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 218,
+        "timestamp_sec": 9.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7687,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 220,
+        "timestamp_sec": 9.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.772,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 222,
+        "timestamp_sec": 9.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.778,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 224,
+        "timestamp_sec": 9.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7863,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 226,
+        "timestamp_sec": 9.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7934,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 228,
+        "timestamp_sec": 9.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7844,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 230,
+        "timestamp_sec": 9.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7839,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 232,
+        "timestamp_sec": 9.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7747,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 234,
+        "timestamp_sec": 9.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7818,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 236,
+        "timestamp_sec": 9.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.784,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 238,
+        "timestamp_sec": 9.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7899,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 240,
+        "timestamp_sec": 10.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7952,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 242,
+        "timestamp_sec": 10.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7969,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 244,
+        "timestamp_sec": 10.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7777,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 246,
+        "timestamp_sec": 10.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.778,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 248,
+        "timestamp_sec": 10.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7772,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 250,
+        "timestamp_sec": 10.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7746,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 252,
+        "timestamp_sec": 10.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7846,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 254,
+        "timestamp_sec": 10.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7838,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 256,
+        "timestamp_sec": 10.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7907,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 258,
+        "timestamp_sec": 10.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7832,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 260,
+        "timestamp_sec": 10.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7768,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 262,
+        "timestamp_sec": 10.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7631,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 264,
+        "timestamp_sec": 11.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7731,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 266,
+        "timestamp_sec": 11.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7836,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 268,
+        "timestamp_sec": 11.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7807,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 270,
+        "timestamp_sec": 11.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7828,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 272,
+        "timestamp_sec": 11.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7826,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 274,
+        "timestamp_sec": 11.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7846,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 276,
+        "timestamp_sec": 11.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.778,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 278,
+        "timestamp_sec": 11.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7797,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 280,
+        "timestamp_sec": 11.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.785,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 282,
+        "timestamp_sec": 11.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7858,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 284,
+        "timestamp_sec": 11.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7825,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 286,
+        "timestamp_sec": 11.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7805,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 288,
+        "timestamp_sec": 12.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7792,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 290,
+        "timestamp_sec": 12.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7742,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 292,
+        "timestamp_sec": 12.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7737,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 294,
+        "timestamp_sec": 12.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7699,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 296,
+        "timestamp_sec": 12.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7711,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 298,
+        "timestamp_sec": 12.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7761,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 300,
+        "timestamp_sec": 12.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.766,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 302,
+        "timestamp_sec": 12.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7629,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 304,
+        "timestamp_sec": 12.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7555,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 306,
+        "timestamp_sec": 12.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7543,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 308,
+        "timestamp_sec": 12.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7527,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 310,
+        "timestamp_sec": 12.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7404,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 312,
+        "timestamp_sec": 13.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.726,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 314,
+        "timestamp_sec": 13.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7373,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 316,
+        "timestamp_sec": 13.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.738,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 318,
+        "timestamp_sec": 13.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7481,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 320,
+        "timestamp_sec": 13.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7239,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 322,
+        "timestamp_sec": 13.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6934,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 324,
+        "timestamp_sec": 13.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7172,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 326,
+        "timestamp_sec": 13.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6726,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 328,
+        "timestamp_sec": 13.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6448,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 330,
+        "timestamp_sec": 13.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6783,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 332,
+        "timestamp_sec": 13.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6359,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 334,
+        "timestamp_sec": 13.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7026,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 336,
+        "timestamp_sec": 14.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7065,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 338,
+        "timestamp_sec": 14.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7127,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 340,
+        "timestamp_sec": 14.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7168,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 342,
+        "timestamp_sec": 14.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7153,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 344,
+        "timestamp_sec": 14.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.6954,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 346,
+        "timestamp_sec": 14.42,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.704,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 348,
+        "timestamp_sec": 14.5,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7041,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 350,
+        "timestamp_sec": 14.58,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7075,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 352,
+        "timestamp_sec": 14.67,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.718,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 354,
+        "timestamp_sec": 14.75,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7153,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 356,
+        "timestamp_sec": 14.83,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7198,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 358,
+        "timestamp_sec": 14.92,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7191,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 360,
+        "timestamp_sec": 15.0,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7216,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 362,
+        "timestamp_sec": 15.08,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7327,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 364,
+        "timestamp_sec": 15.17,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7356,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 366,
+        "timestamp_sec": 15.25,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7413,
+          "person": 0.0
+        }
+      },
+      {
+        "frame": 368,
+        "timestamp_sec": 15.33,
+        "person_count": 0,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 1
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.7458,
+          "person": 0.0
+        }
+      }
+    ],
+    "category_comparison": [
+      {
+        "category": "weapon",
+        "detections": 0,
+        "frames": 0,
+        "max_confidence": 0.0,
+        "avg_confidence": 0.0
+      },
+      {
+        "category": "fire",
+        "detections": 0,
+        "frames": 0,
+        "max_confidence": 0.0,
+        "avg_confidence": 0.0
+      },
+      {
+        "category": "smoke",
+        "detections": 185,
+        "frames": 185,
+        "max_confidence": 0.7969,
+        "avg_confidence": 0.7291
+      },
+      {
+        "category": "person",
+        "detections": 0,
+        "frames": 0,
+        "max_confidence": 0.0,
+        "avg_confidence": 0.0
+      }
+    ]
+  },
+  "gemini_understanding": {
+    "status": "unavailable",
+    "reason": "GEMINI_API_KEY not configured or client initialization failed. Analysis continues video-first.",
+    "description": null,
+    "text_evidence": {},
+    "threat_reconciliation": {}
+  },
+  "osint_intelligence": {
+    "status": "no_verified_advisories",
+    "records_count": 0,
+    "records": []
+  },
+  "nlp_intelligence": {
+    "generated_at": "2026-10-16T10:30:46.674072Z",
+    "entities": [],
+    "entity_counts_by_type": {},
+    "sentiment": {
+      "compound": 0.0,
+      "label": "neutral"
+    },
+    "threat_keywords": [],
+    "reconciliation": {
+      "weapon": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for weapon across modalities."
+      },
+      "fire": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for fire across modalities."
+      },
+      "smoke": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.7969,
+        "assessment": "Video detector detected smoke (max confidence 0.80); no text corroboration."
+      },
+      "person": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for person across modalities."
+      }
+    },
+    "total_articles_parsed": 0,
+    "gemini_text_included": false
+  },
+  "representation_learning": {
+    "embedding_dimension": 384,
+    "raw_feature_count": 20,
+    "archetype_similarities": {
+      "Armed Assault Hazard": 0.0,
+      "Active Fire & Smoke Emergency": 0.4638,
+      "Mass Gathering & Civil Disorder": 0.0,
+      "Low Risk / Monitored Baseline": 0.0
+    },
+    "top_matching_archetype": "Active Fire & Smoke Emergency",
+    "feature_breakdown": {
+      "video_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7969,
+        1.0
+      ],
+      "crowd_features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nlp_features": [
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geospatial_features": [
+        -0.43338150000000003,
+        0.28699533333333327,
+        0.0,
+        0.0
+      ],
+      "osint_features": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "evidence_fusion": {
+    "ati_score": 19.9,
+    "threat_level": "LOW",
+    "classification": "ROUTINE_MONITORED_ACTIVITY",
+    "infrastructure_multiplier": 1.0,
+    "nearby_critical_infrastructure": [],
+    "feature_attribution": [
+      {
+        "factor": "smoke",
+        "modality": "video",
+        "raw_contribution": 0.1992,
+        "percentage_importance": 100.0,
+        "evidence_reason": "Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80)"
+      }
+    ],
+    "contributions": [
+      {
+        "modality": "video",
+        "event_type": "smoke",
+        "weight": 0.25,
+        "confidence": 0.7969,
+        "sub_score": 0.1992,
+        "reason": "Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80)"
+      }
+    ],
+    "excluded_events": []
+  },
+  "final_intelligence_report": {
+    "seven_questions": {
+      "q1_what_is_happening": "Surveillance video analysis indicates an incident involving SMOKE. A total of 370 frames were analyzed, identifying 185 threat frames.",
+      "q2_how_many_people": "0 unique individuals were tracked across the video feed using ByteTrack. Peak concurrent occupancy was 0 persons against a venue capacity of 1.",
+      "q3_which_threats_detected": "smoke (count: 185, max conf: 0.80)",
+      "q4_dominant_threat": "SMOKE is the dominant threat category based on severity ranking and persistent visual detections.",
+      "q5_overall_threat_severity_and_why": "The overall threat severity is assessed as LOW (ATI: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'. Rationale: The AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.",
+      "q6_evidence_supporting_conclusion": "Visual telemetry confirms 0 weapon detections (peak conf: 0.00), 0 fire detections, verified ByteTrack trajectories, and spatial EigenCAM feature activation structure.",
+      "q7_limitations_and_additional_info": "Automated neural network inference: model confidence represents perceptual activation, not calibrated ground-truth intent. Human review of footage is required before dispatching tactical assets. OSINT is supplementary."
+    },
+    "tactical_reasoning": "The AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.\n\nPrimary Drivers:\n \u2022 [VIDEO] Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80) (Impact: 100.0%)\n",
+    "recommendations": {
+      "immediate_directives_0_to_5_min": [
+        "Dispatch nearest Quick Reaction Team (QRT) / Patrol Unit to the verified camera sector.",
+        "Verify live perimeter access control and execute precautionary lockdown of high-density portals.",
+        "Notify emergency medical trauma unit at nearest facility for standby preparedness."
+      ],
+      "area_management_5_to_30_min": [
+        "Establish a 250m perimeter cordon around the verified visual coordinates.",
+        "Reroute pedestrian and vehicular traffic away from the immediate hazard zone.",
+        "Deploy PTZ camera tracking and aerial surveillance on secondary avenues of egress."
+      ],
+      "intelligence_and_investigation": [
+        "Preserve raw CCTV video streams, YOLOv11 bounding boxes, and ByteTrack track IDs for digital forensics.",
+        "Cross-reference suspect visual signatures with regional law enforcement watchlists.",
+        "Monitor regional OSINT news feeds for coordinated disturbance indicators."
+      ]
+    },
+    "timeline": [
+      {
+        "timestamp": 0.0,
+        "time_display": "+0.00s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.6311020851135254,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.08,
+        "time_display": "+0.08s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.6226489543914795,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.17,
+        "time_display": "+0.17s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.6094368696212769,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.25,
+        "time_display": "+0.25s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.6011540293693542,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.33,
+        "time_display": "+0.33s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.597292423248291,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.42,
+        "time_display": "+0.42s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.651565670967102,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.5,
+        "time_display": "+0.50s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7174518704414368,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.58,
+        "time_display": "+0.58s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7233949303627014,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.67,
+        "time_display": "+0.67s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7262610197067261,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.75,
+        "time_display": "+0.75s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7348049879074097,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.83,
+        "time_display": "+0.83s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7204160094261169,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 0.92,
+        "time_display": "+0.92s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7301934957504272,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 1.0,
+        "time_display": "+1.00s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7444577217102051,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 1.08,
+        "time_display": "+1.08s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7378441691398621,
+        "severity": "Medium"
+      },
+      {
+        "timestamp": 1.17,
+        "time_display": "+1.17s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: smoke",
+        "confidence": 0.7498298287391663,
+        "severity": "Medium"
+      }
+    ],
+    "executive_summary_markdown": "# \ud83d\udee1\ufe0f AEGIS EXECUTIVE THREAT INTELLIGENCE REPORT\n**Generated At:** 2026-10-16T10:30:47.560131Z  \n**System Status:** Multimodal Intelligence Pipeline Synchronized  \n**Operational Zone:** zone-alpha-1  \n\n---\n\n## \ud83d\udea8 Threat Index & Executive Assessment\n\n| Metric | Assessment |\n| :--- | :--- |\n| **AEGIS Threat Index (ATI)** | **19.9 / 100** |\n| **Official Threat Level** | **LOW** |\n| **Threat Classification** | `ROUTINE_MONITORED_ACTIVITY` |\n| **Dominant Threat Category** | `SMOKE` |\n| **Infrastructure Proximity Multiplier** | **1.0x** |\n\n---\n\n## \ud83d\udccb Comprehensive Intelligence Answers (7 Core Questions)\n\n1. **What is happening in the video?**  \n   Surveillance video analysis indicates an incident involving SMOKE. A total of 370 frames were analyzed, identifying 185 threat frames.\n\n2. **How many people are visible or reliably tracked?**  \n   0 unique individuals were tracked across the video feed using ByteTrack. Peak concurrent occupancy was 0 persons against a venue capacity of 1.\n\n3. **Which threats were detected?**  \n   smoke (count: 185, max conf: 0.80)\n\n4. **Which threat category is dominant?**  \n   SMOKE is the dominant threat category based on severity ranking and persistent visual detections.\n\n5. **What is the overall threat severity and why?**  \n   The overall threat severity is assessed as LOW (ATI: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'. Rationale: The AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.\n\n6. **What evidence supports the conclusion?**  \n   Visual telemetry confirms 0 weapon detections (peak conf: 0.00), 0 fire detections, verified ByteTrack trajectories, and spatial EigenCAM feature activation structure.\n\n7. **What additional information or limitations affect the result?**  \n   Automated neural network inference: model confidence represents perceptual activation, not calibrated ground-truth intent. Human review of footage is required before dispatching tactical assets. OSINT is supplementary.\n\n---\n\n## \ud83d\udd0d Explainable AI (SHAP-Style Feature Attribution)\n\nDecomposition of factors contributing to the AEGIS Threat Index:\n\n- **SMOKE** (video): **100.0%** of score  \n  *Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80)*\n\n---\n\n## \ud83e\udde0 Tactical Reasoning & Correlation Analysis\n\nThe AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.\n\nPrimary Drivers:\n \u2022 [VIDEO] Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80) (Impact: 100.0%)\n\n\n---\n\n## \ud83d\uddfa\ufe0f Geospatial & Critical Infrastructure Vulnerability\n\n---\n\n## \ud83d\udccb Recommended Action Plan\n\n### \u23f1\ufe0f Immediate Directives (0 - 5 Minutes)\n1. Dispatch nearest Quick Reaction Team (QRT) / Patrol Unit to the verified camera sector.\n1. Verify live perimeter access control and execute precautionary lockdown of high-density portals.\n1. Notify emergency medical trauma unit at nearest facility for standby preparedness.\n\n### \u23f1\ufe0f Area Management & Containment (5 - 30 Minutes)\n1. Establish a 250m perimeter cordon around the verified visual coordinates.\n1. Reroute pedestrian and vehicular traffic away from the immediate hazard zone.\n1. Deploy PTZ camera tracking and aerial surveillance on secondary avenues of egress.\n\n### \ud83d\udee1\ufe0f Ongoing Intelligence & Forensic Protocols\n1. Preserve raw CCTV video streams, YOLOv11 bounding boxes, and ByteTrack track IDs for digital forensics.\n1. Cross-reference suspect visual signatures with regional law enforcement watchlists.\n1. Monitor regional OSINT news feeds for coordinated disturbance indicators.\n\n---\n*Report generated automatically by the AEGIS Open-Source Intelligence & Threat Analysis Platform.*\n"
+  },
+  "artifacts_directory": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/jobs/job-506831b621"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "EigenCAM-style first-principal-component activation map",
+  "method_scope": "class_agnostic_feature_activation_visualization",
+  "source_image": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/input/YOUTUBE_YouTubeCCTV196_gun_2.mp4#frame=78",
+  "checkpoint": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/weapon_detection_project/ml_models/weapon/best.pt",
+  "overlay_path": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/threat_highlight.jpg",
+  "target_layer": "model.model[22]::C3k2",
+  "feature_map_shape_chw": [
+    256,
+    12,
+    20
+  ],
+  "confidence_threshold": 0.25,
+  "detections": [],
+  "limitations": [
+    "EigenCAM is class-agnostic; it does not explain one specific class score.",
+    "A heatmap is not causal proof and may highlight context or artifacts.",
+    "Human review is required; do not treat the overlay alone as evidence an event is real."
+  ],
+  "source_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/input/YOUTUBE_YouTubeCCTV196_gun_2.mp4",
+  "frame_index": 78,
+  "frame_timestamp_seconds": 2.6,
+  "video_fps": 30.0,
+  "video_total_frames": 90
+}

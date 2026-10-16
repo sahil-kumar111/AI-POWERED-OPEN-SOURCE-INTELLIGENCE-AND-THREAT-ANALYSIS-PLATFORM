@@ -1,0 +1,43 @@
+{
+  "embedding_dimension": 384,
+  "raw_feature_count": 20,
+  "archetype_similarities": {
+    "Armed Assault Hazard": 0.0,
+    "Active Fire & Smoke Emergency": 0.4638,
+    "Mass Gathering & Civil Disorder": 0.0,
+    "Low Risk / Monitored Baseline": 0.0
+  },
+  "top_matching_archetype": "Active Fire & Smoke Emergency",
+  "feature_breakdown": {
+    "video_features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.7969,
+      1.0
+    ],
+    "crowd_features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "nlp_features": [
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "geospatial_features": [
+      -0.43338150000000003,
+      0.28699533333333327,
+      0.0,
+      0.0
+    ],
+    "osint_features": [
+      0.0,
+      0.0
+    ]
+  }
+}

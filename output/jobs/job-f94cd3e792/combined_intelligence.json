@@ -1,0 +1,123 @@
+{
+  "video_report_summary": [
+    {
+      "category": "weapon",
+      "detected": true,
+      "detection_count": 57,
+      "detection_frames": 41,
+      "detection_ratio": 0.9111,
+      "average_confidence": 0.4736,
+      "max_confidence": 0.6693,
+      "message": "weapon detected"
+    },
+    {
+      "category": "fire",
+      "detected": true,
+      "detection_count": 8,
+      "detection_frames": 8,
+      "detection_ratio": 0.1778,
+      "average_confidence": 0.521,
+      "max_confidence": 0.5628,
+      "message": "fire detected"
+    },
+    {
+      "category": "smoke",
+      "detected": false,
+      "detection_count": 0,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no smoke detected"
+    },
+    {
+      "category": "person",
+      "detected": true,
+      "detection_count": 99,
+      "detection_frames": 45,
+      "detection_ratio": 1.0,
+      "average_confidence": 0.7529,
+      "max_confidence": 0.8944,
+      "message": "person detected"
+    }
+  ],
+  "gemini_understanding": {
+    "status": "api_error",
+    "reason": "Gemini API request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Analysis proceeded video-first.",
+    "description": null,
+    "text_evidence": {},
+    "threat_reconciliation": {}
+  },
+  "nlp_analysis": {
+    "generated_at": "2026-10-16T10:43:52.373330Z",
+    "entities": [],
+    "entity_counts_by_type": {},
+    "sentiment": {
+      "compound": 0.0,
+      "label": "neutral"
+    },
+    "threat_keywords": [],
+    "reconciliation": {
+      "weapon": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.6693,
+        "assessment": "Video detector detected weapon (max confidence 0.67); no text corroboration."
+      },
+      "fire": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.5628,
+        "assessment": "Video detector detected fire (max confidence 0.56); no text corroboration."
+      },
+      "smoke": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for smoke across modalities."
+      },
+      "person": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.8944,
+        "assessment": "Video detector detected person (max confidence 0.89); no text corroboration."
+      }
+    },
+    "total_articles_parsed": 0,
+    "gemini_text_included": false
+  },
+  "reconciliation": {
+    "weapon": {
+      "status": "DETECTOR_ONLY",
+      "video_detected": true,
+      "text_corroborated": false,
+      "confidence": 0.6693,
+      "assessment": "Video detector detected weapon (max confidence 0.67); no text corroboration."
+    },
+    "fire": {
+      "status": "DETECTOR_ONLY",
+      "video_detected": true,
+      "text_corroborated": false,
+      "confidence": 0.5628,
+      "assessment": "Video detector detected fire (max confidence 0.56); no text corroboration."
+    },
+    "smoke": {
+      "status": "NOT_DETECTED",
+      "video_detected": false,
+      "text_corroborated": false,
+      "confidence": 0.0,
+      "assessment": "No positive evidence detected for smoke across modalities."
+    },
+    "person": {
+      "status": "DETECTOR_ONLY",
+      "video_detected": true,
+      "text_corroborated": false,
+      "confidence": 0.8944,
+      "assessment": "Video detector detected person (max confidence 0.89); no text corroboration."
+    }
+  }
+}

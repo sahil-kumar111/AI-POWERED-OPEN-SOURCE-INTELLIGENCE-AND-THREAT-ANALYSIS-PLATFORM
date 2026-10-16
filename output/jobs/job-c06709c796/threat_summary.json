@@ -1,0 +1,957 @@
+{
+  "status": "success",
+  "job_id": "job-1792145906",
+  "execution_time_seconds": 17.43,
+  "timestamp": "2026-10-16T10:18:08.866477Z",
+  "event_overview": {
+    "video_name": "YOUTUBE_YouTubeCCTV196_gun_2.mp4",
+    "location": "Connaught Place, New Delhi",
+    "coordinates": {
+      "latitude": 28.63177,
+      "longitude": 77.21938
+    },
+    "display_name": "Connaught Place, New Delhi, Delhi, 110001, India",
+    "threat_level": "MEDIUM",
+    "threat_detected": true,
+    "aegis_threat_index": 46.9,
+    "threat_classification": "MULTI_MODAL_ARMED_ARSON_HAZARD",
+    "calculation_explanation": "AEGIS Threat Index (ATI: 46.9/100) calculated via weighted multimodal evidence: weapon_detection (0.265), fire (0.143) scaled by infrastructure proximity multiplier 1.15x.",
+    "analysis_status": "COMPLETED"
+  },
+  "person_and_crowd_analysis": {
+    "unique_people_count": 3,
+    "total_person_detections": 63,
+    "detections_vs_unique_explanation": "63 bounding-box detections were observed across 90 frames, corresponding to 3 unique tracked individuals identified through ByteTrack trajectory association.",
+    "peak_concurrent_persons": 3,
+    "avg_concurrent_persons": 2.1,
+    "venue_capacity": 15,
+    "crowd_over_capacity": false,
+    "occupancy_ratio": 0.2,
+    "unique_track_ids": [
+      1,
+      2,
+      3
+    ]
+  },
+  "threat_detection": {
+    "dominant_threat_category": "weapon",
+    "ranked_threat_categories": [
+      {
+        "category": "weapon",
+        "label": "Rifle / Handgun / Firearm",
+        "status": "DETECTED",
+        "confidence": 0.6631,
+        "detection_count": 39,
+        "frame_percentage": 96.7,
+        "severity": "CRITICAL",
+        "is_dominant": true,
+        "explanation": "Rifle / Handgun / Firearm detected in 39 instances across video frames.",
+        "rank": 1
+      },
+      {
+        "category": "fire",
+        "label": "Active Flame / Blaze",
+        "status": "DETECTED",
+        "confidence": 0.5725,
+        "detection_count": 7,
+        "frame_percentage": 23.3,
+        "severity": "HIGH",
+        "is_dominant": false,
+        "explanation": "Active Flame / Blaze detected in 7 instances across video frames.",
+        "rank": 2
+      },
+      {
+        "category": "smoke",
+        "label": "Smoke Plume",
+        "status": "NOT_DETECTED",
+        "confidence": 0.0,
+        "detection_count": 0,
+        "frame_percentage": 0.0,
+        "severity": "LOW",
+        "is_dominant": false,
+        "explanation": "No smoke plume detected in video footage.",
+        "rank": 3
+      },
+      {
+        "category": "suspicious_activity",
+        "label": "Anomalous Tactical Movement",
+        "status": "NOT_DETECTED",
+        "confidence": 0.0,
+        "detection_count": 0,
+        "frame_percentage": 0.0,
+        "severity": "LOW",
+        "is_dominant": false,
+        "explanation": "No anomalous tactical movement detected in video footage.",
+        "rank": 4
+      }
+    ]
+  },
+  "heatmaps_and_visualizations": {
+    "spatial_heatmap": {
+      "type": "eigencam_activation_overlay",
+      "available": true,
+      "artifact_name": "threat_highlight.jpg",
+      "frame_index": 78,
+      "timestamp_sec": 2.6,
+      "description": "EigenCAM class-agnostic feature activation overlay visualizing internal feature activations on the highest-confidence threat frame."
+    },
+    "annotated_video_artifact": "YOUTUBE_YouTubeCCTV196_gun_2_analyzed.mp4",
+    "frame_timeline": [
+      {
+        "frame": 0,
+        "timestamp_sec": 0.0,
+        "person_count": 1,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 1,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.579,
+          "fire": 0.5372,
+          "smoke": 0.0,
+          "person": 0.7302
+        }
+      },
+      {
+        "frame": 3,
+        "timestamp_sec": 0.1,
+        "person_count": 1,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 1,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.518,
+          "fire": 0.4901,
+          "smoke": 0.0,
+          "person": 0.7884
+        }
+      },
+      {
+        "frame": 6,
+        "timestamp_sec": 0.2,
+        "person_count": 1,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 1,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5447,
+          "fire": 0.5628,
+          "smoke": 0.0,
+          "person": 0.8631
+        }
+      },
+      {
+        "frame": 9,
+        "timestamp_sec": 0.3,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 1,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5213,
+          "fire": 0.5725,
+          "smoke": 0.0,
+          "person": 0.8361
+        }
+      },
+      {
+        "frame": 12,
+        "timestamp_sec": 0.4,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 1,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5544,
+          "fire": 0.4892,
+          "smoke": 0.0,
+          "person": 0.8095
+        }
+      },
+      {
+        "frame": 15,
+        "timestamp_sec": 0.5,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 1,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4384,
+          "fire": 0.4062,
+          "smoke": 0.0,
+          "person": 0.787
+        }
+      },
+      {
+        "frame": 18,
+        "timestamp_sec": 0.6,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 1,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.3942,
+          "fire": 0.4341,
+          "smoke": 0.0,
+          "person": 0.8539
+        }
+      },
+      {
+        "frame": 21,
+        "timestamp_sec": 0.7,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.3414,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8653
+        }
+      },
+      {
+        "frame": 24,
+        "timestamp_sec": 0.8,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5008,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8847
+        }
+      },
+      {
+        "frame": 27,
+        "timestamp_sec": 0.9,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.306,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8532
+        }
+      },
+      {
+        "frame": 30,
+        "timestamp_sec": 1.0,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 0,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.0,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8644
+        }
+      },
+      {
+        "frame": 33,
+        "timestamp_sec": 1.1,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.3223,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8684
+        }
+      },
+      {
+        "frame": 36,
+        "timestamp_sec": 1.2,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.3401,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8698
+        }
+      },
+      {
+        "frame": 39,
+        "timestamp_sec": 1.3,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4953,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8288
+        }
+      },
+      {
+        "frame": 42,
+        "timestamp_sec": 1.4,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4735,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8208
+        }
+      },
+      {
+        "frame": 45,
+        "timestamp_sec": 1.5,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.604,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8029
+        }
+      },
+      {
+        "frame": 48,
+        "timestamp_sec": 1.6,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4566,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8141
+        }
+      },
+      {
+        "frame": 51,
+        "timestamp_sec": 1.7,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4882,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8376
+        }
+      },
+      {
+        "frame": 54,
+        "timestamp_sec": 1.8,
+        "person_count": 3,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5694,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.7891
+        }
+      },
+      {
+        "frame": 57,
+        "timestamp_sec": 1.9,
+        "person_count": 3,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5181,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.7903
+        }
+      },
+      {
+        "frame": 60,
+        "timestamp_sec": 2.0,
+        "person_count": 3,
+        "threat_counts": {
+          "weapon": 1,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.467,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8006
+        }
+      },
+      {
+        "frame": 63,
+        "timestamp_sec": 2.1,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.52,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.7746
+        }
+      },
+      {
+        "frame": 66,
+        "timestamp_sec": 2.2,
+        "person_count": 3,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4776,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.7699
+        }
+      },
+      {
+        "frame": 69,
+        "timestamp_sec": 2.3,
+        "person_count": 3,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5935,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8071
+        }
+      },
+      {
+        "frame": 72,
+        "timestamp_sec": 2.4,
+        "person_count": 3,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5908,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8091
+        }
+      },
+      {
+        "frame": 75,
+        "timestamp_sec": 2.5,
+        "person_count": 3,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.6178,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8347
+        }
+      },
+      {
+        "frame": 78,
+        "timestamp_sec": 2.6,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.6631,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8628
+        }
+      },
+      {
+        "frame": 81,
+        "timestamp_sec": 2.7,
+        "person_count": 1,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.5637,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8625
+        }
+      },
+      {
+        "frame": 84,
+        "timestamp_sec": 2.8,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4499,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8894
+        }
+      },
+      {
+        "frame": 87,
+        "timestamp_sec": 2.9,
+        "person_count": 2,
+        "threat_counts": {
+          "weapon": 2,
+          "fire": 0,
+          "smoke": 0
+        },
+        "max_confidence": {
+          "weapon": 0.4485,
+          "fire": 0.0,
+          "smoke": 0.0,
+          "person": 0.8318
+        }
+      }
+    ],
+    "category_comparison": [
+      {
+        "category": "weapon",
+        "detections": 39,
+        "frames": 29,
+        "max_confidence": 0.6631,
+        "avg_confidence": 0.4582
+      },
+      {
+        "category": "fire",
+        "detections": 7,
+        "frames": 7,
+        "max_confidence": 0.5725,
+        "avg_confidence": 0.4989
+      },
+      {
+        "category": "smoke",
+        "detections": 0,
+        "frames": 0,
+        "max_confidence": 0.0,
+        "avg_confidence": 0.0
+      },
+      {
+        "category": "person",
+        "detections": 63,
+        "frames": 30,
+        "max_confidence": 0.8894,
+        "avg_confidence": 0.751
+      }
+    ]
+  },
+  "gemini_understanding": {
+    "status": "unavailable",
+    "reason": "GEMINI_API_KEY not configured or client initialization failed. Analysis continues video-first.",
+    "description": null,
+    "text_evidence": {},
+    "threat_reconciliation": {}
+  },
+  "osint_intelligence": {
+    "status": "no_verified_advisories",
+    "records_count": 0,
+    "records": []
+  },
+  "nlp_intelligence": {
+    "generated_at": "2026-10-16T10:18:25.400288Z",
+    "entities": [],
+    "entity_counts_by_type": {},
+    "sentiment": {
+      "compound": 0.0,
+      "label": "neutral"
+    },
+    "threat_keywords": [],
+    "reconciliation": {
+      "weapon": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.6631,
+        "assessment": "Video detector detected weapon (max confidence 0.66); no text corroboration."
+      },
+      "fire": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.5725,
+        "assessment": "Video detector detected fire (max confidence 0.57); no text corroboration."
+      },
+      "smoke": {
+        "status": "NOT_DETECTED",
+        "video_detected": false,
+        "text_corroborated": false,
+        "confidence": 0.0,
+        "assessment": "No positive evidence detected for smoke across modalities."
+      },
+      "person": {
+        "status": "DETECTOR_ONLY",
+        "video_detected": true,
+        "text_corroborated": false,
+        "confidence": 0.8894,
+        "assessment": "Video detector detected person (max confidence 0.89); no text corroboration."
+      }
+    },
+    "total_articles_parsed": 0,
+    "gemini_text_included": false
+  },
+  "representation_learning": {
+    "embedding_dimension": 384,
+    "raw_feature_count": 20,
+    "archetype_similarities": {
+      "Armed Assault Hazard": 0.7335,
+      "Active Fire & Smoke Emergency": 0.4071,
+      "Mass Gathering & Civil Disorder": 0.3741,
+      "Low Risk / Monitored Baseline": 0.0
+    },
+    "top_matching_archetype": "Armed Assault Hazard",
+    "feature_breakdown": {
+      "video_features": [
+        0.6631,
+        0.9667,
+        0.5725,
+        0.2333,
+        0.0,
+        0.0
+      ],
+      "crowd_features": [
+        0.06,
+        0.06,
+        0.2,
+        0.0
+      ],
+      "nlp_features": [
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "geospatial_features": [
+        0.4315885,
+        0.24064600000000003,
+        0.977,
+        0.7
+      ],
+      "osint_features": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "evidence_fusion": {
+    "ati_score": 46.9,
+    "threat_level": "MEDIUM",
+    "classification": "MULTI_MODAL_ARMED_ARSON_HAZARD",
+    "infrastructure_multiplier": 1.15,
+    "nearby_critical_infrastructure": [
+      {
+        "name": "Rajiv Chowk Metro Station",
+        "category": "Transit Hub (Metro)",
+        "lat": 28.6328,
+        "lon": 77.2195,
+        "city": "New Delhi",
+        "distance_km": 0.115,
+        "bearing": "Sector NE"
+      },
+      {
+        "name": "Connaught Place Police Station",
+        "category": "Police Station",
+        "lat": 28.6325,
+        "lon": 77.2185,
+        "city": "New Delhi",
+        "distance_km": 0.118,
+        "bearing": "Sector NW"
+      },
+      {
+        "name": "BSES Yamuna Power Substation",
+        "category": "Energy / Utility",
+        "lat": 28.637,
+        "lon": 77.225,
+        "city": "New Delhi",
+        "distance_km": 0.799,
+        "bearing": "Sector NE"
+      },
+      {
+        "name": "Modern School Barakhamba",
+        "category": "Educational Institute",
+        "lat": 28.629,
+        "lon": 77.2285,
+        "city": "New Delhi",
+        "distance_km": 0.942,
+        "bearing": "Sector SE"
+      },
+      {
+        "name": "New Delhi Railway Station",
+        "category": "Transit Hub (Rail)",
+        "lat": 28.643,
+        "lon": 77.2197,
+        "city": "New Delhi",
+        "distance_km": 1.249,
+        "bearing": "Sector NE"
+      }
+    ],
+    "feature_attribution": [
+      {
+        "factor": "weapon_detection",
+        "modality": "video",
+        "raw_contribution": 0.2652,
+        "percentage_importance": 56.5,
+        "evidence_reason": "Firearm/Weapon visually detected in CCTV (Weight: 0.40 \u00d7 Conf: 0.66)"
+      },
+      {
+        "factor": "fire",
+        "modality": "video",
+        "raw_contribution": 0.1431,
+        "percentage_importance": 30.5,
+        "evidence_reason": "Active Fire signature detected in video (Weight: 0.25 \u00d7 Conf: 0.57)"
+      },
+      {
+        "factor": "critical_infrastructure_proximity",
+        "modality": "geospatial",
+        "raw_contribution": 0.0612,
+        "percentage_importance": 13.0,
+        "evidence_reason": "Proximity to high-value infrastructure (Rajiv Chowk Metro Station) applied a 1.15x priority multiplier."
+      }
+    ],
+    "contributions": [
+      {
+        "modality": "video",
+        "event_type": "weapon_detection",
+        "weight": 0.4,
+        "confidence": 0.6631,
+        "sub_score": 0.2652,
+        "reason": "Firearm/Weapon visually detected in CCTV (Weight: 0.40 \u00d7 Conf: 0.66)"
+      },
+      {
+        "modality": "video",
+        "event_type": "fire",
+        "weight": 0.25,
+        "confidence": 0.5725,
+        "sub_score": 0.1431,
+        "reason": "Active Fire signature detected in video (Weight: 0.25 \u00d7 Conf: 0.57)"
+      }
+    ],
+    "excluded_events": []
+  },
+  "final_intelligence_report": {
+    "seven_questions": {
+      "q1_what_is_happening": "Surveillance video analysis indicates an incident involving WEAPON. A total of 90 frames were analyzed, identifying 29 threat frames.",
+      "q2_how_many_people": "3 unique individuals were tracked across the video feed using ByteTrack. Peak concurrent occupancy was 3 persons against a venue capacity of 15.",
+      "q3_which_threats_detected": "weapon (count: 39, max conf: 0.66), fire (count: 7, max conf: 0.57)",
+      "q4_dominant_threat": "WEAPON is the dominant threat category based on severity ranking and persistent visual detections.",
+      "q5_overall_threat_severity_and_why": "The overall threat severity is assessed as MEDIUM (ATI: 46.9/100) under classification 'MULTI_MODAL_ARMED_ARSON_HAZARD'. Rationale: The AEGIS Threat Analysis Engine assessed the operational risk as MEDIUM (AEGIS Threat Index: 46.9/100) under classification 'MULTI_MODAL_ARMED_ARSON_HAZARD'.",
+      "q6_evidence_supporting_conclusion": "Visual telemetry confirms 39 weapon detections (peak conf: 0.66), 7 fire detections, verified ByteTrack trajectories, and spatial EigenCAM feature activation structure.",
+      "q7_limitations_and_additional_info": "Automated neural network inference: model confidence represents perceptual activation, not calibrated ground-truth intent. Human review of footage is required before dispatching tactical assets. OSINT is supplementary."
+    },
+    "tactical_reasoning": "The AEGIS Threat Analysis Engine assessed the operational risk as MEDIUM (AEGIS Threat Index: 46.9/100) under classification 'MULTI_MODAL_ARMED_ARSON_HAZARD'.\n\nPrimary Drivers:\n \u2022 [VIDEO] Firearm/Weapon visually detected in CCTV (Weight: 0.40 \u00d7 Conf: 0.66) (Impact: 56.5%)\n \u2022 [VIDEO] Active Fire signature detected in video (Weight: 0.25 \u00d7 Conf: 0.57) (Impact: 30.5%)\n \u2022 [GEOSPATIAL] Proximity to high-value infrastructure (Rajiv Chowk Metro Station) applied a 1.15x priority multiplier. (Impact: 13.0%)\n\nGeospatial Vulnerability: Situated within 0.115 km of 'Rajiv Chowk Metro Station' (Transit Hub (Metro)).",
+    "recommendations": {
+      "immediate_directives_0_to_5_min": [
+        "Dispatch nearest Quick Reaction Team (QRT) / Patrol Unit to the verified camera sector.",
+        "Verify live perimeter access control and execute precautionary lockdown of high-density portals.",
+        "Notify emergency medical trauma unit at nearest facility for standby preparedness."
+      ],
+      "area_management_5_to_30_min": [
+        "Establish a 250m perimeter cordon around the verified visual coordinates.",
+        "Reroute pedestrian and vehicular traffic away from the immediate hazard zone.",
+        "Deploy PTZ camera tracking and aerial surveillance on secondary avenues of egress."
+      ],
+      "intelligence_and_investigation": [
+        "Preserve raw CCTV video streams, YOLOv11 bounding boxes, and ByteTrack track IDs for digital forensics.",
+        "Cross-reference suspect visual signatures with regional law enforcement watchlists.",
+        "Monitor regional OSINT news feeds for coordinated disturbance indicators."
+      ]
+    },
+    "timeline": [
+      {
+        "timestamp": 0.0,
+        "time_display": "+0.00s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: fire, weapon",
+        "confidence": 0.5790404677391052,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.1,
+        "time_display": "+0.10s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: fire, weapon",
+        "confidence": 0.5179829597473145,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.2,
+        "time_display": "+0.20s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: fire, weapon",
+        "confidence": 0.5446715354919434,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.3,
+        "time_display": "+0.30s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: fire, weapon",
+        "confidence": 0.5212686061859131,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.4,
+        "time_display": "+0.40s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: fire, weapon",
+        "confidence": 0.554401695728302,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.5,
+        "time_display": "+0.50s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: fire, weapon",
+        "confidence": 0.43843892216682434,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.6,
+        "time_display": "+0.60s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: fire, weapon",
+        "confidence": 0.39420267939567566,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.7,
+        "time_display": "+0.70s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.3414246439933777,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.8,
+        "time_display": "+0.80s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.5007661581039429,
+        "severity": "High"
+      },
+      {
+        "timestamp": 0.9,
+        "time_display": "+0.90s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.3059885799884796,
+        "severity": "High"
+      },
+      {
+        "timestamp": 1.1,
+        "time_display": "+1.10s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.3222939968109131,
+        "severity": "High"
+      },
+      {
+        "timestamp": 1.2,
+        "time_display": "+1.20s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.34014999866485596,
+        "severity": "High"
+      },
+      {
+        "timestamp": 1.3,
+        "time_display": "+1.30s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.49530112743377686,
+        "severity": "High"
+      },
+      {
+        "timestamp": 1.4,
+        "time_display": "+1.40s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.4735400080680847,
+        "severity": "High"
+      },
+      {
+        "timestamp": 1.5,
+        "time_display": "+1.50s (CCTV)",
+        "source": "Video Intelligence (YOLOv11)",
+        "event": "Visual Detection: weapon",
+        "confidence": 0.6040222644805908,
+        "severity": "High"
+      }
+    ],
+    "executive_summary_markdown": "# \ud83d\udee1\ufe0f AEGIS EXECUTIVE THREAT INTELLIGENCE REPORT\n**Generated At:** 2026-10-16T10:18:26.294469Z  \n**System Status:** Multimodal Intelligence Pipeline Synchronized  \n**Operational Zone:** zone-alpha-1  \n\n---\n\n## \ud83d\udea8 Threat Index & Executive Assessment\n\n| Metric | Assessment |\n| :--- | :--- |\n| **AEGIS Threat Index (ATI)** | **46.9 / 100** |\n| **Official Threat Level** | **MEDIUM** |\n| **Threat Classification** | `MULTI_MODAL_ARMED_ARSON_HAZARD` |\n| **Dominant Threat Category** | `WEAPON` |\n| **Infrastructure Proximity Multiplier** | **1.15x** |\n\n---\n\n## \ud83d\udccb Comprehensive Intelligence Answers (7 Core Questions)\n\n1. **What is happening in the video?**  \n   Surveillance video analysis indicates an incident involving WEAPON. A total of 90 frames were analyzed, identifying 29 threat frames.\n\n2. **How many people are visible or reliably tracked?**  \n   3 unique individuals were tracked across the video feed using ByteTrack. Peak concurrent occupancy was 3 persons against a venue capacity of 15.\n\n3. **Which threats were detected?**  \n   weapon (count: 39, max conf: 0.66), fire (count: 7, max conf: 0.57)\n\n4. **Which threat category is dominant?**  \n   WEAPON is the dominant threat category based on severity ranking and persistent visual detections.\n\n5. **What is the overall threat severity and why?**  \n   The overall threat severity is assessed as MEDIUM (ATI: 46.9/100) under classification 'MULTI_MODAL_ARMED_ARSON_HAZARD'. Rationale: The AEGIS Threat Analysis Engine assessed the operational risk as MEDIUM (AEGIS Threat Index: 46.9/100) under classification 'MULTI_MODAL_ARMED_ARSON_HAZARD'.\n\n6. **What evidence supports the conclusion?**  \n   Visual telemetry confirms 39 weapon detections (peak conf: 0.66), 7 fire detections, verified ByteTrack trajectories, and spatial EigenCAM feature activation structure.\n\n7. **What additional information or limitations affect the result?**  \n   Automated neural network inference: model confidence represents perceptual activation, not calibrated ground-truth intent. Human review of footage is required before dispatching tactical assets. OSINT is supplementary.\n\n---\n\n## \ud83d\udd0d Explainable AI (SHAP-Style Feature Attribution)\n\nDecomposition of factors contributing to the AEGIS Threat Index:\n\n- **WEAPON_DETECTION** (video): **56.5%** of score  \n  *Firearm/Weapon visually detected in CCTV (Weight: 0.40 \u00d7 Conf: 0.66)*\n- **FIRE** (video): **30.5%** of score  \n  *Active Fire signature detected in video (Weight: 0.25 \u00d7 Conf: 0.57)*\n- **CRITICAL_INFRASTRUCTURE_PROXIMITY** (geospatial): **13.0%** of score  \n  *Proximity to high-value infrastructure (Rajiv Chowk Metro Station) applied a 1.15x priority multiplier.*\n\n---\n\n## \ud83e\udde0 Tactical Reasoning & Correlation Analysis\n\nThe AEGIS Threat Analysis Engine assessed the operational risk as MEDIUM (AEGIS Threat Index: 46.9/100) under classification 'MULTI_MODAL_ARMED_ARSON_HAZARD'.\n\nPrimary Drivers:\n \u2022 [VIDEO] Firearm/Weapon visually detected in CCTV (Weight: 0.40 \u00d7 Conf: 0.66) (Impact: 56.5%)\n \u2022 [VIDEO] Active Fire signature detected in video (Weight: 0.25 \u00d7 Conf: 0.57) (Impact: 30.5%)\n \u2022 [GEOSPATIAL] Proximity to high-value infrastructure (Rajiv Chowk Metro Station) applied a 1.15x priority multiplier. (Impact: 13.0%)\n\nGeospatial Vulnerability: Situated within 0.115 km of 'Rajiv Chowk Metro Station' (Transit Hub (Metro)).\n\n---\n\n## \ud83d\uddfa\ufe0f Geospatial & Critical Infrastructure Vulnerability\n- **Rajiv Chowk Metro Station** (Transit Hub (Metro)) \u2014 **0.115 km** away\n- **Connaught Place Police Station** (Police Station) \u2014 **0.118 km** away\n- **BSES Yamuna Power Substation** (Energy / Utility) \u2014 **0.799 km** away\n- **Modern School Barakhamba** (Educational Institute) \u2014 **0.942 km** away\n- **New Delhi Railway Station** (Transit Hub (Rail)) \u2014 **1.249 km** away\n\n---\n\n## \ud83d\udccb Recommended Action Plan\n\n### \u23f1\ufe0f Immediate Directives (0 - 5 Minutes)\n1. Dispatch nearest Quick Reaction Team (QRT) / Patrol Unit to the verified camera sector.\n1. Verify live perimeter access control and execute precautionary lockdown of high-density portals.\n1. Notify emergency medical trauma unit at nearest facility for standby preparedness.\n\n### \u23f1\ufe0f Area Management & Containment (5 - 30 Minutes)\n1. Establish a 250m perimeter cordon around the verified visual coordinates.\n1. Reroute pedestrian and vehicular traffic away from the immediate hazard zone.\n1. Deploy PTZ camera tracking and aerial surveillance on secondary avenues of egress.\n\n### \ud83d\udee1\ufe0f Ongoing Intelligence & Forensic Protocols\n1. Preserve raw CCTV video streams, YOLOv11 bounding boxes, and ByteTrack track IDs for digital forensics.\n1. Cross-reference suspect visual signatures with regional law enforcement watchlists.\n1. Monitor regional OSINT news feeds for coordinated disturbance indicators.\n\n---\n*Report generated automatically by the AEGIS Open-Source Intelligence & Threat Analysis Platform.*\n"
+  },
+  "artifacts_directory": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/jobs/job-c06709c796"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "aegis.threat_fusion.v2",
+  "zone": "zone-alpha-1",
+  "reference_timestamp": "2026-10-16T10:29:31.407261Z",
+  "threat_score": 0.1992,
+  "aegis_threat_index_ati": 19.9,
+  "threat_level": "LOW",
+  "threat_classification": "ROUTINE_MONITORED_ACTIVITY",
+  "dominant_threat_category": "smoke",
+  "threat_detected": true,
+  "infrastructure_multiplier": 1.0,
+  "score_semantics": "Explainable linear weighted rule score scaled by critical infrastructure proximity multiplier (capped at 1.0 / ATI 100).",
+  "evidence_count": 1,
+  "contributions": [
+    {
+      "modality": "video",
+      "event_type": "smoke",
+      "weight": 0.25,
+      "confidence": 0.7969,
+      "sub_score": 0.1992,
+      "reason": "Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80)"
+    }
+  ],
+  "excluded_events": [],
+  "sub_scores": {
+    "smoke": 0.1992
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "timestamp": 0.0,
+    "time_display": "+0.00s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.5790404677391052,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.03,
+    "time_display": "+0.03s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.5670394897460938,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.07,
+    "time_display": "+0.07s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.5820290446281433,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.1,
+    "time_display": "+0.10s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.5179829597473145,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.13,
+    "time_display": "+0.13s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.5835861563682556,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.17,
+    "time_display": "+0.17s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.558285117149353,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.2,
+    "time_display": "+0.20s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.5446715354919434,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.23,
+    "time_display": "+0.23s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.4883384704589844,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.27,
+    "time_display": "+0.27s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.4919078052043915,
+    "severity": "High"
+  },
+  {
+    "timestamp": 0.3,
+    "time_display": "+0.30s (CCTV)",
+    "source": "Video Intelligence (YOLOv11)",
+    "event": "Visual Detection: fire, weapon",
+    "confidence": 0.5212686061859131,
+    "severity": "High"
+  },
+  {
+    "timestamp": "2026-10-16T09:54:38.802524Z",
+    "time_display": "OSINT -0m",
+    "source": "OSINT (CERT-In National Cyber Coordination Centre)",
+    "event": "CERT-In Cyber Threat Advisory: High Severity Vulnerability & Unauthorized Access Alert in Connaught Place, New Delhi Node",
+    "confidence": 0.65,
+    "severity": "Medium"
+  },
+  {
+    "timestamp": "2026-10-16T09:54:38.802579Z",
+    "time_display": "OSINT -15m",
+    "source": "OSINT (Delhi Police / State Police Control Room)",
+    "event": "Public Safety & Police Law & Order Advisory: Enhanced Surveillance Active in Connaught Place, New Delhi",
+    "confidence": 0.85,
+    "severity": "High"
+  },
+  {
+    "timestamp": "2026-10-16T09:54:38.802592Z",
+    "time_display": "OSINT -30m",
+    "source": "OSINT (India Meteorological Department (IMD))",
+    "event": "IMD Weather & Environmental Risk Alert: Atmospheric Inversion & Visibility Caution",
+    "confidence": 0.65,
+    "severity": "Low"
+  }
+]

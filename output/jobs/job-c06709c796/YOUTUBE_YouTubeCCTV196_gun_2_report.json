@@ -1,0 +1,1409 @@
+{
+  "input_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/input/YOUTUBE_YouTubeCCTV196_gun_2.mp4",
+  "output_video": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/jobs/job-c06709c796/YOUTUBE_YouTubeCCTV196_gun_2_analyzed.mp4",
+  "fps": 30.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames_processed": 90,
+  "inference_frames": 30,
+  "frame_skip": 3,
+  "detection_counts": {
+    "weapon": 39,
+    "fire": 7,
+    "smoke": 0,
+    "person": 63
+  },
+  "detection_frames": {
+    "weapon": 29,
+    "fire": 7,
+    "smoke": 0,
+    "person": 30
+  },
+  "detection_ratios": {
+    "weapon": 0.9667,
+    "fire": 0.2333,
+    "smoke": 0.0,
+    "person": 1.0
+  },
+  "average_confidence": {
+    "weapon": 0.4582,
+    "fire": 0.4989,
+    "smoke": 0.0,
+    "person": 0.751
+  },
+  "max_confidence": {
+    "weapon": 0.6631,
+    "fire": 0.5725,
+    "smoke": 0.0,
+    "person": 0.8894
+  },
+  "detections": [
+    {
+      "category": "weapon",
+      "detected": true,
+      "detection_count": 39,
+      "detection_frames": 29,
+      "detection_ratio": 0.9667,
+      "average_confidence": 0.4582,
+      "max_confidence": 0.6631,
+      "message": "weapon detected"
+    },
+    {
+      "category": "fire",
+      "detected": true,
+      "detection_count": 7,
+      "detection_frames": 7,
+      "detection_ratio": 0.2333,
+      "average_confidence": 0.4989,
+      "max_confidence": 0.5725,
+      "message": "fire detected"
+    },
+    {
+      "category": "smoke",
+      "detected": false,
+      "detection_count": 0,
+      "detection_frames": 0,
+      "detection_ratio": 0.0,
+      "average_confidence": 0.0,
+      "max_confidence": 0.0,
+      "message": "no smoke detected"
+    },
+    {
+      "category": "person",
+      "detected": true,
+      "detection_count": 63,
+      "detection_frames": 30,
+      "detection_ratio": 1.0,
+      "average_confidence": 0.751,
+      "max_confidence": 0.8894,
+      "message": "person detected"
+    }
+  ],
+  "person_statistics": {
+    "unique_person_count": 3,
+    "total_person_detections": 63,
+    "peak_concurrent_persons": 3,
+    "avg_concurrent_persons": 2.1,
+    "unique_track_ids": [
+      1,
+      2,
+      3
+    ],
+    "venue_capacity": 15,
+    "crowd_over_capacity": false,
+    "occupancy_ratio": 0.2
+  },
+  "best_threat_frame": {
+    "frame_index": 78,
+    "category": "weapon",
+    "confidence": 0.6630536913871765,
+    "timestamp_sec": 2.6
+  },
+  "threat_events": [
+    {
+      "frame": 0,
+      "timestamp_sec": 0.0,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5790404677391052,
+          "bbox": [
+            16.2646484375,
+            99.5189208984375,
+            1274.38037109375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5371606349945068,
+          "bbox": [
+            1155.946044921875,
+            418.433349609375,
+            1237.123779296875,
+            484.6546630859375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "timestamp_sec": 0.1,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5179829597473145,
+          "bbox": [
+            6.68359375,
+            102.36297607421875,
+            1279.4150390625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.49012884497642517,
+          "bbox": [
+            1157.388916015625,
+            418.4468994140625,
+            1239.86474609375,
+            485.19873046875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "timestamp_sec": 0.2,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5446715354919434,
+          "bbox": [
+            5.218017578125,
+            97.14068603515625,
+            1265.4071044921875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5628214478492737,
+          "bbox": [
+            1160.540283203125,
+            417.3069152832031,
+            1244.204345703125,
+            484.9311218261719
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "timestamp_sec": 0.3,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5212686061859131,
+          "bbox": [
+            5.298828125,
+            98.92822265625,
+            1272.658447265625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.5725057125091553,
+          "bbox": [
+            1162.367431640625,
+            415.24029541015625,
+            1246.125732421875,
+            482.06207275390625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "timestamp_sec": 0.4,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.554401695728302,
+          "bbox": [
+            5.212646484375,
+            88.62457275390625,
+            1275.647216796875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.48924633860588074,
+          "bbox": [
+            1172.03662109375,
+            414.79095458984375,
+            1247.3935546875,
+            478.25225830078125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "timestamp_sec": 0.5,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.43843892216682434,
+          "bbox": [
+            5.311279296875,
+            87.2906494140625,
+            1276.043212890625,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.40621036291122437,
+          "bbox": [
+            1179.3349609375,
+            413.773193359375,
+            1256.75537109375,
+            479.18341064453125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "timestamp_sec": 0.6,
+      "threats": [
+        "fire",
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.39420267939567566,
+          "bbox": [
+            0.0,
+            104.291259765625,
+            1277.186279296875,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "fire",
+          "class_name": "fire",
+          "confidence": 0.43414172530174255,
+          "bbox": [
+            1185.73974609375,
+            413.96929931640625,
+            1264.86474609375,
+            478.78411865234375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "timestamp_sec": 0.7,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3414246439933777,
+          "bbox": [
+            4.06884765625,
+            101.8048095703125,
+            1274.47412109375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "timestamp_sec": 0.8,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5007661581039429,
+          "bbox": [
+            5.1046142578125,
+            99.5748291015625,
+            1278.938720703125,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "timestamp_sec": 0.9,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3059885799884796,
+          "bbox": [
+            5.720458984375,
+            90.3255615234375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "timestamp_sec": 1.1,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3222939968109131,
+          "bbox": [
+            6.0782470703125,
+            99.018798828125,
+            1279.5799560546875,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "timestamp_sec": 1.2,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.34014999866485596,
+          "bbox": [
+            5.4215087890625,
+            96.93658447265625,
+            1278.4857177734375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "timestamp_sec": 1.3,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.49530112743377686,
+          "bbox": [
+            5.7003173828125,
+            103.31500244140625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "timestamp_sec": 1.4,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4735400080680847,
+          "bbox": [
+            6.1015625,
+            112.9730224609375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "timestamp_sec": 1.5,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6040222644805908,
+          "bbox": [
+            5.5032958984375,
+            114.0999755859375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 48,
+      "timestamp_sec": 1.6,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4565980136394501,
+          "bbox": [
+            6.367431640625,
+            110.54840087890625,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 51,
+      "timestamp_sec": 1.7,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4882473945617676,
+          "bbox": [
+            6.53955078125,
+            122.34320068359375,
+            1277.212646484375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 54,
+      "timestamp_sec": 1.8,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5694037675857544,
+          "bbox": [
+            5.91943359375,
+            115.79290771484375,
+            1279.109375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 57,
+      "timestamp_sec": 1.9,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5180982947349548,
+          "bbox": [
+            5.325927734375,
+            122.10498046875,
+            1273.5302734375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3245425224304199,
+          "bbox": [
+            0.9964599609375,
+            0.0,
+            1280.0,
+            190.78302001953125
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "timestamp_sec": 2.0,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4670078456401825,
+          "bbox": [
+            5.609619140625,
+            127.4615478515625,
+            1270.0736083984375,
+            720.0
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 63,
+      "timestamp_sec": 2.1,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5200207233428955,
+          "bbox": [
+            6.8818359375,
+            135.71014404296875,
+            1276.52490234375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3031282126903534,
+          "bbox": [
+            1.20947265625,
+            0.0,
+            1280.0,
+            193.2051544189453
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 66,
+      "timestamp_sec": 2.2,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.47762542963027954,
+          "bbox": [
+            5.2371826171875,
+            229.3946075439453,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.30345264077186584,
+          "bbox": [
+            1.1295166015625,
+            0.0,
+            1280.0,
+            193.76234436035156
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 69,
+      "timestamp_sec": 2.3,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5934810042381287,
+          "bbox": [
+            5.0888671875,
+            234.50677490234375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3063510060310364,
+          "bbox": [
+            4.019775390625,
+            0.0,
+            1280.0,
+            210.45193481445312
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 72,
+      "timestamp_sec": 2.4,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.5908422470092773,
+          "bbox": [
+            4.2138671875,
+            259.10284423828125,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3624352812767029,
+          "bbox": [
+            4.06201171875,
+            0.0,
+            1280.0,
+            213.3619384765625
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 75,
+      "timestamp_sec": 2.5,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6177941560745239,
+          "bbox": [
+            4.009033203125,
+            287.68255615234375,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.36758214235305786,
+          "bbox": [
+            3.927734375,
+            0.0,
+            1280.0,
+            212.37411499023438
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 78,
+      "timestamp_sec": 2.6,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.6630536913871765,
+          "bbox": [
+            3.7750244140625,
+            272.2180480957031,
+            1278.41552734375,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.45222610235214233,
+          "bbox": [
+            3.8665771484375,
+            0.0,
+            1280.0,
+            213.6903076171875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 81,
+      "timestamp_sec": 2.7,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.563660740852356,
+          "bbox": [
+            2.4189453125,
+            263.93133544921875,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4245418906211853,
+          "bbox": [
+            3.685546875,
+            0.0,
+            1280.0,
+            213.14013671875
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 84,
+      "timestamp_sec": 2.8,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4498668611049652,
+          "bbox": [
+            4.5704345703125,
+            256.3692321777344,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3335634469985962,
+          "bbox": [
+            2.51171875,
+            0.0,
+            1280.0,
+            217.53851318359375
+          ],
+          "track_id": null
+        }
+      ]
+    },
+    {
+      "frame": 87,
+      "timestamp_sec": 2.9,
+      "threats": [
+        "weapon"
+      ],
+      "detections": [
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.4485023319721222,
+          "bbox": [
+            3.220703125,
+            269.28546142578125,
+            1280.0,
+            720.0
+          ],
+          "track_id": null
+        },
+        {
+          "category": "weapon",
+          "class_name": "rifle",
+          "confidence": 0.3346453905105591,
+          "bbox": [
+            2.4224853515625,
+            0.0,
+            1280.0,
+            216.41004943847656
+          ],
+          "track_id": null
+        }
+      ]
+    }
+  ],
+  "num_threat_events": 29,
+  "frame_timeline": [
+    {
+      "frame": 0,
+      "timestamp_sec": 0.0,
+      "person_count": 1,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 1,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.579,
+        "fire": 0.5372,
+        "smoke": 0.0,
+        "person": 0.7302
+      }
+    },
+    {
+      "frame": 3,
+      "timestamp_sec": 0.1,
+      "person_count": 1,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 1,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.518,
+        "fire": 0.4901,
+        "smoke": 0.0,
+        "person": 0.7884
+      }
+    },
+    {
+      "frame": 6,
+      "timestamp_sec": 0.2,
+      "person_count": 1,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 1,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5447,
+        "fire": 0.5628,
+        "smoke": 0.0,
+        "person": 0.8631
+      }
+    },
+    {
+      "frame": 9,
+      "timestamp_sec": 0.3,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 1,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5213,
+        "fire": 0.5725,
+        "smoke": 0.0,
+        "person": 0.8361
+      }
+    },
+    {
+      "frame": 12,
+      "timestamp_sec": 0.4,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 1,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5544,
+        "fire": 0.4892,
+        "smoke": 0.0,
+        "person": 0.8095
+      }
+    },
+    {
+      "frame": 15,
+      "timestamp_sec": 0.5,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 1,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4384,
+        "fire": 0.4062,
+        "smoke": 0.0,
+        "person": 0.787
+      }
+    },
+    {
+      "frame": 18,
+      "timestamp_sec": 0.6,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 1,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.3942,
+        "fire": 0.4341,
+        "smoke": 0.0,
+        "person": 0.8539
+      }
+    },
+    {
+      "frame": 21,
+      "timestamp_sec": 0.7,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.3414,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8653
+      }
+    },
+    {
+      "frame": 24,
+      "timestamp_sec": 0.8,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5008,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8847
+      }
+    },
+    {
+      "frame": 27,
+      "timestamp_sec": 0.9,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.306,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8532
+      }
+    },
+    {
+      "frame": 30,
+      "timestamp_sec": 1.0,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 0,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.0,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8644
+      }
+    },
+    {
+      "frame": 33,
+      "timestamp_sec": 1.1,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.3223,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8684
+      }
+    },
+    {
+      "frame": 36,
+      "timestamp_sec": 1.2,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.3401,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8698
+      }
+    },
+    {
+      "frame": 39,
+      "timestamp_sec": 1.3,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4953,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8288
+      }
+    },
+    {
+      "frame": 42,
+      "timestamp_sec": 1.4,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4735,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8208
+      }
+    },
+    {
+      "frame": 45,
+      "timestamp_sec": 1.5,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.604,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8029
+      }
+    },
+    {
+      "frame": 48,
+      "timestamp_sec": 1.6,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4566,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8141
+      }
+    },
+    {
+      "frame": 51,
+      "timestamp_sec": 1.7,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4882,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8376
+      }
+    },
+    {
+      "frame": 54,
+      "timestamp_sec": 1.8,
+      "person_count": 3,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5694,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.7891
+      }
+    },
+    {
+      "frame": 57,
+      "timestamp_sec": 1.9,
+      "person_count": 3,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5181,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.7903
+      }
+    },
+    {
+      "frame": 60,
+      "timestamp_sec": 2.0,
+      "person_count": 3,
+      "threat_counts": {
+        "weapon": 1,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.467,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8006
+      }
+    },
+    {
+      "frame": 63,
+      "timestamp_sec": 2.1,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.52,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.7746
+      }
+    },
+    {
+      "frame": 66,
+      "timestamp_sec": 2.2,
+      "person_count": 3,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4776,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.7699
+      }
+    },
+    {
+      "frame": 69,
+      "timestamp_sec": 2.3,
+      "person_count": 3,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5935,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8071
+      }
+    },
+    {
+      "frame": 72,
+      "timestamp_sec": 2.4,
+      "person_count": 3,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5908,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8091
+      }
+    },
+    {
+      "frame": 75,
+      "timestamp_sec": 2.5,
+      "person_count": 3,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.6178,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8347
+      }
+    },
+    {
+      "frame": 78,
+      "timestamp_sec": 2.6,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.6631,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8628
+      }
+    },
+    {
+      "frame": 81,
+      "timestamp_sec": 2.7,
+      "person_count": 1,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.5637,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8625
+      }
+    },
+    {
+      "frame": 84,
+      "timestamp_sec": 2.8,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4499,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8894
+      }
+    },
+    {
+      "frame": 87,
+      "timestamp_sec": 2.9,
+      "person_count": 2,
+      "threat_counts": {
+        "weapon": 2,
+        "fire": 0,
+        "smoke": 0
+      },
+      "max_confidence": {
+        "weapon": 0.4485,
+        "fire": 0.0,
+        "smoke": 0.0,
+        "person": 0.8318
+      }
+    }
+  ]
+}

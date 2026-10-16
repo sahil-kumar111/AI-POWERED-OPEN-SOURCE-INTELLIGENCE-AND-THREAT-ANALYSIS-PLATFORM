@@ -51,11 +51,13 @@ st.divider()
 
 def render_xai_evidence_dashboard():
     """Render previously generated XAI artifacts without rerunning models."""
-    output_dir = _PROJECT_ROOT / "Output"
+    output_dir = _PROJECT_ROOT / "output" if (_PROJECT_ROOT / "output").is_dir() else _PROJECT_ROOT / "Output"
     report_names = [
         "xai_model_evidence_validation.json",
         "xai_explanation.json",
         "xai_explanations.json",
+        "daily_intelligence_report.json",
+        "threat_summary.json",
     ]
     available_reports = [output_dir / name for name in report_names
                          if (output_dir / name).is_file()]

@@ -1,0 +1,168 @@
+{
+  "schema_version": "aegis.xai.v2",
+  "generated_at": "2026-10-16T10:30:47.560188Z",
+  "ati_index": 19.9,
+  "threat_level": "LOW",
+  "classification": "ROUTINE_MONITORED_ACTIVITY",
+  "dominant_threat_category": "smoke",
+  "feature_attribution": [
+    {
+      "factor": "smoke",
+      "modality": "video",
+      "raw_contribution": 0.1992,
+      "percentage_importance": 100.0,
+      "evidence_reason": "Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80)"
+    }
+  ],
+  "tactical_reasoning": "The AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.\n\nPrimary Drivers:\n \u2022 [VIDEO] Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80) (Impact: 100.0%)\n",
+  "seven_questions": {
+    "q1_what_is_happening": "Surveillance video analysis indicates an incident involving SMOKE. A total of 370 frames were analyzed, identifying 185 threat frames.",
+    "q2_how_many_people": "0 unique individuals were tracked across the video feed using ByteTrack. Peak concurrent occupancy was 0 persons against a venue capacity of 1.",
+    "q3_which_threats_detected": "smoke (count: 185, max conf: 0.80)",
+    "q4_dominant_threat": "SMOKE is the dominant threat category based on severity ranking and persistent visual detections.",
+    "q5_overall_threat_severity_and_why": "The overall threat severity is assessed as LOW (ATI: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'. Rationale: The AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.",
+    "q6_evidence_supporting_conclusion": "Visual telemetry confirms 0 weapon detections (peak conf: 0.00), 0 fire detections, verified ByteTrack trajectories, and spatial EigenCAM feature activation structure.",
+    "q7_limitations_and_additional_info": "Automated neural network inference: model confidence represents perceptual activation, not calibrated ground-truth intent. Human review of footage is required before dispatching tactical assets. OSINT is supplementary."
+  },
+  "recommendations": {
+    "immediate_directives_0_to_5_min": [
+      "Dispatch nearest Quick Reaction Team (QRT) / Patrol Unit to the verified camera sector.",
+      "Verify live perimeter access control and execute precautionary lockdown of high-density portals.",
+      "Notify emergency medical trauma unit at nearest facility for standby preparedness."
+    ],
+    "area_management_5_to_30_min": [
+      "Establish a 250m perimeter cordon around the verified visual coordinates.",
+      "Reroute pedestrian and vehicular traffic away from the immediate hazard zone.",
+      "Deploy PTZ camera tracking and aerial surveillance on secondary avenues of egress."
+    ],
+    "intelligence_and_investigation": [
+      "Preserve raw CCTV video streams, YOLOv11 bounding boxes, and ByteTrack track IDs for digital forensics.",
+      "Cross-reference suspect visual signatures with regional law enforcement watchlists.",
+      "Monitor regional OSINT news feeds for coordinated disturbance indicators."
+    ]
+  },
+  "timeline": [
+    {
+      "timestamp": 0.0,
+      "time_display": "+0.00s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.6311020851135254,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.08,
+      "time_display": "+0.08s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.6226489543914795,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.17,
+      "time_display": "+0.17s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.6094368696212769,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.25,
+      "time_display": "+0.25s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.6011540293693542,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.33,
+      "time_display": "+0.33s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.597292423248291,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.42,
+      "time_display": "+0.42s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.651565670967102,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.5,
+      "time_display": "+0.50s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7174518704414368,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.58,
+      "time_display": "+0.58s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7233949303627014,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.67,
+      "time_display": "+0.67s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7262610197067261,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.75,
+      "time_display": "+0.75s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7348049879074097,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.83,
+      "time_display": "+0.83s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7204160094261169,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 0.92,
+      "time_display": "+0.92s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7301934957504272,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 1.0,
+      "time_display": "+1.00s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7444577217102051,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 1.08,
+      "time_display": "+1.08s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7378441691398621,
+      "severity": "Medium"
+    },
+    {
+      "timestamp": 1.17,
+      "time_display": "+1.17s (CCTV)",
+      "source": "Video Intelligence (YOLOv11)",
+      "event": "Visual Detection: smoke",
+      "confidence": 0.7498298287391663,
+      "severity": "Medium"
+    }
+  ],
+  "visual_overlay": "/home/sahil/AI-POWERED-OPEN-SOURCE-INTELLIGENCE-AND-THREAT-ANALYSIS-PLATFORM/output/jobs/job-506831b621/threat_highlight.jpg",
+  "executive_summary_markdown": "# \ud83d\udee1\ufe0f AEGIS EXECUTIVE THREAT INTELLIGENCE REPORT\n**Generated At:** 2026-10-16T10:30:47.560131Z  \n**System Status:** Multimodal Intelligence Pipeline Synchronized  \n**Operational Zone:** zone-alpha-1  \n\n---\n\n## \ud83d\udea8 Threat Index & Executive Assessment\n\n| Metric | Assessment |\n| :--- | :--- |\n| **AEGIS Threat Index (ATI)** | **19.9 / 100** |\n| **Official Threat Level** | **LOW** |\n| **Threat Classification** | `ROUTINE_MONITORED_ACTIVITY` |\n| **Dominant Threat Category** | `SMOKE` |\n| **Infrastructure Proximity Multiplier** | **1.0x** |\n\n---\n\n## \ud83d\udccb Comprehensive Intelligence Answers (7 Core Questions)\n\n1. **What is happening in the video?**  \n   Surveillance video analysis indicates an incident involving SMOKE. A total of 370 frames were analyzed, identifying 185 threat frames.\n\n2. **How many people are visible or reliably tracked?**  \n   0 unique individuals were tracked across the video feed using ByteTrack. Peak concurrent occupancy was 0 persons against a venue capacity of 1.\n\n3. **Which threats were detected?**  \n   smoke (count: 185, max conf: 0.80)\n\n4. **Which threat category is dominant?**  \n   SMOKE is the dominant threat category based on severity ranking and persistent visual detections.\n\n5. **What is the overall threat severity and why?**  \n   The overall threat severity is assessed as LOW (ATI: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'. Rationale: The AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.\n\n6. **What evidence supports the conclusion?**  \n   Visual telemetry confirms 0 weapon detections (peak conf: 0.00), 0 fire detections, verified ByteTrack trajectories, and spatial EigenCAM feature activation structure.\n\n7. **What additional information or limitations affect the result?**  \n   Automated neural network inference: model confidence represents perceptual activation, not calibrated ground-truth intent. Human review of footage is required before dispatching tactical assets. OSINT is supplementary.\n\n---\n\n## \ud83d\udd0d Explainable AI (SHAP-Style Feature Attribution)\n\nDecomposition of factors contributing to the AEGIS Threat Index:\n\n- **SMOKE** (video): **100.0%** of score  \n  *Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80)*\n\n---\n\n## \ud83e\udde0 Tactical Reasoning & Correlation Analysis\n\nThe AEGIS Threat Analysis Engine assessed the operational risk as LOW (AEGIS Threat Index: 19.9/100) under classification 'ROUTINE_MONITORED_ACTIVITY'.\n\nPrimary Drivers:\n \u2022 [VIDEO] Smoke plume detected (Weight: 0.25 \u00d7 Conf: 0.80) (Impact: 100.0%)\n\n\n---\n\n## \ud83d\uddfa\ufe0f Geospatial & Critical Infrastructure Vulnerability\n\n---\n\n## \ud83d\udccb Recommended Action Plan\n\n### \u23f1\ufe0f Immediate Directives (0 - 5 Minutes)\n1. Dispatch nearest Quick Reaction Team (QRT) / Patrol Unit to the verified camera sector.\n1. Verify live perimeter access control and execute precautionary lockdown of high-density portals.\n1. Notify emergency medical trauma unit at nearest facility for standby preparedness.\n\n### \u23f1\ufe0f Area Management & Containment (5 - 30 Minutes)\n1. Establish a 250m perimeter cordon around the verified visual coordinates.\n1. Reroute pedestrian and vehicular traffic away from the immediate hazard zone.\n1. Deploy PTZ camera tracking and aerial surveillance on secondary avenues of egress.\n\n### \ud83d\udee1\ufe0f Ongoing Intelligence & Forensic Protocols\n1. Preserve raw CCTV video streams, YOLOv11 bounding boxes, and ByteTrack track IDs for digital forensics.\n1. Cross-reference suspect visual signatures with regional law enforcement watchlists.\n1. Monitor regional OSINT news feeds for coordinated disturbance indicators.\n\n---\n*Report generated automatically by the AEGIS Open-Source Intelligence & Threat Analysis Platform.*\n"
+}
